@@ -1,0 +1,105 @@
+<l7:Bundle xmlns:l7="http://ns.l7tech.com/2010/04/gateway-management">
+    <l7:References>
+        <l7:Item>
+            <l7:Name>Root Node</l7:Name>
+            <l7:Id>0000000000000000ffffffffffffec76</l7:Id>
+            <l7:Type>FOLDER</l7:Type>
+            <l7:Resource>
+                <l7:Folder id="0000000000000000ffffffffffffec76">
+                    <l7:Name>Root Node</l7:Name>
+                </l7:Folder>
+            </l7:Resource>
+        </l7:Item>
+        <l7:Item>
+            <l7:Name>demo</l7:Name>
+            <l7:Id>7c04f03dcc5b00fb8ccc9a82713d3bbb</l7:Id>
+            <l7:Type>FOLDER</l7:Type>
+            <l7:Resource>
+                <l7:Folder folderId="0000000000000000ffffffffffffec76" id="7c04f03dcc5b00fb8ccc9a82713d3bbb">
+                    <l7:Name>demo</l7:Name>
+                </l7:Folder>
+            </l7:Resource>
+        </l7:Item>
+        <l7:Item>
+            <l7:Name>demo/demo</l7:Name>
+            <l7:Id>7c04f03dcc5b00fb8ccc9a82713d3bbc</l7:Id>
+            <l7:Type>SERVICE</l7:Type>
+            <l7:Resource>
+                <l7:Service id="7c04f03dcc5b00fb8ccc9a82713d3bbc">
+                    <l7:ServiceDetail folderId="7c04f03dcc5b00fb8ccc9a82713d3bbb" id="7c04f03dcc5b00fb8ccc9a82713d3bbc">
+                        <l7:Name>demo</l7:Name>
+                        <l7:Enabled>true</l7:Enabled>
+                        <l7:ServiceMappings>
+                            <l7:HttpMapping>
+                                <l7:UrlPattern>/demo</l7:UrlPattern>
+                                <l7:Verbs>
+                                    <l7:Verb>DELETE</l7:Verb>
+                                    <l7:Verb>POST</l7:Verb>
+                                    <l7:Verb>GET</l7:Verb>
+                                    <l7:Verb>PUT</l7:Verb>
+                                </l7:Verbs>
+                            </l7:HttpMapping>
+                        </l7:ServiceMappings>
+                        <l7:Properties>
+                            <l7:Property key="property.servicePropColor">
+                                <l7:StringValue>blue</l7:StringValue>
+                            </l7:Property>
+                            <l7:Property key="wssProcessingEnabled">
+                                <l7:BooleanValue>false</l7:BooleanValue>
+                            </l7:Property>
+                        </l7:Properties>
+                    </l7:ServiceDetail>
+                    <l7:Resources>
+                        <l7:ResourceSet tag="policy">
+                            <l7:Resource type="policy">&lt;wsp:Policy xmlns:wsp="http://schemas.xmlsoap.org/ws/2002/12/policy" xmlns:L7p="http://www.layer7tech.com/ws/policy"&gt;&#13;
+    &lt;wsp:All wsp:Usage="Required"&gt;&#13;
+        &lt;L7p:HardcodedResponse&gt;&#13;
+            &lt;L7p:Base64ResponseBody stringValue="PERPQ1RZUEUgaHRtbD4KPGh0bWw+Cgk8aGVhZD4KCQk8dGl0bGU+IERlbW8gb24gT1ZBIDwvdGl0bGU+CgkJPHN0eWxlPgoJCQkuYmxpbmstb25lIHsgY29sb3I6ICR7Z2F0ZXdheS5lbnZQcm9wQ29sb3J9IH0KCQkJLmJsaW5rLXR3byB7IGNvbG9yOiAke3NlcnZpY2UucHJvcGVydHkuc2VydmljZVByb3BDb2xvcn0gfQoJCTwvc3R5bGU+Cgk8L2hlYWQ+Cgk8Ym9keT4KCQk8aDE+IERlbW8gb24gT1ZBIDwvaDE+CgkJPGgxIGNsYXNzPSJibGluay1vbmUiPgoJCQk8Ymxpbms+TXkgY29sb3IgY2FuIGJlIGNoYW5nZWQgYnkgZW52aXJvbm1lbnQgcHJvcGVydHkgb25seS48L2JsaW5rPgoJCTwvaDE+CgkJPHA+CgkJCTxoMSBjbGFzcz0iYmxpbmstdHdvIj4KCQkJCTxibGluaz5NeSBjb2xvciBjYW4gYmUgY2hhbmdlZCBieSBzZXJ2aWNlIHByb3BlcnR5IG9ubHkuPC9ibGluaz4KCQkJPC9oMT4KCQk8L3A+Cgk8L2JvZHk+CjwvaHRtbD4="/&gt;&#13;
+            &lt;L7p:ResponseContentType stringValue="text/html; charset=UTF-8"/&gt;&#13;
+        &lt;/L7p:HardcodedResponse&gt;&#13;
+    &lt;/wsp:All&gt;&#13;
+&lt;/wsp:Policy&gt;&#13;
+</l7:Resource>
+                        </l7:ResourceSet>
+                    </l7:Resources>
+                </l7:Service>
+            </l7:Resource>
+        </l7:Item>
+    </l7:References>
+    <l7:Mappings>
+        <l7:Mapping action="NewOrExisting" srcId="0000000000000000ffffffffffffec76" type="FOLDER"/>
+        <l7:Mapping action="NewOrExisting" srcId="7c04f03dcc5b00fb8ccc9a82713d3bbb" type="FOLDER">
+            <l7:Properties>
+                <l7:Property key="MapBy">
+                    <l7:StringValue>name</l7:StringValue>
+                </l7:Property>
+                <l7:Property key="MapTo">
+                    <l7:StringValue>demo</l7:StringValue>
+                </l7:Property>
+            </l7:Properties>
+        </l7:Mapping>
+        <l7:Mapping action="NewOrUpdate" srcId="7c04f03dcc5b00fb8ccc9a82713d3bbc" type="SERVICE">
+            <l7:Properties>
+                <l7:Property key="MapBy">
+                    <l7:StringValue>path</l7:StringValue>
+                </l7:Property>
+                <l7:Property key="MapTo">
+                    <l7:StringValue>demo/demo</l7:StringValue>
+                </l7:Property>
+            </l7:Properties>
+        </l7:Mapping>
+        <l7:Mapping action="NewOrExisting" srcId="7c04f03dcc5b00fb8ccc9a82713d3bbd" type="CLUSTER_PROPERTY">
+            <l7:Properties>
+                <l7:Property key="MapBy">
+                    <l7:StringValue>name</l7:StringValue>
+                </l7:Property>
+                <l7:Property key="MapTo">
+                    <l7:StringValue>envPropColor</l7:StringValue>
+                </l7:Property>
+                <l7:Property key="FailOnNew">
+                    <l7:BooleanValue>true</l7:BooleanValue>
+                </l7:Property>
+            </l7:Properties>
+        </l7:Mapping>
+    </l7:Mappings>
+</l7:Bundle>

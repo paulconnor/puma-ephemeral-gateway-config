@@ -2,14 +2,14 @@ pipeline {
     agent any
 
     environment {
-        GIT_REPOSITORY = 'https://github.com/kmienata/puma-ephemeral-gateway-config'
+        GIT_REPOSITORY = 'https://github.com/paulconnor/puma-ephemeral-gateway-config'
         BASE_IMAGE_NAME = 'gateway'
         BASE_IMAGE_TAG = 'wlui-test'
         BASE_IMAGE_REGISTRY_HOSTNAME = 'docker.stable1.apimgcp.com'
         BASE_IMAGE_REGISTRY_REPOSITORY    = 'docker-hosted'
         NEW_IMAGE_NAME = 'gateway'
         NEW_IMAGE_TAG = 'v1'
-        NEW_IMAGE_REGISTRY_HOSTNAME = 'docker.stable1.apimgcp.com'
+        NEW_IMAGE_REGISTRY_HOSTNAME = 'docker.sandbox4.apimgcp.com'
         NEW_IMAGE_REGISTRY_REPOSITORY    = 'docker-hosted'
     }
 

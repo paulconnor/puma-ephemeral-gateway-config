@@ -5,17 +5,23 @@
  */
 
 plugins {
-    id "com.ca.apim.gateway.gateway-developer-plugin" version "0.6.19"
-    id "com.ca.apim.gateway.gateway-export-plugin" version "0.6.21"
+    id "com.ca.apim.gateway.gateway-developer-plugin" version "0.6.60"
+    id "com.ca.apim.gateway.gateway-export-plugin" version "0.6.60"
     id "com.bmuschko.docker-remote-api" version "4.0.4"
 }
 
+group 'broadcom'
+version = '1.0.0'
+
 GatewayConnection {
-    url = 'https://localhost:8443/restman'
-    folderPath = '/'
+    url = 'https://localgateway.dev.ca.com:8443/restman'
+    userName = 'admin'
+    userPass = 'CAdemo123!'
 }
 
-version = 'latest'
+GatewayExportConfig {
+    folderPath = '/demo'
+}
 
 repositories {
     mavenCentral()

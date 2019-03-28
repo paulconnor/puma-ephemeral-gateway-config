@@ -5,8 +5,8 @@
 version: '3.4'
 services:
   nexus:
-    hostname: docker.k8s.apimsvc.ca.com
-    image: docker.k8s.apimsvc.ca.com/repository/docker-hosted/gateway
+    hostname: localhost
+    image: caapim/gateway:9.4.00
     ports:
       - "8080:8080"
       - "8443:8443"
@@ -14,16 +14,16 @@ services:
       - "8000:8000"
     volumes:
       - /opt/SecureSpan/Gateway/node/default/etc/bootstrap/services/restman
-      - ./lib/my-bundle-1.0.00.bundle:/opt/SecureSpan/Gateway/node/default/etc/bootstrap/bundle/1-my-bundle-1.0.00.req.bundle
-      - ./build/gateway/bundle:/opt/SecureSpan/Gateway/node/default/etc/bootstrap/bundle
+      - ./build/gateway/demo-1.0.0.gw7:/opt/docker/rc.d/deployment.gw7
+      - ./src/main/gateway/config/env.properties:/opt/SecureSpan/Gateway/node/default/etc/bootstrap/env/env.properties
     secrets:
       - source: license
         target: /opt/SecureSpan/Gateway/node/default/etc/bootstrap/license/license.xml
     environment:
       ACCEPT_LICENSE: "true"
       SSG_ADMIN_USERNAME: "admin"
-      SSG_ADMIN_PASSWORD: "password"
+      SSG_ADMIN_PASSWORD: "CAdemo123!"
       EXTRA_JAVA_ARGS: "-Xdebug -Xrunjdwp:transport=dt_socket,address=8000,server=y,suspend=n"
 secrets:
   license:
-    file: ./DEVLICENSE.xml
+    file: ./docker/license.xml
