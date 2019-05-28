@@ -9,7 +9,7 @@ pipeline {
         BASE_IMAGE_REGISTRY_REPOSITORY    = 'docker-hosted'
         NEW_IMAGE_NAME = 'gateway'
         NEW_IMAGE_TAG = new Date().getTime()
-        NEW_IMAGE_REGISTRY_HOSTNAME = 'docker.sandbox4.apimgcp.com'
+        NEW_IMAGE_REGISTRY_HOSTNAME = 'docker.sandbox1.secint.com'
         NEW_IMAGE_REGISTRY_REPOSITORY    = 'docker-hosted'
     }
 
