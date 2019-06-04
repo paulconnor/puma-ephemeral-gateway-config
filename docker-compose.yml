@@ -4,7 +4,7 @@
 
 version: '3.4'
 services:
-  nexus:
+  gateway:
     hostname: localhost
     image: caapim/gateway:9.4.00
     ports:
@@ -14,16 +14,11 @@ services:
       - "8000:8000"
     volumes:
       - /opt/SecureSpan/Gateway/node/default/etc/bootstrap/services/restman
-      - ./build/gateway/demo-1.0.0.gw7:/opt/docker/rc.d/deployment.gw7
-      - ./src/main/gateway/config/env.properties:/opt/SecureSpan/Gateway/node/default/etc/bootstrap/env/env.properties
-    secrets:
-      - source: license
-        target: /opt/SecureSpan/Gateway/node/default/etc/bootstrap/license/license.xml
+      - /home/docker/workspace/egw/puma-ephemeral-gateway-config/build/gateway/demo-1.0.0.gw7:/opt/docker/rc.d/deployment.gw7
+      - /home/docker/workspace/egw/puma-ephemeral-gateway-config/src/main/gateway/config/env.properties:/opt/SecureSpan/Gateway/node/default/etc/bootstrap/env/env.properties
+      - /home/docker/workspace/egw/puma-ephemeral-gateway-config/docker/license.xml:/opt/SecureSpan/Gateway/node/default/etc/bootstrap/license/license.xml
     environment:
       ACCEPT_LICENSE: "true"
       SSG_ADMIN_USERNAME: "admin"
       SSG_ADMIN_PASSWORD: "CAdemo123!"
       EXTRA_JAVA_ARGS: "-Xdebug -Xrunjdwp:transport=dt_socket,address=8000,server=y,suspend=n"
-secrets:
-  license:
-    file: ./docker/license.xml

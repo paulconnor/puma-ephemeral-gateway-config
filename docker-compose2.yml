@@ -1,0 +1,21 @@
+# Copyright (c) 2018 CA. All rights reserved.
+# This software may be modified and distributed under the terms
+# of the MIT license.  See the LICENSE file for details.
+
+version: '3.4'
+services:
+  gateway:
+    hostname: localhost
+    image: docker.stable1.apimgcp.com/repository/docker-hosted/gateway:v6
+    ports:
+      - "8080:8080"
+      - "8443:8443"
+      - "9443:9443"
+      - "8000:8000"
+    volumes:
+      - /home/docker/workspace/egw/puma-ephemeral-gateway-config/docker/license.xml:/opt/SecureSpan/Gateway/node/default/etc/bootstrap/license/license.xml
+    environment:
+      ACCEPT_LICENSE: "true"
+      SSG_ADMIN_USERNAME: "admin"
+      SSG_ADMIN_PASSWORD: "CAdemo123!"
+      EXTRA_JAVA_ARGS: "-Xdebug -Xrunjdwp:transport=dt_socket,address=8000,server=y,suspend=n"

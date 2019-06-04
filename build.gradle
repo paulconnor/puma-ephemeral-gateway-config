@@ -14,7 +14,7 @@ group 'broadcom'
 version = '1.0.0'
 
 GatewayConnection {
-    url = 'https://localgateway.dev.ca.com:8443/restman'
+    url = 'https://dockergateway.dev.ca.com:8443/restman'
     userName = 'admin'
     userPass = 'CAdemo123!'
 }
