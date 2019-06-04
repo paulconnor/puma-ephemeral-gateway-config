@@ -5,7 +5,7 @@ pipeline {
         GIT_REPOSITORY = 'https://github.com/paulconnor/puma-ephemeral-gateway-config'
         BASE_IMAGE_NAME = 'gateway'
         BASE_IMAGE_TAG = 'v6'
-        BASE_IMAGE_REGISTRY_HOSTNAME = 'nexus.stable1.apimgcp.com'
+        BASE_IMAGE_REGISTRY_HOSTNAME = 'docker.stable1.apimgcp.com'
         BASE_IMAGE_REGISTRY_REPOSITORY    = 'docker-hosted'
         NEW_IMAGE_NAME = 'gateway'
         NEW_IMAGE_TAG = new Date().getTime()
