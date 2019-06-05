@@ -1,13 +1,43 @@
 # puma-ephemeral-gateway-config
 Testing data for ephemeral gateway pipeline
 
-# Contains a single service /example
-returns value set in src/main/gateway/config/static.properties
+# Contains a single service /demo
+returns HTML based on values set in src/main/gateway/config/env.properties & src/main/gateway/config/services.yml
 
-# Run docker container with configurations
-Copy license to docker/license.xml
-```gradle build && docker-compose up```
+# Demo
 
-# Test
-Execute shell scripts in folder src/test/gateway
+![Scope](https://github.com/paulconnor/puma-ephemeral-gateway-config/scope.png)
 
+1. Add the following to your local hosts file
+  34.96.65.179 nexus.sandbox2.apimgcp.com docker.sandbox2.apimgcp.com
+  35.241.32.56 jenkins.sandbox2.apimgcp.com
+  34.95.87.222 grafana.sandbox2.apimgcp.com
+  35.241.1.167 kibana.sandbox2.apimgcp.com
+  35.244.75.18 gateway.sandbox2.apimgcp.com
+
+2. Clone this Git repo to your own account
+
+3. Modify Jenkins to use your Git Repo
+- Login to http://jenkins.sandbox2.apimgcp.com/login
+- Configure the test-job pipeline with your git repo (two places in general settings)
+![Jenkins->test-job->Congigure->general #1](https://github.com/paulconnor/puma-ephemeral-gateway-config/jenkins1.png)
+![Jenkins->test-job->Congigure->general #2](https://github.com/paulconnor/puma-ephemeral-gateway-config/jenkins2.png)
+
+4. Show existing service
+- http://gateway.sandbox2.apimgcp.com/demo
+
+5. Modify Cluster and Service properties
+This can be done via Policy Manager and exporting to Git using the Gradle plug-in. Or to get started you can just edit the values directly in your Git repo as follows:
+  - Cluster: change the value of envPropColor in src/main/gateway/config/env.properties to a different color
+  - Service: change the value of servicePropColor in src/main/gateway/config/services.yml to a different color
+
+6. Run the test-job in jenkins to pull down the changes from Git, build a new docker container, publish to Nexus Docker repo and relaunch from there into gcloud/kubernetes
+
+7. Supporting services / applications 
+It can take a few minutes for the gateway to restart. Look at the following while you are waiting
+- Logs: http://kibana.sandbox2.apimgcp.com/
+- Metrics: http://grafana.sandbox2.apimgcp.com/
+- Docker Repo: http://nexus.sandbox2.apimgcp.com/
+
+8. Show updated service 
+- http://gateway.sandbox2.apimgcp.com/demo
