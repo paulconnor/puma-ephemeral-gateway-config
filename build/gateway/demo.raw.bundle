@@ -2,7 +2,7 @@
 <l7:Item xmlns:l7="http://ns.l7tech.com/2010/04/gateway-management">
     <l7:Name>Bundle</l7:Name>
     <l7:Type>BUNDLE</l7:Type>
-    <l7:TimeStamp>2019-06-04T23:10:55.894Z</l7:TimeStamp>
+    <l7:TimeStamp>2019-06-05T01:20:39.213Z</l7:TimeStamp>
     <l7:Link rel="self" uri="https://localhost:8443/restman/1.0/bundle?encassAsPolicyDependency=true&amp;includeDependencies=true&amp;all=true&amp;encryptSecrets=true"/>
     <l7:Resource>
         <l7:Bundle>
@@ -11,7 +11,7 @@
                     <l7:Name>Root Node</l7:Name>
                     <l7:Id>0000000000000000ffffffffffffec76</l7:Id>
                     <l7:Type>FOLDER</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:50.631Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:37.156Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Folder id="0000000000000000ffffffffffffec76" version="0">
                             <l7:Name>Root Node</l7:Name>
@@ -20,22 +20,22 @@
                 </l7:Item>
                 <l7:Item>
                     <l7:Name>demo</l7:Name>
-                    <l7:Id>9009fdbcdd84e4c4db94a42f06cf7103</l7:Id>
+                    <l7:Id>09a2b6a82093b5f19bbf7e8fded45b0a</l7:Id>
                     <l7:Type>FOLDER</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:50.637Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:37.162Z</l7:TimeStamp>
                     <l7:Resource>
-                        <l7:Folder folderId="0000000000000000ffffffffffffec76" id="9009fdbcdd84e4c4db94a42f06cf7103" version="0">
+                        <l7:Folder folderId="0000000000000000ffffffffffffec76" id="09a2b6a82093b5f19bbf7e8fded45b0a" version="0">
                             <l7:Name>demo</l7:Name>
                         </l7:Folder>
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
                     <l7:Name>envPropColor</l7:Name>
-                    <l7:Id>9009fdbcdd84e4c4db94a42f06cf7189</l7:Id>
+                    <l7:Id>52f0beac35c386c8b7f56f889c5c9252</l7:Id>
                     <l7:Type>CLUSTER_PROPERTY</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:50.639Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:37.164Z</l7:TimeStamp>
                     <l7:Resource>
-                        <l7:ClusterProperty id="9009fdbcdd84e4c4db94a42f06cf7189" version="0">
+                        <l7:ClusterProperty id="52f0beac35c386c8b7f56f889c5c9252" version="0">
                             <l7:Name>envPropColor</l7:Name>
                             <l7:Value>blue</l7:Value>
                         </l7:ClusterProperty>
@@ -43,12 +43,12 @@
                 </l7:Item>
                 <l7:Item>
                     <l7:Name>demo</l7:Name>
-                    <l7:Id>9009fdbcdd84e4c4db94a42f06cf7143</l7:Id>
+                    <l7:Id>09a2b6a82093b5f19bbf7e8fded45b0b</l7:Id>
                     <l7:Type>SERVICE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:50.720Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:37.270Z</l7:TimeStamp>
                     <l7:Resource>
-                        <l7:Service id="9009fdbcdd84e4c4db94a42f06cf7143" version="3">
-                            <l7:ServiceDetail folderId="9009fdbcdd84e4c4db94a42f06cf7103" id="9009fdbcdd84e4c4db94a42f06cf7143" version="3">
+                        <l7:Service id="09a2b6a82093b5f19bbf7e8fded45b0b" version="2">
+                            <l7:ServiceDetail folderId="09a2b6a82093b5f19bbf7e8fded45b0a" id="09a2b6a82093b5f19bbf7e8fded45b0b" version="2">
 <l7:Name>demo</l7:Name>
 <l7:Enabled>true</l7:Enabled>
 <l7:ServiceMappings>
@@ -67,7 +67,7 @@
         <l7:BooleanValue>false</l7:BooleanValue>
     </l7:Property>
     <l7:Property key="policyRevision">
-        <l7:LongValue>2</l7:LongValue>
+        <l7:LongValue>1</l7:LongValue>
     </l7:Property>
     <l7:Property key="property.servicePropColor">
         <l7:StringValue>red</l7:StringValue>
@@ -101,181 +101,13 @@
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
-                    <l7:Name>node</l7:Name>
-                    <l7:Id>2d0075282b74acd9a6e7658c71cc4c73</l7:Id>
-                    <l7:Type>SERVICE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:50.751Z</l7:TimeStamp>
-                    <l7:Resource>
-                        <l7:Service id="2d0075282b74acd9a6e7658c71cc4c73" version="2">
-                            <l7:ServiceDetail folderId="0000000000000000ffffffffffffec76" id="2d0075282b74acd9a6e7658c71cc4c73" version="2">
-<l7:Name>node</l7:Name>
-<l7:Enabled>true</l7:Enabled>
-<l7:ServiceMappings>
-    <l7:HttpMapping>
-        <l7:UrlPattern>/node</l7:UrlPattern>
-        <l7:Verbs>
-            <l7:Verb>GET</l7:Verb>
-            <l7:Verb>POST</l7:Verb>
-            <l7:Verb>PUT</l7:Verb>
-            <l7:Verb>DELETE</l7:Verb>
-        </l7:Verbs>
-    </l7:HttpMapping>
-</l7:ServiceMappings>
-<l7:Properties>
-    <l7:Property key="internal">
-        <l7:BooleanValue>false</l7:BooleanValue>
-    </l7:Property>
-    <l7:Property key="policyRevision">
-        <l7:LongValue>1</l7:LongValue>
-    </l7:Property>
-    <l7:Property key="soap">
-        <l7:BooleanValue>false</l7:BooleanValue>
-    </l7:Property>
-    <l7:Property key="tracingEnabled">
-        <l7:BooleanValue>false</l7:BooleanValue>
-    </l7:Property>
-    <l7:Property key="wssProcessingEnabled">
-        <l7:BooleanValue>true</l7:BooleanValue>
-    </l7:Property>
-</l7:Properties>
-                            </l7:ServiceDetail>
-                            <l7:Resources>
-<l7:ResourceSet tag="policy">
-    <l7:Resource type="policy" version="0">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;wsp:Policy xmlns:L7p=&quot;http://www.layer7tech.com/ws/policy&quot; xmlns:wsp=&quot;http://schemas.xmlsoap.org/ws/2002/12/policy&quot;&gt;
-    &lt;wsp:All wsp:Usage=&quot;Required&quot;&gt;
-        &lt;L7p:HardcodedResponse&gt;
-            &lt;L7p:Base64ResponseBody stringValue=&quot;c3Nnbm9kZS5ob3N0bmFtZTogJHtzc2dub2RlLmhvc3RuYW1lfQpzc2dub2RlLmlkOiAke3NzZ25vZGUuaWR9CnNzZ25vZGUuaXA6ICR7c3Nnbm9kZS5pcH0Kc3Nnbm9kZS5uYW1lOiAke3NzZ25vZGUubmFtZX0=&quot;/&gt;
-            &lt;L7p:ResponseContentType stringValue=&quot;text/plaintext; charset=UTF-8&quot;/&gt;
-        &lt;/L7p:HardcodedResponse&gt;
-    &lt;/wsp:All&gt;
-&lt;/wsp:Policy&gt;
-</l7:Resource>
-</l7:ResourceSet>
-                            </l7:Resources>
-                        </l7:Service>
-                    </l7:Resource>
-                </l7:Item>
-                <l7:Item>
-                    <l7:Name>222</l7:Name>
-                    <l7:Id>2d0075282b74acd9a6e7658c71cc4c74</l7:Id>
-                    <l7:Type>SERVICE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:50.780Z</l7:TimeStamp>
-                    <l7:Resource>
-                        <l7:Service id="2d0075282b74acd9a6e7658c71cc4c74" version="2">
-                            <l7:ServiceDetail folderId="0000000000000000ffffffffffffec76" id="2d0075282b74acd9a6e7658c71cc4c74" version="2">
-<l7:Name>222</l7:Name>
-<l7:Enabled>true</l7:Enabled>
-<l7:ServiceMappings>
-    <l7:HttpMapping>
-        <l7:UrlPattern>/222</l7:UrlPattern>
-        <l7:Verbs>
-            <l7:Verb>GET</l7:Verb>
-            <l7:Verb>POST</l7:Verb>
-            <l7:Verb>PUT</l7:Verb>
-            <l7:Verb>DELETE</l7:Verb>
-        </l7:Verbs>
-    </l7:HttpMapping>
-</l7:ServiceMappings>
-<l7:Properties>
-    <l7:Property key="internal">
-        <l7:BooleanValue>false</l7:BooleanValue>
-    </l7:Property>
-    <l7:Property key="policyRevision">
-        <l7:LongValue>1</l7:LongValue>
-    </l7:Property>
-    <l7:Property key="soap">
-        <l7:BooleanValue>false</l7:BooleanValue>
-    </l7:Property>
-    <l7:Property key="tracingEnabled">
-        <l7:BooleanValue>false</l7:BooleanValue>
-    </l7:Property>
-    <l7:Property key="wssProcessingEnabled">
-        <l7:BooleanValue>true</l7:BooleanValue>
-    </l7:Property>
-</l7:Properties>
-                            </l7:ServiceDetail>
-                            <l7:Resources>
-<l7:ResourceSet tag="policy">
-    <l7:Resource type="policy" version="0">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;wsp:Policy xmlns:L7p=&quot;http://www.layer7tech.com/ws/policy&quot; xmlns:wsp=&quot;http://schemas.xmlsoap.org/ws/2002/12/policy&quot;&gt;
-    &lt;wsp:All wsp:Usage=&quot;Required&quot;&gt;
-        &lt;L7p:HardcodedResponse&gt;
-            &lt;L7p:Base64ResponseBody stringValue=&quot;MjIyMjIyMjIyMjIyMjIyMjI=&quot;/&gt;
-            &lt;L7p:ResponseContentType stringValue=&quot;text/plaintext; charset=UTF-8&quot;/&gt;
-        &lt;/L7p:HardcodedResponse&gt;
-    &lt;/wsp:All&gt;
-&lt;/wsp:Policy&gt;
-</l7:Resource>
-</l7:ResourceSet>
-                            </l7:Resources>
-                        </l7:Service>
-                    </l7:Resource>
-                </l7:Item>
-                <l7:Item>
-                    <l7:Name>echo</l7:Name>
-                    <l7:Id>2d0075282b74acd9a6e7658c71cc4c75</l7:Id>
-                    <l7:Type>SERVICE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:50.795Z</l7:TimeStamp>
-                    <l7:Resource>
-                        <l7:Service id="2d0075282b74acd9a6e7658c71cc4c75" version="2">
-                            <l7:ServiceDetail folderId="0000000000000000ffffffffffffec76" id="2d0075282b74acd9a6e7658c71cc4c75" version="2">
-<l7:Name>echo</l7:Name>
-<l7:Enabled>true</l7:Enabled>
-<l7:ServiceMappings>
-    <l7:HttpMapping>
-        <l7:UrlPattern>/echo</l7:UrlPattern>
-        <l7:Verbs>
-            <l7:Verb>GET</l7:Verb>
-            <l7:Verb>POST</l7:Verb>
-            <l7:Verb>PUT</l7:Verb>
-            <l7:Verb>DELETE</l7:Verb>
-        </l7:Verbs>
-    </l7:HttpMapping>
-</l7:ServiceMappings>
-<l7:Properties>
-    <l7:Property key="internal">
-        <l7:BooleanValue>false</l7:BooleanValue>
-    </l7:Property>
-    <l7:Property key="policyRevision">
-        <l7:LongValue>1</l7:LongValue>
-    </l7:Property>
-    <l7:Property key="soap">
-        <l7:BooleanValue>false</l7:BooleanValue>
-    </l7:Property>
-    <l7:Property key="tracingEnabled">
-        <l7:BooleanValue>false</l7:BooleanValue>
-    </l7:Property>
-    <l7:Property key="wssProcessingEnabled">
-        <l7:BooleanValue>true</l7:BooleanValue>
-    </l7:Property>
-</l7:Properties>
-                            </l7:ServiceDetail>
-                            <l7:Resources>
-<l7:ResourceSet tag="policy">
-    <l7:Resource type="policy" version="0">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;wsp:Policy xmlns:L7p=&quot;http://www.layer7tech.com/ws/policy&quot; xmlns:wsp=&quot;http://schemas.xmlsoap.org/ws/2002/12/policy&quot;&gt;
-    &lt;wsp:All wsp:Usage=&quot;Required&quot;&gt;
-        &lt;L7p:HardcodedResponse&gt;
-            &lt;L7p:Base64ResponseBody stringValue=&quot;SEkhCg==&quot;/&gt;
-            &lt;L7p:ResponseContentType stringValue=&quot;text/plaintext; charset=UTF-8&quot;/&gt;
-        &lt;/L7p:HardcodedResponse&gt;
-    &lt;/wsp:All&gt;
-&lt;/wsp:Policy&gt;
-</l7:Resource>
-</l7:ResourceSet>
-                            </l7:Resources>
-                        </l7:Service>
-                    </l7:Resource>
-                </l7:Item>
-                <l7:Item>
                     <l7:Name>quota</l7:Name>
-                    <l7:Id>2d0075282b74acd9a6e7658c71cc4c76</l7:Id>
+                    <l7:Id>bef2189d1a9fb386bee69f1628b1a0ed</l7:Id>
                     <l7:Type>SERVICE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:50.813Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:37.311Z</l7:TimeStamp>
                     <l7:Resource>
-                        <l7:Service id="2d0075282b74acd9a6e7658c71cc4c76" version="2">
-                            <l7:ServiceDetail folderId="0000000000000000ffffffffffffec76" id="2d0075282b74acd9a6e7658c71cc4c76" version="2">
+                        <l7:Service id="bef2189d1a9fb386bee69f1628b1a0ed" version="2">
+                            <l7:ServiceDetail folderId="09a2b6a82093b5f19bbf7e8fded45b0a" id="bef2189d1a9fb386bee69f1628b1a0ed" version="2">
 <l7:Name>quota</l7:Name>
 <l7:Enabled>true</l7:Enabled>
 <l7:ServiceMappings>
@@ -294,7 +126,7 @@
         <l7:BooleanValue>false</l7:BooleanValue>
     </l7:Property>
     <l7:Property key="policyRevision">
-        <l7:LongValue>1</l7:LongValue>
+        <l7:LongValue>2</l7:LongValue>
     </l7:Property>
     <l7:Property key="soap">
         <l7:BooleanValue>false</l7:BooleanValue>
@@ -303,26 +135,18 @@
         <l7:BooleanValue>false</l7:BooleanValue>
     </l7:Property>
     <l7:Property key="wssProcessingEnabled">
-        <l7:BooleanValue>true</l7:BooleanValue>
+        <l7:BooleanValue>false</l7:BooleanValue>
     </l7:Property>
 </l7:Properties>
                             </l7:ServiceDetail>
                             <l7:Resources>
 <l7:ResourceSet tag="policy">
-    <l7:Resource type="policy" version="0">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+    <l7:Resource type="policy" version="1">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;wsp:Policy xmlns:L7p=&quot;http://www.layer7tech.com/ws/policy&quot; xmlns:wsp=&quot;http://schemas.xmlsoap.org/ws/2002/12/policy&quot;&gt;
     &lt;wsp:All wsp:Usage=&quot;Required&quot;&gt;
-        &lt;L7p:ThroughputQuota&gt;
-            &lt;L7p:CounterName stringValue=&quot;PRESET(cd9c094d89e2383f)${request.authenticateduser.id}-${request.authenticateduser.providerid}&quot;/&gt;
-            &lt;L7p:Global booleanValue=&quot;true&quot;/&gt;
-            &lt;L7p:Quota stringValue=&quot;6&quot;/&gt;
-            &lt;L7p:ReadSynchronous booleanValue=&quot;false&quot;/&gt;
-            &lt;L7p:Synchronous booleanValue=&quot;false&quot;/&gt;
-            &lt;L7p:TimeUnit stringValue=&quot;minute&quot;/&gt;
-        &lt;/L7p:ThroughputQuota&gt;
         &lt;L7p:HardcodedResponse&gt;
-            &lt;L7p:Base64ResponseBody stringValue=&quot;c3Nnbm9kZS5ob3N0bmFtZTogJHtzc2dub2RlLmhvc3RuYW1lfQpzc2dub2RlLmlwOiAke3NzZ25vZGUuaXB9CnNzZ25vZGUubmFtZTogJHtzc2dub2RlLm5hbWV9Cg==&quot;/&gt;
-            &lt;L7p:ResponseContentType stringValue=&quot;text/plaintext; charset=UTF-8&quot;/&gt;
+            &lt;L7p:Base64ResponseBody stringValue=&quot;U3VjY2Vzcw==&quot;/&gt;
+            &lt;L7p:ResponseContentType stringValue=&quot;text/plain; charset=UTF-8&quot;/&gt;
         &lt;/L7p:HardcodedResponse&gt;
     &lt;/wsp:All&gt;
 &lt;/wsp:Policy&gt;
@@ -336,7 +160,7 @@
                     <l7:Name>cluster.hostname</l7:Name>
                     <l7:Id>0000000000000000fffffffffff5519f</l7:Id>
                     <l7:Type>CLUSTER_PROPERTY</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:50.814Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:37.311Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:ClusterProperty id="0000000000000000fffffffffff5519f" version="1">
                             <l7:Name>cluster.hostname</l7:Name>
@@ -348,7 +172,7 @@
                     <l7:Name>Internal Identity Provider</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffffe</l7:Id>
                     <l7:Type>ID_PROVIDER_CONFIG</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:50.817Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:37.323Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:IdentityProvider id="0000000000000000fffffffffffffffe" version="0">
                             <l7:Name>Internal Identity Provider</l7:Name>
@@ -360,7 +184,7 @@
                     <l7:Name>loopback</l7:Name>
                     <l7:Id>742a7604-699c-368a-a19a-0ddd73085575</l7:Id>
                     <l7:Type>INTERFACE_TAG</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:50.821Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:37.333Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:InterfaceTag id="742a7604-699c-368a-a19a-0ddd73085575">
                             <l7:Name>loopback</l7:Name>
@@ -371,18 +195,40 @@
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
+                    <l7:Name>Default HTTP (8080)</l7:Name>
+                    <l7:Id>52f0beac35c386c8b7f56f889c5c9253</l7:Id>
+                    <l7:Type>SSG_CONNECTOR</l7:Type>
+                    <l7:TimeStamp>2019-06-05T01:20:37.370Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:ListenPort id="52f0beac35c386c8b7f56f889c5c9253" version="0">
+                            <l7:Name>Default HTTP (8080)</l7:Name>
+                            <l7:Enabled>true</l7:Enabled>
+                            <l7:Protocol>HTTP</l7:Protocol>
+                            <l7:Port>8080</l7:Port>
+                            <l7:EnabledFeatures>
+<l7:StringValue>Published service message input</l7:StringValue>
+<l7:StringValue>Policy download service</l7:StringValue>
+<l7:StringValue>Ping service</l7:StringValue>
+<l7:StringValue>WS-Trust security token service</l7:StringValue>
+<l7:StringValue>WSDL download service</l7:StringValue>
+<l7:StringValue>SNMP Query service</l7:StringValue>
+                            </l7:EnabledFeatures>
+                        </l7:ListenPort>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
                     <l7:Name>SSL</l7:Name>
                     <l7:Id>00000000000000000000000000000002:SSL</l7:Id>
                     <l7:Type>SSG_KEY_ENTRY</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.575Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:38.892Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:PrivateKey alias="SSL" keystoreId="00000000000000000000000000000002" id="00000000000000000000000000000002:SSL">
                             <l7:CertificateChain>
 <l7:CertificateData>
     <l7:IssuerName>CN%3Dlocalhost</l7:IssuerName>
-    <l7:SerialNumber>7145399744128270143</l7:SerialNumber>
+    <l7:SerialNumber>78913332069113153</l7:SerialNumber>
     <l7:SubjectName>CN%3Dlocalhost</l7:SubjectName>
-    <l7:Encoded>MIIC7DCCAdSgAwIBAgIIYymPNZbuvz8wDQYJKoZIhvcNAQEMBQAwFDESMBAGA1UEAxMJbG9jYWxob3N0MB4XDTE5MDYwNDIyMDA1NloXDTI5MDYwMTIyMDA1NlowFDESMBAGA1UEAxMJbG9jYWxob3N0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjjI9aWbeXJkmaEP2re9+7AGmKlS6Er6ByHX+usXCwOPs4FSs9Tv5eVMbb+7tYo03YKaD+8qv0xVTGRbm8ENF56rA/2Q7b22T4VY07keG5su/EcMUw5g35zFIW8IxwS+vUsQVMfIGB4RGGnPtZY0Tt0pLqAUmxaRnUWaj1+aH85SmqjsfFT0jHRV5phpIZNFEZKpBM9Fj3aALNHogK5GKgwW25EysmjraXQjV4bUoe0e8EsQNzmg788ci5NuT6QddoiqrA/PPJLDWp4yq+TtwpGW3Y3n6UqDkpxZh1PK3oneORMgJK+7IewUCwautTFJfB7k/8gAYloiVYvzgkb6dCwIDAQABo0IwQDAdBgNVHQ4EFgQU/x5jNR8W41+/t6JnxkAQKSoAmVkwHwYDVR0jBBgwFoAU/x5jNR8W41+/t6JnxkAQKSoAmVkwDQYJKoZIhvcNAQEMBQADggEBAG7HPvm33YCPp05EwfHK1JjzeP6dYfnlpTb3kLPd/k98A+7ECdyVyC220yqNlznjuod/5LikTRQh9bgl0PQDWsiufvPl+ee69W+jZaao9saw/d8Z1VTK3oYpd6knn2MbrWbrmQKthwzDNIq1oLv+9s2DdCpEgZgWbicSRs90ybFonl1SVx6TkR/M8xSUhlvVwCCqyLAmnSUJTA2tmxeNZC/ocHAkaib/YeWy5GirWZXXQ8Ah9muvecHQgQfjg5iapJF1UqOVIIoMjOsHm20AXZ+HCjseXUgjALgrvxEib304c+wH4iYNGfdCz8gW3wUo0rCbFIV8Wx5l5wipW7J6VLE=</l7:Encoded>
+    <l7:Encoded>MIIC7DCCAdSgAwIBAgIIARhbQeYFnUEwDQYJKoZIhvcNAQEMBQAwFDESMBAGA1UEAxMJbG9jYWxob3N0MB4XDTE5MDYwNTAwMTM1MFoXDTI5MDYwMjAwMTM1MFowFDESMBAGA1UEAxMJbG9jYWxob3N0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmfxHTkl4NAYxhO776ffZgM+ED0PMTAgQBhTCzu5HcsasbNkJ4BqXDJf+gfG2SyfyzsN0dOETOuQIRXxDzC5vbauIy5kpVDTi7R6CjgBiPHyVzdTw697kp7uy78/OXqIKKiTCOsrMpNtz8sfcJmJ4nmf+C1Nh7AkzqUa9OWTn7+YREFz6Md+SYko4VsE+b8YoClN1624qcHU2/GBYB0xJ5XmJscHTSzRSACLqypRvEHCP9CthYG95KUZIVK0WmJ57zzETsxpg87kFmNXHnkH+xTVL7orzt+DGqi2tb4I1v/K/ff0dvDhi4pai463sokiXGbju0vjx87kpQZogFFMGfwIDAQABo0IwQDAdBgNVHQ4EFgQUJJIyGC3gDh9DXSi+3LIE1yJREbswHwYDVR0jBBgwFoAUJJIyGC3gDh9DXSi+3LIE1yJREbswDQYJKoZIhvcNAQEMBQADggEBADLbf7JqpRfX+6VPFjrkc23+75PMGhJwQaphgWi6GG4CkRMKZWjnyh+dRdjC0lqc74b5ha01XzG9uYdraW5pNfwgfZbNlm1WvQx3UagRsqV8ogYZ/iegEAmEbPCac9rCPLGzFKE460G6Wsir7PFIrzSMcNsl7/d9AF5pN5lVuqvwqzZGzj0sSG6ey9l9sBSeri2qwEzh1I9wvUdbRuvPwNKxIh2vzn9a/7zVsdvCPBr9QT39DJsg/ORleRZFiAGR/D5PzAblNRSyhBudTzKnJc3qqYmU8sXHqncoRfo0dKfyDlz0XF4TtIB6I9mHAcUbPMOIlz9aj0y5TkEzWURB/ZE=</l7:Encoded>
 </l7:CertificateData>
                             </l7:CertificateChain>
                             <l7:Properties>
@@ -390,7 +236,7 @@
     <l7:StringValue>RSA</l7:StringValue>
 </l7:Property>
 <l7:Property key="keyData">
-    <l7:StringValue bundleKey="$L7C2$1bead,QGh7Mfv4jmpHNoDr2uDIHy2nL4+IBagYlKeFXX5gR8c=$OPRbCfCKdVQJZP3+dKG0aTMobP6Q/80XUig5WuzsH77VpnAhj5mOai+6vDRR0u97HeIAzcPDzLoCcJpxEiMEbZ+Lo3dPX3GI8IT3kFHs+ytjxEKB6wRdi34O+HrAiKbs" algorithm="RSA">$L7C2$1,K9dXKizIOQ65mnrmd1ri4VdaLtKjuQGC+YZ1vQJ71jQ=$jIpT6WfQb1ncEhmb5k7RJ0803nWRO9Vrwq+hJ1F0QpOp+LzddwI+79zYmxKTKRD7qrPu/EWAUMuHFaLz6bLL8deh1ZrWDSocXpn1w/x9hko97zDu5OiyY9/m8Tjmk0noHcUNqiXUkZxD/NM7rhKP/QS2I0M8q5XtaM8st3dRGzQq29ikFc921mlCBQgqz/qD4Wy7y1TXXHVZfmbM2DKuuewrgtNePEqCqLD/obzgL4wX2i9wTtd3jA7U8ggq64K98VQYfHjR6a3pdXVQE5q84E+YxATIOGM3sIho6DfHDiOAGSh1gaEGYcI8dhX71o3HnGrM1znOJKc5fVW9NJM+2VruelClHwuZQrzcEStaU8A58k1Ftioa42w0YWdKZT7d06jlStwFNBgV51xLvUYpqBLWpfdewKRzk59gPJ15BBudESrsGamHQHmQykSRoqSpHOllbGjvocNeQyNQFVWwuYeGYARc0DLvWyA/NiMOKOCLuZTlO5+0ar1UknNcnPwEmXW3jjwE6rLxDvjcYlNvJXBjEQbFctO1Rx0wpK/DzpSTfHlevz7UUVwQoUgxD93nNFBP5kpULkbndWFbS9dmjH9VHyfsk+TXJN/gCUnd5ejmQvl4bPBYRIrWxDpFgZV04L5tmUoe1wYUIBpxdJCTITJ/PJOM447Nbywee6pFtWrvclV0cINIhKi1RnU2OcDg7aIQDRvgruUC//P9z75vus7gWbOsa3Jrn9QcKLIFmzFoiHDKCMZUeJhVaxmp0PHTmVfTkjOjJGkZNnO6m8e3GRvP9PAA1L/470vBQ41nEMHhqs3kkQ4wYtFKtb8XSZlhKcEGYFhDkidynC+orP/kCxX2pNNybC92q96yXuthm9zA4v207kzlicuOtYlZ1G+CnYkhW8lLryyvzgTdRj5ny96OdYkKmepujPgERyCdt+3jnPkC2tBXcS6X0vVG/NTuDA3MuGMjAN227Me99KpPEIJ9eUE5pUsrpninpXnlqyD9GY1ZXjjS9272YEE9kenqRlkuSGXS/ovhJldow+B7Pyz/220dOF4UBbs0fULHe5344Y0SEFqyZkonncaaX/kF+o5Z97wpvkfQnp2MShs6Ep80uk1ZneRk/r3PSRo4hrE2xj6XlflBunXSdPsbOimZ/2VIsILaHEqdaaZQe2xIzdqXe5NKmo93qovN33ITVGON91AAyiilVVooxT0vnrcrwVK//6cpe0JLIvPpKhsoPYLQSZBE/JzpHh/9rzkEiVaS7NL9PGgCN2sxGyP7xAcUjfGqaZ8ddE8KDgsmIymeqse3Va5crR5yAUShpqHc88GsM9Eg4xQ9VdYACkYqjGFSc/cdTQHBdnrxhenH63u10i8b6xRGbU9s7i/SE1LBWZ2vx1hgsViZQenmF2o2x0VNLF/KtJDEct5LhNSaNw7tIcoUAV6Xv1eUCAcenZ7gAvrVovhLJDK3LgnWs+TKFzdcPz2eMiml+sZ34csRYaELV/tfAVYg81t8UjrrcAJrsxQ6Rw+lARKX2dCQSmsuGWduf5VqAm8wFXvWL6CP+YU5ckq4tXBaHyAZ4rpZE548Cy1xuma72wEeENMZDZyj8phg2carYZ4lVVqJe7LqQsiU8UMksx8g6cSDUmtiL43IQUSeitd6YBivbjdEnsfzx5MzSEkHUTbInSsrTFlbQgf12XO2Tu+mSDRjHYPlPRsOAYY=</l7:StringValue>
+    <l7:StringValue bundleKey="$L7C2$1bead,Ty76gSjgO+T9mKod8ymp0LEufaJVQ5tz6hCuNu6E6P8=$/vl7Ko3ilfPyHjWXGXHlYIIaXITwAWbCt97o91+vFZNUYwpe1MYXAm8N5gwrDok8hqcgqousvOH6+XvDZ77cRXRF/rjXF+N03qrw7vHm3VFGhxgz+jnVZlcU3ZoRbl8b" algorithm="RSA">$L7C2$1,5TY9gL3Yns8usRqabZE24u3IIvJeLEKW7WddqqVgQZY=$A0afosijTACdjFDTKAL0vcFv0F9oX9T06dPNo5x+iE1Pt3Z0txaH1rePiA3n+Xiwb0GP5xQhhSZdtukofja9ond0bRupyIWdXu6ufpXN/OO7JDgWi9++idudaes1vyJFN7MKrrzg8FbUcayx2BL4PUFboWQrVcZuWlOE4YnbfUKNVAwpqF4zlFYH+kQRHKgrChp5ke5E8e1jNA412cbUH5psIsbH81sPOa3PPPEGRK7/jpRQqriS7kS1Bu8DnDz2uzSEjpeZYTBAeUvP1oBPC5fi9qjQcTVxLo7jvMgE44TYPmLf1ZZ2DECB2nhs5s5ER1eAQkBofXcROc8s4fJJw2t1XiSSRirKA8OCig2KLIC0SHtMQmPedwmQ24jl0lnlcpWZYi5BJz4X39lFEj7mTM4/6KvNH2sO4NxSL1JQ0yizqUTjyIaO0X6bNBVC5Xh36asc5iIzcPcgXm6cMwB6ylruDDpUf724XkBcuQwoi5xkRqgZPc7YMrFekzODMEC+Kxh7+4faCyt2ITUkbvDsw9fPC+jq0dW9O44I4+XX0OvgLdHcI2x7SA5LijStyye3bZUjfVFcTh6q65wwgBvO8FGHuK2q7Ni1EReX2nxMMOCgdojhkfdzFA4G+3LLoiXms5Kl5h9wg7woZFYYLL2Lq6yf4LXl1Ky9NFSdR7uaVVs9IrezpPtAFx0gsN0DcYQgoqZoG6Lw1BWjtGaXqg99QrhUwCd0/SihW6QxSwg4gCe1H6VtXUbOXPsMyV8z3L21JBDx7iM1yXXxW55Gx9KgJDBvFQlaZ3NR5WGD8wh1pstY8pL+AU3g+W8C67qfpXO8TCVRrESJhO0U3aX/0wI1GRGYSvgR23BS4TyiMlsS5VP3LEghRoy/RcZkZDMeJuybK+HrxUy9R+hbkLVcrlzJi1lT8kR+wj1hYa1B/cGCWRjpDpYJHBaF4b4wkm0BuZxuPFLOuJkDCpKuX8/Dti75OlwDhgBOENuY2hJTJzIvQJB6ROgXbH1DH8Cr9rrVDa6xArI5+3nJfXBHZwSzdsv3AFUF/jBiTEXlciFaZXbjDLmnz9AizMadvc+RCJSxkaegSjT7nHQbD8E1aXd94klJU5S+9gIuxjp752CEzq2nmXPIxFZbAQomvoqmkuwi68uiQg3rZLopQW+BFPKVLfy1bHQqy+uSjS073OqwPd2jKhGSJCK8rQ+AzRUc3ceazAqVFnqlq4nrOfz11eIygnBDD/dHOJLPgaoALgYi4KXQdYJ/qM5CVEgrBILBQVJq2Hz9cmBJo9Dtae2idpUDs6NQO7fI+ZiUN7JkZzV247jeb15mnCH0zi1OkK3tvHeZUdWRLACb1Je7Vs7wkgzw4iSfEU505ZIJsJww+0G0tEvoVcuZqxaAZmiotqurPpRD8PLedmO5p8XWWOaokdfT1VLQPIQ2KLdeo0wHZouikIGRgDLLIzTmVADoJHbdt8+MygeEZaSqh+8I/50IhMjd92D00xQI9W2yXUfvHWPkv2hakqXOoURd9xJ8V8Ump3iHfCUPljbasRotyp7iOrtbrLx7+pNs0jOn9S6dehUZHa0gmncWoxpu4AgAv0ZJ6/G8rNxAraCr4MrA/CSteLpCUQjZFPl/drFqIrpCs25JFLE17rZ1AjJFbQBu3RqsF8C4O+KKk7iZX0ZpWUMSrSS0/My7RuAW6MMP2ZnnDrq2AHeV2IA=</l7:StringValue>
 </l7:Property>
                             </l7:Properties>
                         </l7:PrivateKey>
@@ -398,11 +244,11 @@
                 </l7:Item>
                 <l7:Item>
                     <l7:Name>Default HTTPS (8443)</l7:Name>
-                    <l7:Id>749e28a90eb71b42c6c40e1c636afa2c</l7:Id>
+                    <l7:Id>52f0beac35c386c8b7f56f889c5c9254</l7:Id>
                     <l7:Type>SSG_CONNECTOR</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.593Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:38.896Z</l7:TimeStamp>
                     <l7:Resource>
-                        <l7:ListenPort id="749e28a90eb71b42c6c40e1c636afa2c" version="0">
+                        <l7:ListenPort id="52f0beac35c386c8b7f56f889c5c9254" version="0">
                             <l7:Name>Default HTTPS (8443)</l7:Name>
                             <l7:Enabled>true</l7:Enabled>
                             <l7:Protocol>HTTPS</l7:Protocol>
@@ -468,36 +314,14 @@
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
-                    <l7:Name>Default HTTP (8080)</l7:Name>
-                    <l7:Id>749e28a90eb71b42c6c40e1c636afa2b</l7:Id>
-                    <l7:Type>SSG_CONNECTOR</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.597Z</l7:TimeStamp>
-                    <l7:Resource>
-                        <l7:ListenPort id="749e28a90eb71b42c6c40e1c636afa2b" version="0">
-                            <l7:Name>Default HTTP (8080)</l7:Name>
-                            <l7:Enabled>true</l7:Enabled>
-                            <l7:Protocol>HTTP</l7:Protocol>
-                            <l7:Port>8080</l7:Port>
-                            <l7:EnabledFeatures>
-<l7:StringValue>Published service message input</l7:StringValue>
-<l7:StringValue>Policy download service</l7:StringValue>
-<l7:StringValue>Ping service</l7:StringValue>
-<l7:StringValue>WS-Trust security token service</l7:StringValue>
-<l7:StringValue>WSDL download service</l7:StringValue>
-<l7:StringValue>SNMP Query service</l7:StringValue>
-                            </l7:EnabledFeatures>
-                        </l7:ListenPort>
-                    </l7:Resource>
-                </l7:Item>
-                <l7:Item>
                     <l7:Name>admin</l7:Name>
                     <l7:Id>00000000000000000000000000000003</l7:Id>
                     <l7:Type>USER</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.722Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.015Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:User providerId="0000000000000000fffffffffffffffe" id="00000000000000000000000000000003">
                             <l7:Login>admin</l7:Login>
-                            <l7:Password bundleKey="$L7C2$1bead,QGh7Mfv4jmpHNoDr2uDIHy2nL4+IBagYlKeFXX5gR8c=$OPRbCfCKdVQJZP3+dKG0aTMobP6Q/80XUig5WuzsH77VpnAhj5mOai+6vDRR0u97HeIAzcPDzLoCcJpxEiMEbZ+Lo3dPX3GI8IT3kFHs+ytjxEKB6wRdi34O+HrAiKbs" format="bundleKey:sha512crypt">$L7C2$1,Ow6aK3N2hes43QMjHeGHZyN9wGey5I3BGc9OGxbhRd0=$U4LEJw2+GtrUtHYe274/AQt2IBGGHAv5knOiv1BXF6PyprJAnn43+FP0Y7U4igDIRXjcaPwyQ8KxfpbzLe6T+ITFC3KaUWRoWSvH9CW0EmQWzuWRw/p99gmc7ULnH53S7oArmHIIClLGEilrzEOTlkDqkY5bQZVq0dz6VE+GIgMOCnpLoFyQQ08CtTITMctR0vSMaom3MFiy0yAQ/0/HWw==</l7:Password>
+                            <l7:Password bundleKey="$L7C2$1bead,Ty76gSjgO+T9mKod8ymp0LEufaJVQ5tz6hCuNu6E6P8=$/vl7Ko3ilfPyHjWXGXHlYIIaXITwAWbCt97o91+vFZNUYwpe1MYXAm8N5gwrDok8hqcgqousvOH6+XvDZ77cRXRF/rjXF+N03qrw7vHm3VFGhxgz+jnVZlcU3ZoRbl8b" format="bundleKey:sha512crypt">$L7C2$1,cG6laHRZ6lgdH7uK+S7/i4sRID6UjEwoZZsfsuM6WQw=$DFwsJfXe5Ggw+GQyZ+ESy0gkcF3h2IYn7P8vTt72gZTTA8r+4F6qPr4tKjdK4foXJ1zawPtUmCpna8bMrjuV6K1m4peLqFu/4syJ5ESBY3NUdkVAU7oCih/ha5rcrj0dvQwWurYafymx85CjJAzdPRhfFIXNEtTqgOHTTS/Bjb8qT2EPYOeblHSvjlmioDecWMYhZGnP3PShzbbQrz0hXg==</l7:Password>
                             <l7:Properties>
 <l7:Property key="accountExpiration">
     <l7:LongValue>-1</l7:LongValue>
@@ -516,7 +340,7 @@
                     <l7:Name>Manage Secure Passwords</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffbe6</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.731Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.023Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffbe6" version="0">
                             <l7:name>Manage Secure Passwords</l7:name>
@@ -530,7 +354,7 @@
                     <l7:Name>Manage JDBC Connections</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffc4a</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.739Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.030Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffc4a" version="0">
                             <l7:name>Manage JDBC Connections</l7:name>
@@ -544,7 +368,7 @@
                     <l7:Name>Operator</l7:Name>
                     <l7:Id>0000000000000000ffffffffffffff6a</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.740Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.030Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000ffffffffffffff6a" version="0">
                             <l7:name>Operator</l7:name>
@@ -558,7 +382,7 @@
                     <l7:Name>Manage Log Sinks</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffce0</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.744Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.032Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffce0" version="0">
                             <l7:name>Manage Log Sinks</l7:name>
@@ -569,58 +393,56 @@
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
-                    <l7:Name>Manage demo Folder (#9009fdbcdd84e4c4db94a42f06cf7103)</l7:Name>
-                    <l7:Id>9009fdbcdd84e4c4db94a42f06cf711d</l7:Id>
+                    <l7:Name>Manage UDDI Registries</l7:Name>
+                    <l7:Id>0000000000000000fffffffffffffc18</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.750Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.032Z</l7:TimeStamp>
                     <l7:Resource>
-                        <l7:Role id="9009fdbcdd84e4c4db94a42f06cf711d" version="0">
-                            <l7:name>Manage demo Folder (#9009fdbcdd84e4c4db94a42f06cf7103)</l7:name>
-                            <l7:description>Users assigned to the {0} role have the ability to view, update and delete services and policies within the {1} folder.</l7:description>
-                            <l7:userCreated>false</l7:userCreated>
-                            <l7:assignments/>
-                            <l7:entityType>FOLDER</l7:entityType>
-                            <l7:entityID>9009fdbcdd84e4c4db94a42f06cf7103</l7:entityID>
-                        </l7:Role>
-                    </l7:Resource>
-                </l7:Item>
-                <l7:Item>
-                    <l7:Name>Manage Certificates (truststore)</l7:Name>
-                    <l7:Id>0000000000000000fffffffffffffda8</l7:Id>
-                    <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.751Z</l7:TimeStamp>
-                    <l7:Resource>
-                        <l7:Role id="0000000000000000fffffffffffffda8" version="0">
-                            <l7:name>Manage Certificates (truststore)</l7:name>
-                            <l7:description>Users assigned to the {0} role have the ability to read, create, update and delete trusted certificates and policies for revocation checking.</l7:description>
+                        <l7:Role id="0000000000000000fffffffffffffc18" version="0">
+                            <l7:name>Manage UDDI Registries</l7:name>
+                            <l7:description>Users assigned to the {0} role have the ability to read, create, update and delete UDDI Registry connections.</l7:description>
                             <l7:userCreated>false</l7:userCreated>
                             <l7:assignments/>
                         </l7:Role>
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
-                    <l7:Name>View Service Metrics</l7:Name>
-                    <l7:Id>0000000000000000fffffffffffffe0c</l7:Id>
+                    <l7:Name>Manage Internal Users and Groups</l7:Name>
+                    <l7:Id>0000000000000000ffffffffffffff38</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.751Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.039Z</l7:TimeStamp>
                     <l7:Resource>
-                        <l7:Role id="0000000000000000fffffffffffffe0c" version="0">
-                            <l7:name>View Service Metrics</l7:name>
-                            <l7:description>Users assigned to the {0} role have the ability to monitor service metrics in the manager.</l7:description>
+                        <l7:Role id="0000000000000000ffffffffffffff38" version="0">
+                            <l7:name>Manage Internal Users and Groups</l7:name>
+                            <l7:description>Users assigned to the {0} role have the ability to create, read, update and delete users and groups in the internal identity provider.</l7:description>
                             <l7:userCreated>false</l7:userCreated>
                             <l7:assignments/>
                         </l7:Role>
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
-                    <l7:Name>Publish Webservices</l7:Name>
-                    <l7:Id>0000000000000000fffffffffffffea2</l7:Id>
+                    <l7:Name>Gateway Maintenance</l7:Name>
+                    <l7:Id>0000000000000000fffffffffffffcae</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.752Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.039Z</l7:TimeStamp>
                     <l7:Resource>
-                        <l7:Role id="0000000000000000fffffffffffffea2" version="0">
-                            <l7:name>Publish Webservices</l7:name>
-                            <l7:description>Users assigned to the {0} role have the ability to publish new web services.</l7:description>
+                        <l7:Role id="0000000000000000fffffffffffffcae" version="0">
+                            <l7:name>Gateway Maintenance</l7:name>
+                            <l7:description>Users assigned to the {0} role have the ability to perform Gateway maintenance tasks.</l7:description>
+                            <l7:userCreated>false</l7:userCreated>
+                            <l7:assignments/>
+                        </l7:Role>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
+                    <l7:Name>Manage Cluster Properties</l7:Name>
+                    <l7:Id>0000000000000000fffffffffffffd44</l7:Id>
+                    <l7:Type>RBAC_ROLE</l7:Type>
+                    <l7:TimeStamp>2019-06-05T01:20:39.040Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:Role id="0000000000000000fffffffffffffd44" version="0">
+                            <l7:name>Manage Cluster Properties</l7:name>
+                            <l7:description>Users assigned to the {0} role have the ability to read, create, update and delete cluster properties.</l7:description>
                             <l7:userCreated>false</l7:userCreated>
                             <l7:assignments/>
                         </l7:Role>
@@ -630,7 +452,7 @@
                     <l7:Name>Manage CA Single Sign-On Configuration</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffa24</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.754Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.041Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffa24" version="0">
                             <l7:name>Manage CA Single Sign-On Configuration</l7:name>
@@ -645,7 +467,7 @@
                     <l7:Name>Manage Encapsulated Assertions</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffaba</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.756Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.044Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffaba" version="0">
                             <l7:name>Manage Encapsulated Assertions</l7:name>
@@ -657,26 +479,10 @@
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
-                    <l7:Name>Manage node Service (#2d0075282b74acd9a6e7658c71cc4c73)</l7:Name>
-                    <l7:Id>9009fdbcdd84e4c4db94a42f06cf6ff4</l7:Id>
-                    <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.766Z</l7:TimeStamp>
-                    <l7:Resource>
-                        <l7:Role id="9009fdbcdd84e4c4db94a42f06cf6ff4" version="0">
-                            <l7:name>Manage node Service (#2d0075282b74acd9a6e7658c71cc4c73)</l7:name>
-                            <l7:description>Users assigned to the {0} role have the ability to read, update and delete the {1} service.</l7:description>
-                            <l7:userCreated>false</l7:userCreated>
-                            <l7:assignments/>
-                            <l7:entityType>SERVICE</l7:entityType>
-                            <l7:entityID>2d0075282b74acd9a6e7658c71cc4c73</l7:entityID>
-                        </l7:Role>
-                    </l7:Resource>
-                </l7:Item>
-                <l7:Item>
                     <l7:Name>Manage Cluster Status</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffdda</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.766Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.047Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffdda" version="0">
                             <l7:name>Manage Cluster Status</l7:name>
@@ -690,7 +496,7 @@
                     <l7:Name>Manage Firewall Rules</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffa88</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.767Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.048Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffa88" version="0">
                             <l7:name>Manage Firewall Rules</l7:name>
@@ -705,7 +511,7 @@
                     <l7:Name>Manage Password Policies</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffb82</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.771Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.048Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffb82" version="0">
                             <l7:name>Manage Password Policies</l7:name>
@@ -716,59 +522,86 @@
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
-                    <l7:Name>Manage Scheduled Task</l7:Name>
-                    <l7:Id>0000000000000000fffffffffffff92a</l7:Id>
+                    <l7:Name>Manage Certificates (truststore)</l7:Name>
+                    <l7:Id>0000000000000000fffffffffffffda8</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.772Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.048Z</l7:TimeStamp>
                     <l7:Resource>
-                        <l7:Role id="0000000000000000fffffffffffff92a" version="0">
-                            <l7:name>Manage Scheduled Task</l7:name>
-                            <l7:description>Users assigned to the {0} role have the ability to read, create, update and delete Scheduled Task.</l7:description>
+                        <l7:Role id="0000000000000000fffffffffffffda8" version="0">
+                            <l7:name>Manage Certificates (truststore)</l7:name>
+                            <l7:description>Users assigned to the {0} role have the ability to read, create, update and delete trusted certificates and policies for revocation checking.</l7:description>
                             <l7:userCreated>false</l7:userCreated>
                             <l7:assignments/>
-                            <l7:entityType>SCHEDULED_TASK</l7:entityType>
                         </l7:Role>
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
-                    <l7:Name>Manage Cassandra Connection</l7:Name>
-                    <l7:Id>0000000000000000fffffffffffff9c0</l7:Id>
+                    <l7:Name>View Service Metrics</l7:Name>
+                    <l7:Id>0000000000000000fffffffffffffe0c</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.772Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.051Z</l7:TimeStamp>
                     <l7:Resource>
-                        <l7:Role id="0000000000000000fffffffffffff9c0" version="0">
-                            <l7:name>Manage Cassandra Connection</l7:name>
-                            <l7:description>Users assigned to the {0} role have the ability to read, create, update and delete Cassandra connection.</l7:description>
+                        <l7:Role id="0000000000000000fffffffffffffe0c" version="0">
+                            <l7:name>View Service Metrics</l7:name>
+                            <l7:description>Users assigned to the {0} role have the ability to monitor service metrics in the manager.</l7:description>
                             <l7:userCreated>false</l7:userCreated>
                             <l7:assignments/>
-                            <l7:entityType>CASSANDRA_CONFIGURATION</l7:entityType>
                         </l7:Role>
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
-                    <l7:Name>Manage Modules Installable via Policy Manager</l7:Name>
-                    <l7:Id>0000000000000000fffffffffffff98e</l7:Id>
+                    <l7:Name>Publish Webservices</l7:Name>
+                    <l7:Id>0000000000000000fffffffffffffea2</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.779Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.055Z</l7:TimeStamp>
                     <l7:Resource>
-                        <l7:Role id="0000000000000000fffffffffffff98e" version="0">
-                            <l7:name>Manage Modules Installable via Policy Manager</l7:name>
-                            <l7:description>Users assigned to the {0} role have the ability to read, create, update and delete Modules Installable via Policy Manager.</l7:description>
+                        <l7:Role id="0000000000000000fffffffffffffea2" version="0">
+                            <l7:name>Publish Webservices</l7:name>
+                            <l7:description>Users assigned to the {0} role have the ability to publish new web services.</l7:description>
                             <l7:userCreated>false</l7:userCreated>
                             <l7:assignments/>
-                            <l7:entityType>SERVER_MODULE_FILE</l7:entityType>
                         </l7:Role>
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
-                    <l7:Name>Manage Cluster Properties</l7:Name>
-                    <l7:Id>0000000000000000fffffffffffffd44</l7:Id>
+                    <l7:Name>View demo Folder (#09a2b6a82093b5f19bbf7e8fded45b0a)</l7:Name>
+                    <l7:Id>bef2189d1a9fb386bee69f1628b1a060</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.779Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.060Z</l7:TimeStamp>
                     <l7:Resource>
-                        <l7:Role id="0000000000000000fffffffffffffd44" version="0">
-                            <l7:name>Manage Cluster Properties</l7:name>
-                            <l7:description>Users assigned to the {0} role have the ability to read, create, update and delete cluster properties.</l7:description>
+                        <l7:Role id="bef2189d1a9fb386bee69f1628b1a060" version="0">
+                            <l7:name>View demo Folder (#09a2b6a82093b5f19bbf7e8fded45b0a)</l7:name>
+                            <l7:description>Users assigned to the {0} role have the ability to view services and policies within the {1} folder.</l7:description>
+                            <l7:userCreated>false</l7:userCreated>
+                            <l7:assignments/>
+                            <l7:entityType>FOLDER</l7:entityType>
+                            <l7:entityID>09a2b6a82093b5f19bbf7e8fded45b0a</l7:entityID>
+                        </l7:Role>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
+                    <l7:Name>Manage Private Keys</l7:Name>
+                    <l7:Id>0000000000000000fffffffffffffbb4</l7:Id>
+                    <l7:Type>RBAC_ROLE</l7:Type>
+                    <l7:TimeStamp>2019-06-05T01:20:39.062Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:Role id="0000000000000000fffffffffffffbb4" version="1">
+                            <l7:name>Manage Private Keys</l7:name>
+                            <l7:description>Users in this role have the ability to read, create, update, and delete private keys, as well as the ability to change the designated special-purpose keys (eg, the SSL or CA key).</l7:description>
+                            <l7:userCreated>false</l7:userCreated>
+                            <l7:assignments/>
+                        </l7:Role>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
+                    <l7:Name>Search Users and Groups</l7:Name>
+                    <l7:Id>0000000000000000fffffffffffffed4</l7:Id>
+                    <l7:Type>RBAC_ROLE</l7:Type>
+                    <l7:TimeStamp>2019-06-05T01:20:39.062Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:Role id="0000000000000000fffffffffffffed4" version="0">
+                            <l7:name>Search Users and Groups</l7:name>
+                            <l7:description>Users assigned to the {0} role have permission to search and view users and groups in all identity providers.</l7:description>
                             <l7:userCreated>false</l7:userCreated>
                             <l7:assignments/>
                         </l7:Role>
@@ -778,7 +611,7 @@
                     <l7:Name>Administrator</l7:Name>
                     <l7:Id>0000000000000000ffffffffffffff9c</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.780Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.069Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000ffffffffffffff9c" version="0">
                             <l7:name>Administrator</l7:name>
@@ -798,7 +631,7 @@
                     <l7:Name>Manage Email Listeners</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffc7c</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.780Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.069Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffc7c" version="0">
                             <l7:name>Manage Email Listeners</l7:name>
@@ -809,42 +642,10 @@
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
-                    <l7:Name>Manage 222 Service (#2d0075282b74acd9a6e7658c71cc4c74)</l7:Name>
-                    <l7:Id>9009fdbcdd84e4c4db94a42f06cf702f</l7:Id>
-                    <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.781Z</l7:TimeStamp>
-                    <l7:Resource>
-                        <l7:Role id="9009fdbcdd84e4c4db94a42f06cf702f" version="0">
-                            <l7:name>Manage 222 Service (#2d0075282b74acd9a6e7658c71cc4c74)</l7:name>
-                            <l7:description>Users assigned to the {0} role have the ability to read, update and delete the {1} service.</l7:description>
-                            <l7:userCreated>false</l7:userCreated>
-                            <l7:assignments/>
-                            <l7:entityType>SERVICE</l7:entityType>
-                            <l7:entityID>2d0075282b74acd9a6e7658c71cc4c74</l7:entityID>
-                        </l7:Role>
-                    </l7:Resource>
-                </l7:Item>
-                <l7:Item>
-                    <l7:Name>Manage quota Service (#2d0075282b74acd9a6e7658c71cc4c76)</l7:Name>
-                    <l7:Id>9009fdbcdd84e4c4db94a42f06cf70a5</l7:Id>
-                    <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.793Z</l7:TimeStamp>
-                    <l7:Resource>
-                        <l7:Role id="9009fdbcdd84e4c4db94a42f06cf70a5" version="0">
-                            <l7:name>Manage quota Service (#2d0075282b74acd9a6e7658c71cc4c76)</l7:name>
-                            <l7:description>Users assigned to the {0} role have the ability to read, update and delete the {1} service.</l7:description>
-                            <l7:userCreated>false</l7:userCreated>
-                            <l7:assignments/>
-                            <l7:entityType>SERVICE</l7:entityType>
-                            <l7:entityID>2d0075282b74acd9a6e7658c71cc4c76</l7:entityID>
-                        </l7:Role>
-                    </l7:Resource>
-                </l7:Item>
-                <l7:Item>
                     <l7:Name>Publish External Identity Providers</l7:Name>
                     <l7:Id>0000000000000000ffffffffffffff06</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.796Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.071Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000ffffffffffffff06" version="0">
                             <l7:name>Publish External Identity Providers</l7:name>
@@ -855,88 +656,91 @@
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
-                    <l7:Name>Manage demo Service (#9009fdbcdd84e4c4db94a42f06cf7143)</l7:Name>
-                    <l7:Id>9009fdbcdd84e4c4db94a42f06cf714a</l7:Id>
+                    <l7:Name>Manage quota Service (#bef2189d1a9fb386bee69f1628b1a0ed)</l7:Name>
+                    <l7:Id>bef2189d1a9fb386bee69f1628b1a0f4</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.802Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.076Z</l7:TimeStamp>
                     <l7:Resource>
-                        <l7:Role id="9009fdbcdd84e4c4db94a42f06cf714a" version="0">
-                            <l7:name>Manage demo Service (#9009fdbcdd84e4c4db94a42f06cf7143)</l7:name>
+                        <l7:Role id="bef2189d1a9fb386bee69f1628b1a0f4" version="0">
+                            <l7:name>Manage quota Service (#bef2189d1a9fb386bee69f1628b1a0ed)</l7:name>
                             <l7:description>Users assigned to the {0} role have the ability to read, update and delete the {1} service.</l7:description>
                             <l7:userCreated>false</l7:userCreated>
                             <l7:assignments/>
                             <l7:entityType>SERVICE</l7:entityType>
-                            <l7:entityID>9009fdbcdd84e4c4db94a42f06cf7143</l7:entityID>
+                            <l7:entityID>bef2189d1a9fb386bee69f1628b1a0ed</l7:entityID>
                         </l7:Role>
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
-                    <l7:Name>Manage Administrative Accounts Configuration</l7:Name>
-                    <l7:Id>0000000000000000fffffffffffffb1e</l7:Id>
+                    <l7:Name>Manage demo Service (#09a2b6a82093b5f19bbf7e8fded45b0b)</l7:Name>
+                    <l7:Id>bef2189d1a9fb386bee69f1628b1a09e</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.802Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.079Z</l7:TimeStamp>
                     <l7:Resource>
-                        <l7:Role id="0000000000000000fffffffffffffb1e" version="0">
-                            <l7:name>Manage Administrative Accounts Configuration</l7:name>
-                            <l7:description>Users assigned to the {0} role have the ability to create/read/update cluster properties applicable to administrative accounts configurations.</l7:description>
-                            <l7:userCreated>false</l7:userCreated>
-                            <l7:assignments/>
-                        </l7:Role>
-                    </l7:Resource>
-                </l7:Item>
-                <l7:Item>
-                    <l7:Name>Manage echo Service (#2d0075282b74acd9a6e7658c71cc4c75)</l7:Name>
-                    <l7:Id>9009fdbcdd84e4c4db94a42f06cf706a</l7:Id>
-                    <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.807Z</l7:TimeStamp>
-                    <l7:Resource>
-                        <l7:Role id="9009fdbcdd84e4c4db94a42f06cf706a" version="0">
-                            <l7:name>Manage echo Service (#2d0075282b74acd9a6e7658c71cc4c75)</l7:name>
+                        <l7:Role id="bef2189d1a9fb386bee69f1628b1a09e" version="0">
+                            <l7:name>Manage demo Service (#09a2b6a82093b5f19bbf7e8fded45b0b)</l7:name>
                             <l7:description>Users assigned to the {0} role have the ability to read, update and delete the {1} service.</l7:description>
                             <l7:userCreated>false</l7:userCreated>
                             <l7:assignments/>
                             <l7:entityType>SERVICE</l7:entityType>
-                            <l7:entityID>2d0075282b74acd9a6e7658c71cc4c75</l7:entityID>
+                            <l7:entityID>09a2b6a82093b5f19bbf7e8fded45b0b</l7:entityID>
                         </l7:Role>
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
-                    <l7:Name>View Audit Records</l7:Name>
-                    <l7:Id>0000000000000000fffffffffffffe3e</l7:Id>
+                    <l7:Name>Manage Cassandra Connection</l7:Name>
+                    <l7:Id>0000000000000000fffffffffffff9c0</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.807Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.079Z</l7:TimeStamp>
                     <l7:Resource>
-                        <l7:Role id="0000000000000000fffffffffffffe3e" version="0">
-                            <l7:name>View Audit Records</l7:name>
-                            <l7:description>Users assigned to the {0} role have the ability to view audits in the manager.</l7:description>
+                        <l7:Role id="0000000000000000fffffffffffff9c0" version="0">
+                            <l7:name>Manage Cassandra Connection</l7:name>
+                            <l7:description>Users assigned to the {0} role have the ability to read, create, update and delete Cassandra connection.</l7:description>
                             <l7:userCreated>false</l7:userCreated>
                             <l7:assignments/>
+                            <l7:entityType>CASSANDRA_CONFIGURATION</l7:entityType>
                         </l7:Role>
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
-                    <l7:Name>Manage Private Keys</l7:Name>
-                    <l7:Id>0000000000000000fffffffffffffbb4</l7:Id>
+                    <l7:Name>Manage Modules Installable via Policy Manager</l7:Name>
+                    <l7:Id>0000000000000000fffffffffffff98e</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.812Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.080Z</l7:TimeStamp>
                     <l7:Resource>
-                        <l7:Role id="0000000000000000fffffffffffffbb4" version="1">
-                            <l7:name>Manage Private Keys</l7:name>
-                            <l7:description>Users in this role have the ability to read, create, update, and delete private keys, as well as the ability to change the designated special-purpose keys (eg, the SSL or CA key).</l7:description>
+                        <l7:Role id="0000000000000000fffffffffffff98e" version="0">
+                            <l7:name>Manage Modules Installable via Policy Manager</l7:name>
+                            <l7:description>Users assigned to the {0} role have the ability to read, create, update and delete Modules Installable via Policy Manager.</l7:description>
                             <l7:userCreated>false</l7:userCreated>
                             <l7:assignments/>
+                            <l7:entityType>SERVER_MODULE_FILE</l7:entityType>
                         </l7:Role>
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
-                    <l7:Name>Search Users and Groups</l7:Name>
-                    <l7:Id>0000000000000000fffffffffffffed4</l7:Id>
+                    <l7:Name>Manage Scheduled Task</l7:Name>
+                    <l7:Id>0000000000000000fffffffffffff92a</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.812Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.080Z</l7:TimeStamp>
                     <l7:Resource>
-                        <l7:Role id="0000000000000000fffffffffffffed4" version="0">
-                            <l7:name>Search Users and Groups</l7:name>
-                            <l7:description>Users assigned to the {0} role have permission to search and view users and groups in all identity providers.</l7:description>
+                        <l7:Role id="0000000000000000fffffffffffff92a" version="0">
+                            <l7:name>Manage Scheduled Task</l7:name>
+                            <l7:description>Users assigned to the {0} role have the ability to read, create, update and delete Scheduled Task.</l7:description>
+                            <l7:userCreated>false</l7:userCreated>
+                            <l7:assignments/>
+                            <l7:entityType>SCHEDULED_TASK</l7:entityType>
+                        </l7:Role>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
+                    <l7:Name>Manage Listen Ports</l7:Name>
+                    <l7:Id>0000000000000000fffffffffffffd12</l7:Id>
+                    <l7:Type>RBAC_ROLE</l7:Type>
+                    <l7:TimeStamp>2019-06-05T01:20:39.082Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:Role id="0000000000000000fffffffffffffd12" version="0">
+                            <l7:name>Manage Listen Ports</l7:name>
+                            <l7:description>Users assigned to the {0} role have the ability to read, create, update and delete Gateway listen ports (HTTP(S) and FTP(S)) and to list published services.</l7:description>
                             <l7:userCreated>false</l7:userCreated>
                             <l7:assignments/>
                         </l7:Role>
@@ -946,7 +750,7 @@
                     <l7:Name>Manage Custom Key Value Store</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffa56</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.812Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.082Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffa56" version="0">
                             <l7:name>Manage Custom Key Value Store</l7:name>
@@ -961,7 +765,7 @@
                     <l7:Name>Manage Message Destinations</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffd76</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.812Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.089Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffd76" version="0">
                             <l7:name>Manage Message Destinations</l7:name>
@@ -972,26 +776,10 @@
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
-                    <l7:Name>View demo Folder (#9009fdbcdd84e4c4db94a42f06cf7103)</l7:Name>
-                    <l7:Id>9009fdbcdd84e4c4db94a42f06cf7105</l7:Id>
-                    <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.812Z</l7:TimeStamp>
-                    <l7:Resource>
-                        <l7:Role id="9009fdbcdd84e4c4db94a42f06cf7105" version="0">
-                            <l7:name>View demo Folder (#9009fdbcdd84e4c4db94a42f06cf7103)</l7:name>
-                            <l7:description>Users assigned to the {0} role have the ability to view services and policies within the {1} folder.</l7:description>
-                            <l7:userCreated>false</l7:userCreated>
-                            <l7:assignments/>
-                            <l7:entityType>FOLDER</l7:entityType>
-                            <l7:entityID>9009fdbcdd84e4c4db94a42f06cf7103</l7:entityID>
-                        </l7:Role>
-                    </l7:Resource>
-                </l7:Item>
-                <l7:Item>
                     <l7:Name>Manage Webservices</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffe70</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.817Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.090Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffe70" version="1">
                             <l7:name>Manage Webservices</l7:name>
@@ -1005,7 +793,7 @@
                     <l7:Name>ssg</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffcd6</l7:Id>
                     <l7:Type>LOG_SINK</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.826Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.094Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:LogSink id="0000000000000000fffffffffffffcd6" version="0">
                             <l7:Name>ssg</l7:Name>
@@ -1037,7 +825,7 @@
                     <l7:Name>View ssg Log Sink (#-1,300)</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffaec</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.829Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.095Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffaec" version="0">
                             <l7:name>View ssg Log Sink (#-1,300)</l7:name>
@@ -1050,10 +838,26 @@
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
+                    <l7:Name>Manage demo Folder (#09a2b6a82093b5f19bbf7e8fded45b0a)</l7:Name>
+                    <l7:Id>bef2189d1a9fb386bee69f1628b1a077</l7:Id>
+                    <l7:Type>RBAC_ROLE</l7:Type>
+                    <l7:TimeStamp>2019-06-05T01:20:39.100Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:Role id="bef2189d1a9fb386bee69f1628b1a077" version="0">
+                            <l7:name>Manage demo Folder (#09a2b6a82093b5f19bbf7e8fded45b0a)</l7:name>
+                            <l7:description>Users assigned to the {0} role have the ability to view, update and delete services and policies within the {1} folder.</l7:description>
+                            <l7:userCreated>false</l7:userCreated>
+                            <l7:assignments/>
+                            <l7:entityType>FOLDER</l7:entityType>
+                            <l7:entityID>09a2b6a82093b5f19bbf7e8fded45b0a</l7:entityID>
+                        </l7:Role>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
                     <l7:Name>Invoke Audit Viewer Policy</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffb50</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.831Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.100Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:Role id="0000000000000000fffffffffffffb50" version="0">
                             <l7:name>Invoke Audit Viewer Policy</l7:name>
@@ -1064,56 +868,28 @@
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
-                    <l7:Name>Manage UDDI Registries</l7:Name>
-                    <l7:Id>0000000000000000fffffffffffffc18</l7:Id>
+                    <l7:Name>Manage Administrative Accounts Configuration</l7:Name>
+                    <l7:Id>0000000000000000fffffffffffffb1e</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.831Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.101Z</l7:TimeStamp>
                     <l7:Resource>
-                        <l7:Role id="0000000000000000fffffffffffffc18" version="0">
-                            <l7:name>Manage UDDI Registries</l7:name>
-                            <l7:description>Users assigned to the {0} role have the ability to read, create, update and delete UDDI Registry connections.</l7:description>
+                        <l7:Role id="0000000000000000fffffffffffffb1e" version="0">
+                            <l7:name>Manage Administrative Accounts Configuration</l7:name>
+                            <l7:description>Users assigned to the {0} role have the ability to create/read/update cluster properties applicable to administrative accounts configurations.</l7:description>
                             <l7:userCreated>false</l7:userCreated>
                             <l7:assignments/>
                         </l7:Role>
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
-                    <l7:Name>Manage Internal Users and Groups</l7:Name>
-                    <l7:Id>0000000000000000ffffffffffffff38</l7:Id>
+                    <l7:Name>View Audit Records</l7:Name>
+                    <l7:Id>0000000000000000fffffffffffffe3e</l7:Id>
                     <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.832Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.101Z</l7:TimeStamp>
                     <l7:Resource>
-                        <l7:Role id="0000000000000000ffffffffffffff38" version="0">
-                            <l7:name>Manage Internal Users and Groups</l7:name>
-                            <l7:description>Users assigned to the {0} role have the ability to create, read, update and delete users and groups in the internal identity provider.</l7:description>
-                            <l7:userCreated>false</l7:userCreated>
-                            <l7:assignments/>
-                        </l7:Role>
-                    </l7:Resource>
-                </l7:Item>
-                <l7:Item>
-                    <l7:Name>Gateway Maintenance</l7:Name>
-                    <l7:Id>0000000000000000fffffffffffffcae</l7:Id>
-                    <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.832Z</l7:TimeStamp>
-                    <l7:Resource>
-                        <l7:Role id="0000000000000000fffffffffffffcae" version="0">
-                            <l7:name>Gateway Maintenance</l7:name>
-                            <l7:description>Users assigned to the {0} role have the ability to perform Gateway maintenance tasks.</l7:description>
-                            <l7:userCreated>false</l7:userCreated>
-                            <l7:assignments/>
-                        </l7:Role>
-                    </l7:Resource>
-                </l7:Item>
-                <l7:Item>
-                    <l7:Name>Manage Listen Ports</l7:Name>
-                    <l7:Id>0000000000000000fffffffffffffd12</l7:Id>
-                    <l7:Type>RBAC_ROLE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.832Z</l7:TimeStamp>
-                    <l7:Resource>
-                        <l7:Role id="0000000000000000fffffffffffffd12" version="0">
-                            <l7:name>Manage Listen Ports</l7:name>
-                            <l7:description>Users assigned to the {0} role have the ability to read, create, update and delete Gateway listen ports (HTTP(S) and FTP(S)) and to list published services.</l7:description>
+                        <l7:Role id="0000000000000000fffffffffffffe3e" version="0">
+                            <l7:name>View Audit Records</l7:name>
+                            <l7:description>Users assigned to the {0} role have the ability to view audits in the manager.</l7:description>
                             <l7:userCreated>false</l7:userCreated>
                             <l7:assignments/>
                         </l7:Role>
@@ -1121,11 +897,11 @@
                 </l7:Item>
                 <l7:Item>
                     <l7:Name>gateway-hazelcast</l7:Name>
-                    <l7:Id>9009fdbcdd84e4c4db94a42f06cf70f7</l7:Id>
+                    <l7:Id>bef2189d1a9fb386bee69f1628b1a0e2</l7:Id>
                     <l7:Type>FIREWALL_RULE</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.839Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.102Z</l7:TimeStamp>
                     <l7:Resource>
-                        <l7:FirewallRule id="9009fdbcdd84e4c4db94a42f06cf70f7" version="0">
+                        <l7:FirewallRule id="bef2189d1a9fb386bee69f1628b1a0e2" version="0">
                             <l7:Name>gateway-hazelcast</l7:Name>
                             <l7:Enabled>true</l7:Enabled>
                             <l7:Ordinal>0</l7:Ordinal>
@@ -1150,10 +926,652 @@
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
+                    <l7:Name>http://www.w3.org/2001/datatypes.dtd</l7:Name>
+                    <l7:Id>0000000000000000fffffffffffffffa</l7:Id>
+                    <l7:Type>RESOURCE_ENTRY</l7:Type>
+                    <l7:TimeStamp>2019-06-05T01:20:39.172Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:ResourceDocument id="0000000000000000fffffffffffffffa" version="0">
+                            <l7:Resource sourceUrl="http://www.w3.org/2001/datatypes.dtd" type="dtd">&lt;!--
+        DTD for XML Schemas: Part 2: Datatypes
+        $Id: datatypes.dtd,v 1.23 2001/03/16 17:36:30 ht Exp $
+        Note this DTD is NOT normative, or even definitive. - - the
+        prose copy in the datatypes REC is the definitive version
+        (which shouldn't differ from this one except for this comment
+        and entity expansions, but just in case)
+  --&gt;
+
+&lt;!--
+        This DTD cannot be used on its own, it is intended
+        only for incorporation in XMLSchema.dtd, q.v.
+  --&gt;
+
+&lt;!-- Define all the element names, with optional prefix --&gt;
+&lt;!ENTITY % simpleType &quot;%p;simpleType&quot;&gt;
+&lt;!ENTITY % restriction &quot;%p;restriction&quot;&gt;
+&lt;!ENTITY % list &quot;%p;list&quot;&gt;
+&lt;!ENTITY % union &quot;%p;union&quot;&gt;
+&lt;!ENTITY % maxExclusive &quot;%p;maxExclusive&quot;&gt;
+&lt;!ENTITY % minExclusive &quot;%p;minExclusive&quot;&gt;
+&lt;!ENTITY % maxInclusive &quot;%p;maxInclusive&quot;&gt;
+&lt;!ENTITY % minInclusive &quot;%p;minInclusive&quot;&gt;
+&lt;!ENTITY % totalDigits &quot;%p;totalDigits&quot;&gt;
+&lt;!ENTITY % fractionDigits &quot;%p;fractionDigits&quot;&gt;
+&lt;!ENTITY % length &quot;%p;length&quot;&gt;
+&lt;!ENTITY % minLength &quot;%p;minLength&quot;&gt;
+&lt;!ENTITY % maxLength &quot;%p;maxLength&quot;&gt;
+&lt;!ENTITY % enumeration &quot;%p;enumeration&quot;&gt;
+&lt;!ENTITY % whiteSpace &quot;%p;whiteSpace&quot;&gt;
+&lt;!ENTITY % pattern &quot;%p;pattern&quot;&gt;
+
+&lt;!--
+        Customisation entities for the ATTLIST of each element
+        type. Define one of these if your schema takes advantage
+        of the anyAttribute='##other' in the schema for schemas
+  --&gt;
+
+&lt;!ENTITY % simpleTypeAttrs &quot;&quot;&gt;
+&lt;!ENTITY % restrictionAttrs &quot;&quot;&gt;
+&lt;!ENTITY % listAttrs &quot;&quot;&gt;
+&lt;!ENTITY % unionAttrs &quot;&quot;&gt;
+&lt;!ENTITY % maxExclusiveAttrs &quot;&quot;&gt;
+&lt;!ENTITY % minExclusiveAttrs &quot;&quot;&gt;
+&lt;!ENTITY % maxInclusiveAttrs &quot;&quot;&gt;
+&lt;!ENTITY % minInclusiveAttrs &quot;&quot;&gt;
+&lt;!ENTITY % totalDigitsAttrs &quot;&quot;&gt;
+&lt;!ENTITY % fractionDigitsAttrs &quot;&quot;&gt;
+&lt;!ENTITY % lengthAttrs &quot;&quot;&gt;
+&lt;!ENTITY % minLengthAttrs &quot;&quot;&gt;
+&lt;!ENTITY % maxLengthAttrs &quot;&quot;&gt;
+&lt;!ENTITY % enumerationAttrs &quot;&quot;&gt;
+&lt;!ENTITY % whiteSpaceAttrs &quot;&quot;&gt;
+&lt;!ENTITY % patternAttrs &quot;&quot;&gt;
+
+&lt;!-- Define some entities for informative use as attribute
+        types --&gt;
+&lt;!ENTITY % URIref &quot;CDATA&quot;&gt;
+&lt;!ENTITY % XPathExpr &quot;CDATA&quot;&gt;
+&lt;!ENTITY % QName &quot;NMTOKEN&quot;&gt;
+&lt;!ENTITY % QNames &quot;NMTOKENS&quot;&gt;
+&lt;!ENTITY % NCName &quot;NMTOKEN&quot;&gt;
+&lt;!ENTITY % nonNegativeInteger &quot;NMTOKEN&quot;&gt;
+&lt;!ENTITY % boolean &quot;(true|false)&quot;&gt;
+&lt;!ENTITY % simpleDerivationSet &quot;CDATA&quot;&gt;
+&lt;!--
+        #all or space-separated list drawn from derivationChoice
+  --&gt;
+
+&lt;!--
+        Note that the use of 'facet' below is less restrictive
+        than is really intended:  There should in fact be no
+        more than one of each of minInclusive, minExclusive,
+        maxInclusive, maxExclusive, totalDigits, fractionDigits,
+        length, maxLength, minLength within datatype,
+        and the min- and max- variants of Inclusive and Exclusive
+        are mutually exclusive. On the other hand,  pattern and
+        enumeration may repeat.
+  --&gt;
+&lt;!ENTITY % minBound &quot;(%minInclusive; | %minExclusive;)&quot;&gt;
+&lt;!ENTITY % maxBound &quot;(%maxInclusive; | %maxExclusive;)&quot;&gt;
+&lt;!ENTITY % bounds &quot;%minBound; | %maxBound;&quot;&gt;
+&lt;!ENTITY % numeric &quot;%totalDigits; | %fractionDigits;&quot;&gt;
+&lt;!ENTITY % ordered &quot;%bounds; | %numeric;&quot;&gt;
+&lt;!ENTITY % unordered
+   &quot;%pattern; | %enumeration; | %whiteSpace; | %length; |
+   %maxLength; | %minLength;&quot;&gt;
+&lt;!ENTITY % facet &quot;%ordered; | %unordered;&quot;&gt;
+&lt;!ENTITY % facetAttr 
+        &quot;value CDATA #REQUIRED
+        id ID #IMPLIED&quot;&gt;
+&lt;!ENTITY % fixedAttr &quot;fixed %boolean; #IMPLIED&quot;&gt;
+&lt;!ENTITY % facetModel &quot;(%annotation;)?&quot;&gt;
+&lt;!ELEMENT %simpleType;
+        ((%annotation;)?, (%restriction; | %list; | %union;))&gt;
+&lt;!ATTLIST %simpleType;
+    name      %NCName; #IMPLIED
+    final     %simpleDerivationSet; #IMPLIED
+    id        ID       #IMPLIED
+    %simpleTypeAttrs;&gt;
+&lt;!-- name is required at top level --&gt;
+&lt;!ELEMENT %restriction; ((%annotation;)?,
+                         (%restriction1; |
+                          ((%simpleType;)?,(%facet;)*)),
+                         (%attrDecls;))&gt;
+&lt;!ATTLIST %restriction;
+    base      %QName;                  #IMPLIED
+    id        ID       #IMPLIED
+    %restrictionAttrs;&gt;
+&lt;!--
+        base and simpleType child are mutually exclusive,
+        one is required.
+
+        restriction is shared between simpleType and
+        simpleContent and complexContent (in XMLSchema.xsd).
+        restriction1 is for the latter cases, when this
+        is restricting a complex type, as is attrDecls.
+  --&gt;
+&lt;!ELEMENT %list; ((%annotation;)?,(%simpleType;)?)&gt;
+&lt;!ATTLIST %list;
+    itemType      %QName;             #IMPLIED
+    id        ID       #IMPLIED
+    %listAttrs;&gt;
+&lt;!--
+        itemType and simpleType child are mutually exclusive,
+        one is required
+  --&gt;
+&lt;!ELEMENT %union; ((%annotation;)?,(%simpleType;)*)&gt;
+&lt;!ATTLIST %union;
+    id            ID       #IMPLIED
+    memberTypes   %QNames;            #IMPLIED
+    %unionAttrs;&gt;
+&lt;!--
+        At least one item in memberTypes or one simpleType
+        child is required
+  --&gt;
+
+&lt;!ELEMENT %maxExclusive; %facetModel;&gt;
+&lt;!ATTLIST %maxExclusive;
+        %facetAttr;
+        %fixedAttr;
+        %maxExclusiveAttrs;&gt;
+&lt;!ELEMENT %minExclusive; %facetModel;&gt;
+&lt;!ATTLIST %minExclusive;
+        %facetAttr;
+        %fixedAttr;
+        %minExclusiveAttrs;&gt;
+
+&lt;!ELEMENT %maxInclusive; %facetModel;&gt;
+&lt;!ATTLIST %maxInclusive;
+        %facetAttr;
+        %fixedAttr;
+        %maxInclusiveAttrs;&gt;
+&lt;!ELEMENT %minInclusive; %facetModel;&gt;
+&lt;!ATTLIST %minInclusive;
+        %facetAttr;
+        %fixedAttr;
+        %minInclusiveAttrs;&gt;
+
+&lt;!ELEMENT %totalDigits; %facetModel;&gt;
+&lt;!ATTLIST %totalDigits;
+        %facetAttr;
+        %fixedAttr;
+        %totalDigitsAttrs;&gt;
+&lt;!ELEMENT %fractionDigits; %facetModel;&gt;
+&lt;!ATTLIST %fractionDigits;
+        %facetAttr;
+        %fixedAttr;
+        %fractionDigitsAttrs;&gt;
+
+&lt;!ELEMENT %length; %facetModel;&gt;
+&lt;!ATTLIST %length;
+        %facetAttr;
+        %fixedAttr;
+        %lengthAttrs;&gt;
+&lt;!ELEMENT %minLength; %facetModel;&gt;
+&lt;!ATTLIST %minLength;
+        %facetAttr;
+        %fixedAttr;
+        %minLengthAttrs;&gt;
+&lt;!ELEMENT %maxLength; %facetModel;&gt;
+&lt;!ATTLIST %maxLength;
+        %facetAttr;
+        %fixedAttr;
+        %maxLengthAttrs;&gt;
+
+&lt;!-- This one can be repeated --&gt;
+&lt;!ELEMENT %enumeration; %facetModel;&gt;
+&lt;!ATTLIST %enumeration;
+        %facetAttr;
+        %enumerationAttrs;&gt;
+
+&lt;!ELEMENT %whiteSpace; %facetModel;&gt;
+&lt;!ATTLIST %whiteSpace;
+        %facetAttr;
+        %fixedAttr;
+        %whiteSpaceAttrs;&gt;
+
+&lt;!-- This one can be repeated --&gt;
+&lt;!ELEMENT %pattern; %facetModel;&gt;
+&lt;!ATTLIST %pattern;
+        %facetAttr;
+        %patternAttrs;&gt;
+</l7:Resource>
+                            <l7:Properties>
+<l7:Property key="publicIdentifier">
+    <l7:StringValue>datatypes</l7:StringValue>
+</l7:Property>
+                            </l7:Properties>
+                        </l7:ResourceDocument>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
+                    <l7:Name>http://www.w3.org/2001/xml.xsd</l7:Name>
+                    <l7:Id>0000000000000000fffffffffffffffb</l7:Id>
+                    <l7:Type>RESOURCE_ENTRY</l7:Type>
+                    <l7:TimeStamp>2019-06-05T01:20:39.174Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:ResourceDocument id="0000000000000000fffffffffffffffb" version="0">
+                            <l7:Resource sourceUrl="http://www.w3.org/2001/xml.xsd" type="xmlschema">&lt;?xml version='1.0'?&gt;
+&lt;xs:schema targetNamespace=&quot;http://www.w3.org/XML/1998/namespace&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xml:lang=&quot;en&quot;&gt;
+
+ &lt;xs:annotation&gt;
+  &lt;xs:documentation&gt;
+   See http://www.w3.org/XML/1998/namespace.html and
+   http://www.w3.org/TR/REC-xml for information about this namespace.
+
+    This schema document describes the XML namespace, in a form
+    suitable for import by other schema documents.
+
+    Note that local names in this namespace are intended to be defined
+    only by the World Wide Web Consortium or its subgroups.  The
+    following names are currently defined in this namespace and should
+    not be used with conflicting semantics by any Working Group,
+    specification, or document instance:
+
+    base (as an attribute name): denotes an attribute whose value
+         provides a URI to be used as the base for interpreting any
+         relative URIs in the scope of the element on which it
+         appears; its value is inherited.  This name is reserved
+         by virtue of its definition in the XML Base specification.
+
+    id   (as an attribute name): denotes an attribute whose value
+         should be interpreted as if declared to be of type ID.
+         This name is reserved by virtue of its definition in the
+         xml:id specification.
+
+    lang (as an attribute name): denotes an attribute whose value
+         is a language code for the natural language of the content of
+         any element; its value is inherited.  This name is reserved
+         by virtue of its definition in the XML specification.
+
+    space (as an attribute name): denotes an attribute whose
+         value is a keyword indicating what whitespace processing
+         discipline is intended for the content of the element; its
+         value is inherited.  This name is reserved by virtue of its
+         definition in the XML specification.
+
+    Father (in any context at all): denotes Jon Bosak, the chair of
+         the original XML Working Group.  This name is reserved by
+         the following decision of the W3C XML Plenary and
+         XML Coordination groups:
+
+             In appreciation for his vision, leadership and dedication
+             the W3C XML Plenary on this 10th day of February, 2000
+             reserves for Jon Bosak in perpetuity the XML name
+             xml:Father
+  &lt;/xs:documentation&gt;
+ &lt;/xs:annotation&gt;
+
+ &lt;xs:annotation&gt;
+  &lt;xs:documentation&gt;This schema defines attributes and an attribute group
+        suitable for use by
+        schemas wishing to allow xml:base, xml:lang, xml:space or xml:id
+        attributes on elements they define.
+
+        To enable this, such a schema must import this schema
+        for the XML namespace, e.g. as follows:
+        &amp;lt;schema . . .&gt;
+         . . .
+         &amp;lt;import namespace=&quot;http://www.w3.org/XML/1998/namespace&quot;
+                    schemaLocation=&quot;http://www.w3.org/2001/xml.xsd&quot;/&gt;
+
+        Subsequently, qualified reference to any of the attributes
+        or the group defined below will have the desired effect, e.g.
+
+        &amp;lt;type . . .&gt;
+         . . .
+         &amp;lt;attributeGroup ref=&quot;xml:specialAttrs&quot;/&gt;
+ 
+         will define a type which will schema-validate an instance
+         element with any of those attributes&lt;/xs:documentation&gt;
+ &lt;/xs:annotation&gt;
+
+ &lt;xs:annotation&gt;
+  &lt;xs:documentation&gt;In keeping with the XML Schema WG's standard versioning
+   policy, this schema document will persist at
+   http://www.w3.org/2007/08/xml.xsd.
+   At the date of issue it can also be found at
+   http://www.w3.org/2001/xml.xsd.
+   The schema document at that URI may however change in the future,
+   in order to remain compatible with the latest version of XML Schema
+   itself, or with the XML namespace itself.  In other words, if the XML
+   Schema or XML namespaces change, the version of this document at
+   http://www.w3.org/2001/xml.xsd will change
+   accordingly; the version at
+   http://www.w3.org/2007/08/xml.xsd will not change.
+  &lt;/xs:documentation&gt;
+ &lt;/xs:annotation&gt;
+
+ &lt;xs:attribute name=&quot;lang&quot;&gt;
+  &lt;xs:annotation&gt;
+   &lt;xs:documentation&gt;Attempting to install the relevant ISO 2- and 3-letter
+         codes as the enumerated possible values is probably never
+         going to be a realistic possibility.  See
+         RFC 3066 at http://www.ietf.org/rfc/rfc3066.txt and the IANA registry
+         at http://www.iana.org/assignments/lang-tag-apps.htm for
+         further information.
+
+         The union allows for the 'un-declaration' of xml:lang with
+         the empty string.&lt;/xs:documentation&gt;
+  &lt;/xs:annotation&gt;
+  &lt;xs:simpleType&gt;
+   &lt;xs:union memberTypes=&quot;xs:language&quot;&gt;
+    &lt;xs:simpleType&gt;
+     &lt;xs:restriction base=&quot;xs:string&quot;&gt;
+      &lt;xs:enumeration value=&quot;&quot;/&gt;
+     &lt;/xs:restriction&gt;
+    &lt;/xs:simpleType&gt;
+   &lt;/xs:union&gt;
+  &lt;/xs:simpleType&gt;
+ &lt;/xs:attribute&gt;
+
+ &lt;xs:attribute name=&quot;space&quot;&gt;
+  &lt;xs:simpleType&gt;
+   &lt;xs:restriction base=&quot;xs:NCName&quot;&gt;
+    &lt;xs:enumeration value=&quot;default&quot;/&gt;
+    &lt;xs:enumeration value=&quot;preserve&quot;/&gt;
+   &lt;/xs:restriction&gt;
+  &lt;/xs:simpleType&gt;
+ &lt;/xs:attribute&gt;
+
+ &lt;xs:attribute name=&quot;base&quot; type=&quot;xs:anyURI&quot;&gt;
+  &lt;xs:annotation&gt;
+   &lt;xs:documentation&gt;See http://www.w3.org/TR/xmlbase/ for
+                     information about this attribute.&lt;/xs:documentation&gt;
+  &lt;/xs:annotation&gt;
+ &lt;/xs:attribute&gt;
+
+ &lt;xs:attribute name=&quot;id&quot; type=&quot;xs:ID&quot;&gt;
+  &lt;xs:annotation&gt;
+   &lt;xs:documentation&gt;See http://www.w3.org/TR/xml-id/ for
+                     information about this attribute.&lt;/xs:documentation&gt;
+  &lt;/xs:annotation&gt;
+ &lt;/xs:attribute&gt;
+
+ &lt;xs:attributeGroup name=&quot;specialAttrs&quot;&gt;
+  &lt;xs:attribute ref=&quot;xml:base&quot;/&gt;
+  &lt;xs:attribute ref=&quot;xml:lang&quot;/&gt;
+  &lt;xs:attribute ref=&quot;xml:space&quot;/&gt;
+  &lt;xs:attribute ref=&quot;xml:id&quot;/&gt;
+ &lt;/xs:attributeGroup&gt;
+
+&lt;/xs:schema&gt;</l7:Resource>
+                            <l7:Properties>
+<l7:Property key="targetNamespace">
+    <l7:StringValue>http://www.w3.org/XML/1998/namespace</l7:StringValue>
+</l7:Property>
+                            </l7:Properties>
+                        </l7:ResourceDocument>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
+                    <l7:Name>http://www.w3.org/2003/05/soap-envelope/</l7:Name>
+                    <l7:Id>0000000000000000fffffffffffffffc</l7:Id>
+                    <l7:Type>RESOURCE_ENTRY</l7:Type>
+                    <l7:TimeStamp>2019-06-05T01:20:39.178Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:ResourceDocument id="0000000000000000fffffffffffffffc" version="0">
+                            <l7:Resource sourceUrl="http://www.w3.org/2003/05/soap-envelope/" type="xmlschema">&lt;?xml version='1.0'?&gt;
+&lt;!-- Schema defined in the SOAP Version 1.2 Part 1 specification
+     Recommendation:
+     http://www.w3.org/TR/2003/REC-soap12-part1-20030624/
+
+     Copyright (C)2003 W3C(R) (MIT, ERCIM, Keio), All Rights Reserved.
+     W3C viability, trademark, document use and software licensing rules
+     apply.
+     http://www.w3.org/Consortium/Legal/
+
+     This document is governed by the W3C Software License [1] as
+     described in the FAQ [2].
+
+     [1] http://www.w3.org/Consortium/Legal/copyright-software-19980720
+     [2] http://www.w3.org/Consortium/Legal/IPR-FAQ-20000620.html#DTD
+--&gt;
+
+&lt;xs:schema xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;
+           xmlns:tns=&quot;http://www.w3.org/2003/05/soap-envelope&quot;
+           targetNamespace=&quot;http://www.w3.org/2003/05/soap-envelope&quot; 
+		   elementFormDefault=&quot;qualified&quot; &gt;
+
+  &lt;xs:import namespace=&quot;http://www.w3.org/XML/1998/namespace&quot; 
+             schemaLocation=&quot;http://www.w3.org/2001/xml.xsd&quot;/&gt;
+
+  &lt;!-- Envelope, header and body --&gt;
+  &lt;xs:element name=&quot;Envelope&quot; type=&quot;tns:Envelope&quot; /&gt;
+  &lt;xs:complexType name=&quot;Envelope&quot; &gt;
+    &lt;xs:sequence&gt;
+      &lt;xs:element ref=&quot;tns:Header&quot; minOccurs=&quot;0&quot; /&gt;
+      &lt;xs:element ref=&quot;tns:Body&quot; minOccurs=&quot;1&quot; /&gt;
+    &lt;/xs:sequence&gt;
+    &lt;xs:anyAttribute namespace=&quot;##other&quot; processContents=&quot;lax&quot; /&gt;
+  &lt;/xs:complexType&gt;
+
+  &lt;xs:element name=&quot;Header&quot; type=&quot;tns:Header&quot; /&gt;
+  &lt;xs:complexType name=&quot;Header&quot; &gt;
+    &lt;xs:annotation&gt;
+	  &lt;xs:documentation&gt;
+	  Elements replacing the wildcard MUST be namespace qualified, but can be in the targetNamespace
+	  &lt;/xs:documentation&gt;
+	&lt;/xs:annotation&gt;
+    &lt;xs:sequence&gt;
+      &lt;xs:any namespace=&quot;##any&quot; processContents=&quot;lax&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;  /&gt;
+    &lt;/xs:sequence&gt;
+    &lt;xs:anyAttribute namespace=&quot;##other&quot; processContents=&quot;lax&quot; /&gt;
+  &lt;/xs:complexType&gt;
+  
+  &lt;xs:element name=&quot;Body&quot; type=&quot;tns:Body&quot; /&gt;
+  &lt;xs:complexType name=&quot;Body&quot; &gt;
+    &lt;xs:sequence&gt;
+      &lt;xs:any namespace=&quot;##any&quot; processContents=&quot;lax&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot; /&gt;
+    &lt;/xs:sequence&gt;
+    &lt;xs:anyAttribute namespace=&quot;##other&quot; processContents=&quot;lax&quot; /&gt;
+  &lt;/xs:complexType&gt;
+
+  &lt;!-- Global Attributes.  The following attributes are intended to be
+  usable via qualified attribute names on any complex type referencing
+  them.  --&gt;
+  &lt;xs:attribute name=&quot;mustUnderstand&quot; type=&quot;xs:boolean&quot; default=&quot;0&quot; /&gt;
+  &lt;xs:attribute name=&quot;relay&quot; type=&quot;xs:boolean&quot; default=&quot;0&quot; /&gt;
+  &lt;xs:attribute name=&quot;role&quot; type=&quot;xs:anyURI&quot; /&gt;
+
+  &lt;!-- 'encodingStyle' indicates any canonicalization conventions
+  followed in the contents of the containing element.  For example, the
+  value 'http://www.w3.org/2003/05/soap-encoding' indicates the pattern
+  described in the SOAP Version 1.2 Part 2: Adjuncts Recommendation --&gt;
+
+  &lt;xs:attribute name=&quot;encodingStyle&quot; type=&quot;xs:anyURI&quot; /&gt;
+
+  &lt;xs:element name=&quot;Fault&quot; type=&quot;tns:Fault&quot; /&gt;
+  &lt;xs:complexType name=&quot;Fault&quot; final=&quot;extension&quot; &gt;
+    &lt;xs:annotation&gt;
+	  &lt;xs:documentation&gt;
+	    Fault reporting structure
+	  &lt;/xs:documentation&gt;
+	&lt;/xs:annotation&gt;
+    &lt;xs:sequence&gt;
+      &lt;xs:element name=&quot;Code&quot; type=&quot;tns:faultcode&quot; /&gt;
+      &lt;xs:element name=&quot;Reason&quot; type=&quot;tns:faultreason&quot; /&gt;
+      &lt;xs:element name=&quot;Node&quot; type=&quot;xs:anyURI&quot; minOccurs=&quot;0&quot; /&gt;
+	  &lt;xs:element name=&quot;Role&quot; type=&quot;xs:anyURI&quot; minOccurs=&quot;0&quot; /&gt;
+      &lt;xs:element name=&quot;Detail&quot; type=&quot;tns:detail&quot; minOccurs=&quot;0&quot; /&gt;
+    &lt;/xs:sequence&gt;
+  &lt;/xs:complexType&gt;
+
+  &lt;xs:complexType name=&quot;faultreason&quot; &gt;
+    &lt;xs:sequence&gt;
+	  &lt;xs:element name=&quot;Text&quot; type=&quot;tns:reasontext&quot; 
+                  minOccurs=&quot;1&quot;  maxOccurs=&quot;unbounded&quot; /&gt;
+	&lt;/xs:sequence&gt;
+  &lt;/xs:complexType&gt;
+
+  &lt;xs:complexType name=&quot;reasontext&quot; &gt;
+    &lt;xs:simpleContent&gt;
+	  &lt;xs:extension base=&quot;xs:string&quot; &gt;
+	    &lt;xs:attribute ref=&quot;xml:lang&quot; use=&quot;required&quot; /&gt;
+	  &lt;/xs:extension&gt;
+	&lt;/xs:simpleContent&gt;
+  &lt;/xs:complexType&gt;
+  
+  &lt;xs:complexType name=&quot;faultcode&quot;&gt;
+    &lt;xs:sequence&gt;
+      &lt;xs:element name=&quot;Value&quot;
+                  type=&quot;tns:faultcodeEnum&quot;/&gt;
+      &lt;xs:element name=&quot;Subcode&quot;
+                  type=&quot;tns:subcode&quot;
+                  minOccurs=&quot;0&quot;/&gt;
+    &lt;/xs:sequence&gt;
+  &lt;/xs:complexType&gt;
+
+  &lt;xs:simpleType name=&quot;faultcodeEnum&quot;&gt;
+    &lt;xs:restriction base=&quot;xs:QName&quot;&gt;
+      &lt;xs:enumeration value=&quot;tns:DataEncodingUnknown&quot;/&gt;
+      &lt;xs:enumeration value=&quot;tns:MustUnderstand&quot;/&gt;
+      &lt;xs:enumeration value=&quot;tns:Receiver&quot;/&gt;
+      &lt;xs:enumeration value=&quot;tns:Sender&quot;/&gt;
+      &lt;xs:enumeration value=&quot;tns:VersionMismatch&quot;/&gt;
+    &lt;/xs:restriction&gt;
+  &lt;/xs:simpleType&gt;
+
+  &lt;xs:complexType name=&quot;subcode&quot;&gt;
+    &lt;xs:sequence&gt;
+      &lt;xs:element name=&quot;Value&quot;
+                  type=&quot;xs:QName&quot;/&gt;
+      &lt;xs:element name=&quot;Subcode&quot;
+                  type=&quot;tns:subcode&quot;
+                  minOccurs=&quot;0&quot;/&gt;
+    &lt;/xs:sequence&gt;
+  &lt;/xs:complexType&gt;
+
+  &lt;xs:complexType name=&quot;detail&quot;&gt;
+    &lt;xs:sequence&gt;
+      &lt;xs:any namespace=&quot;##any&quot; processContents=&quot;lax&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;  /&gt;
+    &lt;/xs:sequence&gt;
+    &lt;xs:anyAttribute namespace=&quot;##other&quot; processContents=&quot;lax&quot; /&gt; 
+  &lt;/xs:complexType&gt;
+
+  &lt;!-- Global element declaration and complex type definition for header entry returned due to a mustUnderstand fault --&gt;
+  &lt;xs:element name=&quot;NotUnderstood&quot; type=&quot;tns:NotUnderstoodType&quot; /&gt;
+  &lt;xs:complexType name=&quot;NotUnderstoodType&quot; &gt;
+    &lt;xs:attribute name=&quot;qname&quot; type=&quot;xs:QName&quot; use=&quot;required&quot; /&gt;
+  &lt;/xs:complexType&gt;
+
+
+  &lt;!-- Global element and associated types for managing version transition as described in Appendix A of the SOAP Version 1.2 Part 1 Recommendation  --&gt;  &lt;xs:complexType name=&quot;SupportedEnvType&quot; &gt;
+    &lt;xs:attribute name=&quot;qname&quot; type=&quot;xs:QName&quot; use=&quot;required&quot; /&gt;
+  &lt;/xs:complexType&gt;
+
+  &lt;xs:element name=&quot;Upgrade&quot; type=&quot;tns:UpgradeType&quot; /&gt;
+  &lt;xs:complexType name=&quot;UpgradeType&quot; &gt;
+    &lt;xs:sequence&gt;
+	  &lt;xs:element name=&quot;SupportedEnvelope&quot; type=&quot;tns:SupportedEnvType&quot; minOccurs=&quot;1&quot; maxOccurs=&quot;unbounded&quot; /&gt;
+	&lt;/xs:sequence&gt;
+  &lt;/xs:complexType&gt;
+
+
+&lt;/xs:schema&gt;</l7:Resource>
+                            <l7:Properties>
+<l7:Property key="targetNamespace">
+    <l7:StringValue>http://www.w3.org/2003/05/soap-envelope</l7:StringValue>
+</l7:Property>
+                            </l7:Properties>
+                        </l7:ResourceDocument>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
+                    <l7:Name>http://schemas.xmlsoap.org/soap/envelope/</l7:Name>
+                    <l7:Id>0000000000000000fffffffffffffffd</l7:Id>
+                    <l7:Type>RESOURCE_ENTRY</l7:Type>
+                    <l7:TimeStamp>2019-06-05T01:20:39.182Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:ResourceDocument id="0000000000000000fffffffffffffffd" version="0">
+                            <l7:Resource sourceUrl="http://schemas.xmlsoap.org/soap/envelope/" type="xmlschema">&lt;?xml version='1.0' encoding='UTF-8' ?&gt;
+&lt;xs:schema xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;
+           xmlns:tns=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;
+           targetNamespace=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; &gt;
+  &lt;!-- Envelope, header and body --&gt;
+  &lt;xs:element name=&quot;Envelope&quot; type=&quot;tns:Envelope&quot; /&gt;
+  &lt;xs:complexType name=&quot;Envelope&quot; &gt;
+    &lt;xs:sequence&gt;
+      &lt;xs:element ref=&quot;tns:Header&quot; minOccurs=&quot;0&quot; /&gt;
+      &lt;xs:element ref=&quot;tns:Body&quot; minOccurs=&quot;1&quot; /&gt;
+      &lt;xs:any namespace=&quot;##other&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot; processContents=&quot;lax&quot; /&gt;
+    &lt;/xs:sequence&gt;
+    &lt;xs:anyAttribute namespace=&quot;##other&quot; processContents=&quot;lax&quot; /&gt;
+  &lt;/xs:complexType&gt;
+  &lt;xs:element name=&quot;Header&quot; type=&quot;tns:Header&quot; /&gt;
+  &lt;xs:complexType name=&quot;Header&quot; &gt;
+    &lt;xs:sequence&gt;
+      &lt;xs:any namespace=&quot;##other&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot; processContents=&quot;lax&quot; /&gt;
+    &lt;/xs:sequence&gt;
+    &lt;xs:anyAttribute namespace=&quot;##other&quot; processContents=&quot;lax&quot; /&gt;
+  &lt;/xs:complexType&gt;
+  &lt;xs:element name=&quot;Body&quot; type=&quot;tns:Body&quot; /&gt;
+  &lt;xs:complexType name=&quot;Body&quot; &gt;
+    &lt;xs:sequence&gt;
+      &lt;xs:any namespace=&quot;##any&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot; processContents=&quot;lax&quot; /&gt;
+    &lt;/xs:sequence&gt;
+    &lt;xs:anyAttribute namespace=&quot;##any&quot; processContents=&quot;lax&quot; &gt;
+          &lt;xs:annotation&gt;
+            &lt;xs:documentation&gt;
+                  Prose in the spec does not specify that attributes are allowed on the Body element
+                &lt;/xs:documentation&gt;
+          &lt;/xs:annotation&gt;
+        &lt;/xs:anyAttribute&gt;
+  &lt;/xs:complexType&gt;
+  &lt;!-- Global Attributes.  The following attributes are intended to be usable via qualified attribute names on any complex type referencing them.  --&gt;
+  &lt;xs:attribute name=&quot;mustUnderstand&quot; &gt;
+     &lt;xs:simpleType&gt;
+     &lt;xs:restriction base='xs:boolean'&gt;
+           &lt;xs:pattern value='0|1' /&gt;
+         &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+  &lt;/xs:attribute&gt;
+  &lt;xs:attribute name=&quot;actor&quot; type=&quot;xs:anyURI&quot; /&gt;
+  &lt;xs:simpleType name=&quot;encodingStyle&quot; &gt;
+    &lt;xs:annotation&gt;
+          &lt;xs:documentation&gt;
+            'encodingStyle' indicates any canonicalization conventions followed in the contents of the containing element.  For example, the value 'http://schemas.xmlsoap.org/soap/encoding/' indicates the pattern described in SOAP specification
+          &lt;/xs:documentation&gt;
+        &lt;/xs:annotation&gt;
+    &lt;xs:list itemType=&quot;xs:anyURI&quot; /&gt;
+  &lt;/xs:simpleType&gt;
+  &lt;xs:attribute name=&quot;encodingStyle&quot; type=&quot;tns:encodingStyle&quot; /&gt;
+  &lt;xs:attributeGroup name=&quot;encodingStyle&quot; &gt;
+    &lt;xs:attribute ref=&quot;tns:encodingStyle&quot; /&gt;
+  &lt;/xs:attributeGroup&gt;  &lt;xs:element name=&quot;Fault&quot; type=&quot;tns:Fault&quot; /&gt;
+  &lt;xs:complexType name=&quot;Fault&quot; final=&quot;extension&quot; &gt;
+    &lt;xs:annotation&gt;
+          &lt;xs:documentation&gt;
+            Fault reporting structure
+          &lt;/xs:documentation&gt;
+        &lt;/xs:annotation&gt;
+    &lt;xs:sequence&gt;
+      &lt;xs:element name=&quot;faultcode&quot; type=&quot;xs:QName&quot; /&gt;
+      &lt;xs:element name=&quot;faultstring&quot; type=&quot;xs:string&quot; /&gt;
+      &lt;xs:element name=&quot;faultactor&quot; type=&quot;xs:anyURI&quot; minOccurs=&quot;0&quot; /&gt;
+      &lt;xs:element name=&quot;detail&quot; type=&quot;tns:detail&quot; minOccurs=&quot;0&quot; /&gt;
+    &lt;/xs:sequence&gt;
+  &lt;/xs:complexType&gt;
+  &lt;xs:complexType name=&quot;detail&quot;&gt;
+    &lt;xs:sequence&gt;
+      &lt;xs:any namespace=&quot;##any&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot; processContents=&quot;lax&quot; /&gt;
+    &lt;/xs:sequence&gt;
+    &lt;xs:anyAttribute namespace=&quot;##any&quot; processContents=&quot;lax&quot; /&gt;
+  &lt;/xs:complexType&gt;
+&lt;/xs:schema&gt;</l7:Resource>
+                            <l7:Properties>
+<l7:Property key="targetNamespace">
+    <l7:StringValue>http://schemas.xmlsoap.org/soap/envelope/</l7:StringValue>
+</l7:Property>
+                            </l7:Properties>
+                        </l7:ResourceDocument>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
                     <l7:Name>http://www.w3.org/2001/XMLSchema.dtd</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffff9</l7:Id>
                     <l7:Type>RESOURCE_ENTRY</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.880Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.189Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:ResourceDocument id="0000000000000000fffffffffffffff9" version="0">
                             <l7:Resource sourceUrl="http://www.w3.org/2001/XMLSchema.dtd" type="dtd">&lt;!-- DTD for XML Schemas: Part 1: Structures
@@ -1568,652 +1986,10 @@
                     </l7:Resource>
                 </l7:Item>
                 <l7:Item>
-                    <l7:Name>http://schemas.xmlsoap.org/soap/envelope/</l7:Name>
-                    <l7:Id>0000000000000000fffffffffffffffd</l7:Id>
-                    <l7:Type>RESOURCE_ENTRY</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.882Z</l7:TimeStamp>
-                    <l7:Resource>
-                        <l7:ResourceDocument id="0000000000000000fffffffffffffffd" version="0">
-                            <l7:Resource sourceUrl="http://schemas.xmlsoap.org/soap/envelope/" type="xmlschema">&lt;?xml version='1.0' encoding='UTF-8' ?&gt;
-&lt;xs:schema xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;
-           xmlns:tns=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;
-           targetNamespace=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; &gt;
-  &lt;!-- Envelope, header and body --&gt;
-  &lt;xs:element name=&quot;Envelope&quot; type=&quot;tns:Envelope&quot; /&gt;
-  &lt;xs:complexType name=&quot;Envelope&quot; &gt;
-    &lt;xs:sequence&gt;
-      &lt;xs:element ref=&quot;tns:Header&quot; minOccurs=&quot;0&quot; /&gt;
-      &lt;xs:element ref=&quot;tns:Body&quot; minOccurs=&quot;1&quot; /&gt;
-      &lt;xs:any namespace=&quot;##other&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot; processContents=&quot;lax&quot; /&gt;
-    &lt;/xs:sequence&gt;
-    &lt;xs:anyAttribute namespace=&quot;##other&quot; processContents=&quot;lax&quot; /&gt;
-  &lt;/xs:complexType&gt;
-  &lt;xs:element name=&quot;Header&quot; type=&quot;tns:Header&quot; /&gt;
-  &lt;xs:complexType name=&quot;Header&quot; &gt;
-    &lt;xs:sequence&gt;
-      &lt;xs:any namespace=&quot;##other&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot; processContents=&quot;lax&quot; /&gt;
-    &lt;/xs:sequence&gt;
-    &lt;xs:anyAttribute namespace=&quot;##other&quot; processContents=&quot;lax&quot; /&gt;
-  &lt;/xs:complexType&gt;
-  &lt;xs:element name=&quot;Body&quot; type=&quot;tns:Body&quot; /&gt;
-  &lt;xs:complexType name=&quot;Body&quot; &gt;
-    &lt;xs:sequence&gt;
-      &lt;xs:any namespace=&quot;##any&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot; processContents=&quot;lax&quot; /&gt;
-    &lt;/xs:sequence&gt;
-    &lt;xs:anyAttribute namespace=&quot;##any&quot; processContents=&quot;lax&quot; &gt;
-          &lt;xs:annotation&gt;
-            &lt;xs:documentation&gt;
-                  Prose in the spec does not specify that attributes are allowed on the Body element
-                &lt;/xs:documentation&gt;
-          &lt;/xs:annotation&gt;
-        &lt;/xs:anyAttribute&gt;
-  &lt;/xs:complexType&gt;
-  &lt;!-- Global Attributes.  The following attributes are intended to be usable via qualified attribute names on any complex type referencing them.  --&gt;
-  &lt;xs:attribute name=&quot;mustUnderstand&quot; &gt;
-     &lt;xs:simpleType&gt;
-     &lt;xs:restriction base='xs:boolean'&gt;
-           &lt;xs:pattern value='0|1' /&gt;
-         &lt;/xs:restriction&gt;
-   &lt;/xs:simpleType&gt;
-  &lt;/xs:attribute&gt;
-  &lt;xs:attribute name=&quot;actor&quot; type=&quot;xs:anyURI&quot; /&gt;
-  &lt;xs:simpleType name=&quot;encodingStyle&quot; &gt;
-    &lt;xs:annotation&gt;
-          &lt;xs:documentation&gt;
-            'encodingStyle' indicates any canonicalization conventions followed in the contents of the containing element.  For example, the value 'http://schemas.xmlsoap.org/soap/encoding/' indicates the pattern described in SOAP specification
-          &lt;/xs:documentation&gt;
-        &lt;/xs:annotation&gt;
-    &lt;xs:list itemType=&quot;xs:anyURI&quot; /&gt;
-  &lt;/xs:simpleType&gt;
-  &lt;xs:attribute name=&quot;encodingStyle&quot; type=&quot;tns:encodingStyle&quot; /&gt;
-  &lt;xs:attributeGroup name=&quot;encodingStyle&quot; &gt;
-    &lt;xs:attribute ref=&quot;tns:encodingStyle&quot; /&gt;
-  &lt;/xs:attributeGroup&gt;  &lt;xs:element name=&quot;Fault&quot; type=&quot;tns:Fault&quot; /&gt;
-  &lt;xs:complexType name=&quot;Fault&quot; final=&quot;extension&quot; &gt;
-    &lt;xs:annotation&gt;
-          &lt;xs:documentation&gt;
-            Fault reporting structure
-          &lt;/xs:documentation&gt;
-        &lt;/xs:annotation&gt;
-    &lt;xs:sequence&gt;
-      &lt;xs:element name=&quot;faultcode&quot; type=&quot;xs:QName&quot; /&gt;
-      &lt;xs:element name=&quot;faultstring&quot; type=&quot;xs:string&quot; /&gt;
-      &lt;xs:element name=&quot;faultactor&quot; type=&quot;xs:anyURI&quot; minOccurs=&quot;0&quot; /&gt;
-      &lt;xs:element name=&quot;detail&quot; type=&quot;tns:detail&quot; minOccurs=&quot;0&quot; /&gt;
-    &lt;/xs:sequence&gt;
-  &lt;/xs:complexType&gt;
-  &lt;xs:complexType name=&quot;detail&quot;&gt;
-    &lt;xs:sequence&gt;
-      &lt;xs:any namespace=&quot;##any&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot; processContents=&quot;lax&quot; /&gt;
-    &lt;/xs:sequence&gt;
-    &lt;xs:anyAttribute namespace=&quot;##any&quot; processContents=&quot;lax&quot; /&gt;
-  &lt;/xs:complexType&gt;
-&lt;/xs:schema&gt;</l7:Resource>
-                            <l7:Properties>
-<l7:Property key="targetNamespace">
-    <l7:StringValue>http://schemas.xmlsoap.org/soap/envelope/</l7:StringValue>
-</l7:Property>
-                            </l7:Properties>
-                        </l7:ResourceDocument>
-                    </l7:Resource>
-                </l7:Item>
-                <l7:Item>
-                    <l7:Name>http://www.w3.org/2003/05/soap-envelope/</l7:Name>
-                    <l7:Id>0000000000000000fffffffffffffffc</l7:Id>
-                    <l7:Type>RESOURCE_ENTRY</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.883Z</l7:TimeStamp>
-                    <l7:Resource>
-                        <l7:ResourceDocument id="0000000000000000fffffffffffffffc" version="0">
-                            <l7:Resource sourceUrl="http://www.w3.org/2003/05/soap-envelope/" type="xmlschema">&lt;?xml version='1.0'?&gt;
-&lt;!-- Schema defined in the SOAP Version 1.2 Part 1 specification
-     Recommendation:
-     http://www.w3.org/TR/2003/REC-soap12-part1-20030624/
-
-     Copyright (C)2003 W3C(R) (MIT, ERCIM, Keio), All Rights Reserved.
-     W3C viability, trademark, document use and software licensing rules
-     apply.
-     http://www.w3.org/Consortium/Legal/
-
-     This document is governed by the W3C Software License [1] as
-     described in the FAQ [2].
-
-     [1] http://www.w3.org/Consortium/Legal/copyright-software-19980720
-     [2] http://www.w3.org/Consortium/Legal/IPR-FAQ-20000620.html#DTD
---&gt;
-
-&lt;xs:schema xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;
-           xmlns:tns=&quot;http://www.w3.org/2003/05/soap-envelope&quot;
-           targetNamespace=&quot;http://www.w3.org/2003/05/soap-envelope&quot; 
-		   elementFormDefault=&quot;qualified&quot; &gt;
-
-  &lt;xs:import namespace=&quot;http://www.w3.org/XML/1998/namespace&quot; 
-             schemaLocation=&quot;http://www.w3.org/2001/xml.xsd&quot;/&gt;
-
-  &lt;!-- Envelope, header and body --&gt;
-  &lt;xs:element name=&quot;Envelope&quot; type=&quot;tns:Envelope&quot; /&gt;
-  &lt;xs:complexType name=&quot;Envelope&quot; &gt;
-    &lt;xs:sequence&gt;
-      &lt;xs:element ref=&quot;tns:Header&quot; minOccurs=&quot;0&quot; /&gt;
-      &lt;xs:element ref=&quot;tns:Body&quot; minOccurs=&quot;1&quot; /&gt;
-    &lt;/xs:sequence&gt;
-    &lt;xs:anyAttribute namespace=&quot;##other&quot; processContents=&quot;lax&quot; /&gt;
-  &lt;/xs:complexType&gt;
-
-  &lt;xs:element name=&quot;Header&quot; type=&quot;tns:Header&quot; /&gt;
-  &lt;xs:complexType name=&quot;Header&quot; &gt;
-    &lt;xs:annotation&gt;
-	  &lt;xs:documentation&gt;
-	  Elements replacing the wildcard MUST be namespace qualified, but can be in the targetNamespace
-	  &lt;/xs:documentation&gt;
-	&lt;/xs:annotation&gt;
-    &lt;xs:sequence&gt;
-      &lt;xs:any namespace=&quot;##any&quot; processContents=&quot;lax&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;  /&gt;
-    &lt;/xs:sequence&gt;
-    &lt;xs:anyAttribute namespace=&quot;##other&quot; processContents=&quot;lax&quot; /&gt;
-  &lt;/xs:complexType&gt;
-  
-  &lt;xs:element name=&quot;Body&quot; type=&quot;tns:Body&quot; /&gt;
-  &lt;xs:complexType name=&quot;Body&quot; &gt;
-    &lt;xs:sequence&gt;
-      &lt;xs:any namespace=&quot;##any&quot; processContents=&quot;lax&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot; /&gt;
-    &lt;/xs:sequence&gt;
-    &lt;xs:anyAttribute namespace=&quot;##other&quot; processContents=&quot;lax&quot; /&gt;
-  &lt;/xs:complexType&gt;
-
-  &lt;!-- Global Attributes.  The following attributes are intended to be
-  usable via qualified attribute names on any complex type referencing
-  them.  --&gt;
-  &lt;xs:attribute name=&quot;mustUnderstand&quot; type=&quot;xs:boolean&quot; default=&quot;0&quot; /&gt;
-  &lt;xs:attribute name=&quot;relay&quot; type=&quot;xs:boolean&quot; default=&quot;0&quot; /&gt;
-  &lt;xs:attribute name=&quot;role&quot; type=&quot;xs:anyURI&quot; /&gt;
-
-  &lt;!-- 'encodingStyle' indicates any canonicalization conventions
-  followed in the contents of the containing element.  For example, the
-  value 'http://www.w3.org/2003/05/soap-encoding' indicates the pattern
-  described in the SOAP Version 1.2 Part 2: Adjuncts Recommendation --&gt;
-
-  &lt;xs:attribute name=&quot;encodingStyle&quot; type=&quot;xs:anyURI&quot; /&gt;
-
-  &lt;xs:element name=&quot;Fault&quot; type=&quot;tns:Fault&quot; /&gt;
-  &lt;xs:complexType name=&quot;Fault&quot; final=&quot;extension&quot; &gt;
-    &lt;xs:annotation&gt;
-	  &lt;xs:documentation&gt;
-	    Fault reporting structure
-	  &lt;/xs:documentation&gt;
-	&lt;/xs:annotation&gt;
-    &lt;xs:sequence&gt;
-      &lt;xs:element name=&quot;Code&quot; type=&quot;tns:faultcode&quot; /&gt;
-      &lt;xs:element name=&quot;Reason&quot; type=&quot;tns:faultreason&quot; /&gt;
-      &lt;xs:element name=&quot;Node&quot; type=&quot;xs:anyURI&quot; minOccurs=&quot;0&quot; /&gt;
-	  &lt;xs:element name=&quot;Role&quot; type=&quot;xs:anyURI&quot; minOccurs=&quot;0&quot; /&gt;
-      &lt;xs:element name=&quot;Detail&quot; type=&quot;tns:detail&quot; minOccurs=&quot;0&quot; /&gt;
-    &lt;/xs:sequence&gt;
-  &lt;/xs:complexType&gt;
-
-  &lt;xs:complexType name=&quot;faultreason&quot; &gt;
-    &lt;xs:sequence&gt;
-	  &lt;xs:element name=&quot;Text&quot; type=&quot;tns:reasontext&quot; 
-                  minOccurs=&quot;1&quot;  maxOccurs=&quot;unbounded&quot; /&gt;
-	&lt;/xs:sequence&gt;
-  &lt;/xs:complexType&gt;
-
-  &lt;xs:complexType name=&quot;reasontext&quot; &gt;
-    &lt;xs:simpleContent&gt;
-	  &lt;xs:extension base=&quot;xs:string&quot; &gt;
-	    &lt;xs:attribute ref=&quot;xml:lang&quot; use=&quot;required&quot; /&gt;
-	  &lt;/xs:extension&gt;
-	&lt;/xs:simpleContent&gt;
-  &lt;/xs:complexType&gt;
-  
-  &lt;xs:complexType name=&quot;faultcode&quot;&gt;
-    &lt;xs:sequence&gt;
-      &lt;xs:element name=&quot;Value&quot;
-                  type=&quot;tns:faultcodeEnum&quot;/&gt;
-      &lt;xs:element name=&quot;Subcode&quot;
-                  type=&quot;tns:subcode&quot;
-                  minOccurs=&quot;0&quot;/&gt;
-    &lt;/xs:sequence&gt;
-  &lt;/xs:complexType&gt;
-
-  &lt;xs:simpleType name=&quot;faultcodeEnum&quot;&gt;
-    &lt;xs:restriction base=&quot;xs:QName&quot;&gt;
-      &lt;xs:enumeration value=&quot;tns:DataEncodingUnknown&quot;/&gt;
-      &lt;xs:enumeration value=&quot;tns:MustUnderstand&quot;/&gt;
-      &lt;xs:enumeration value=&quot;tns:Receiver&quot;/&gt;
-      &lt;xs:enumeration value=&quot;tns:Sender&quot;/&gt;
-      &lt;xs:enumeration value=&quot;tns:VersionMismatch&quot;/&gt;
-    &lt;/xs:restriction&gt;
-  &lt;/xs:simpleType&gt;
-
-  &lt;xs:complexType name=&quot;subcode&quot;&gt;
-    &lt;xs:sequence&gt;
-      &lt;xs:element name=&quot;Value&quot;
-                  type=&quot;xs:QName&quot;/&gt;
-      &lt;xs:element name=&quot;Subcode&quot;
-                  type=&quot;tns:subcode&quot;
-                  minOccurs=&quot;0&quot;/&gt;
-    &lt;/xs:sequence&gt;
-  &lt;/xs:complexType&gt;
-
-  &lt;xs:complexType name=&quot;detail&quot;&gt;
-    &lt;xs:sequence&gt;
-      &lt;xs:any namespace=&quot;##any&quot; processContents=&quot;lax&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;  /&gt;
-    &lt;/xs:sequence&gt;
-    &lt;xs:anyAttribute namespace=&quot;##other&quot; processContents=&quot;lax&quot; /&gt; 
-  &lt;/xs:complexType&gt;
-
-  &lt;!-- Global element declaration and complex type definition for header entry returned due to a mustUnderstand fault --&gt;
-  &lt;xs:element name=&quot;NotUnderstood&quot; type=&quot;tns:NotUnderstoodType&quot; /&gt;
-  &lt;xs:complexType name=&quot;NotUnderstoodType&quot; &gt;
-    &lt;xs:attribute name=&quot;qname&quot; type=&quot;xs:QName&quot; use=&quot;required&quot; /&gt;
-  &lt;/xs:complexType&gt;
-
-
-  &lt;!-- Global element and associated types for managing version transition as described in Appendix A of the SOAP Version 1.2 Part 1 Recommendation  --&gt;  &lt;xs:complexType name=&quot;SupportedEnvType&quot; &gt;
-    &lt;xs:attribute name=&quot;qname&quot; type=&quot;xs:QName&quot; use=&quot;required&quot; /&gt;
-  &lt;/xs:complexType&gt;
-
-  &lt;xs:element name=&quot;Upgrade&quot; type=&quot;tns:UpgradeType&quot; /&gt;
-  &lt;xs:complexType name=&quot;UpgradeType&quot; &gt;
-    &lt;xs:sequence&gt;
-	  &lt;xs:element name=&quot;SupportedEnvelope&quot; type=&quot;tns:SupportedEnvType&quot; minOccurs=&quot;1&quot; maxOccurs=&quot;unbounded&quot; /&gt;
-	&lt;/xs:sequence&gt;
-  &lt;/xs:complexType&gt;
-
-
-&lt;/xs:schema&gt;</l7:Resource>
-                            <l7:Properties>
-<l7:Property key="targetNamespace">
-    <l7:StringValue>http://www.w3.org/2003/05/soap-envelope</l7:StringValue>
-</l7:Property>
-                            </l7:Properties>
-                        </l7:ResourceDocument>
-                    </l7:Resource>
-                </l7:Item>
-                <l7:Item>
-                    <l7:Name>http://www.w3.org/2001/xml.xsd</l7:Name>
-                    <l7:Id>0000000000000000fffffffffffffffb</l7:Id>
-                    <l7:Type>RESOURCE_ENTRY</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.884Z</l7:TimeStamp>
-                    <l7:Resource>
-                        <l7:ResourceDocument id="0000000000000000fffffffffffffffb" version="0">
-                            <l7:Resource sourceUrl="http://www.w3.org/2001/xml.xsd" type="xmlschema">&lt;?xml version='1.0'?&gt;
-&lt;xs:schema targetNamespace=&quot;http://www.w3.org/XML/1998/namespace&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xml:lang=&quot;en&quot;&gt;
-
- &lt;xs:annotation&gt;
-  &lt;xs:documentation&gt;
-   See http://www.w3.org/XML/1998/namespace.html and
-   http://www.w3.org/TR/REC-xml for information about this namespace.
-
-    This schema document describes the XML namespace, in a form
-    suitable for import by other schema documents.
-
-    Note that local names in this namespace are intended to be defined
-    only by the World Wide Web Consortium or its subgroups.  The
-    following names are currently defined in this namespace and should
-    not be used with conflicting semantics by any Working Group,
-    specification, or document instance:
-
-    base (as an attribute name): denotes an attribute whose value
-         provides a URI to be used as the base for interpreting any
-         relative URIs in the scope of the element on which it
-         appears; its value is inherited.  This name is reserved
-         by virtue of its definition in the XML Base specification.
-
-    id   (as an attribute name): denotes an attribute whose value
-         should be interpreted as if declared to be of type ID.
-         This name is reserved by virtue of its definition in the
-         xml:id specification.
-
-    lang (as an attribute name): denotes an attribute whose value
-         is a language code for the natural language of the content of
-         any element; its value is inherited.  This name is reserved
-         by virtue of its definition in the XML specification.
-
-    space (as an attribute name): denotes an attribute whose
-         value is a keyword indicating what whitespace processing
-         discipline is intended for the content of the element; its
-         value is inherited.  This name is reserved by virtue of its
-         definition in the XML specification.
-
-    Father (in any context at all): denotes Jon Bosak, the chair of
-         the original XML Working Group.  This name is reserved by
-         the following decision of the W3C XML Plenary and
-         XML Coordination groups:
-
-             In appreciation for his vision, leadership and dedication
-             the W3C XML Plenary on this 10th day of February, 2000
-             reserves for Jon Bosak in perpetuity the XML name
-             xml:Father
-  &lt;/xs:documentation&gt;
- &lt;/xs:annotation&gt;
-
- &lt;xs:annotation&gt;
-  &lt;xs:documentation&gt;This schema defines attributes and an attribute group
-        suitable for use by
-        schemas wishing to allow xml:base, xml:lang, xml:space or xml:id
-        attributes on elements they define.
-
-        To enable this, such a schema must import this schema
-        for the XML namespace, e.g. as follows:
-        &amp;lt;schema . . .&gt;
-         . . .
-         &amp;lt;import namespace=&quot;http://www.w3.org/XML/1998/namespace&quot;
-                    schemaLocation=&quot;http://www.w3.org/2001/xml.xsd&quot;/&gt;
-
-        Subsequently, qualified reference to any of the attributes
-        or the group defined below will have the desired effect, e.g.
-
-        &amp;lt;type . . .&gt;
-         . . .
-         &amp;lt;attributeGroup ref=&quot;xml:specialAttrs&quot;/&gt;
- 
-         will define a type which will schema-validate an instance
-         element with any of those attributes&lt;/xs:documentation&gt;
- &lt;/xs:annotation&gt;
-
- &lt;xs:annotation&gt;
-  &lt;xs:documentation&gt;In keeping with the XML Schema WG's standard versioning
-   policy, this schema document will persist at
-   http://www.w3.org/2007/08/xml.xsd.
-   At the date of issue it can also be found at
-   http://www.w3.org/2001/xml.xsd.
-   The schema document at that URI may however change in the future,
-   in order to remain compatible with the latest version of XML Schema
-   itself, or with the XML namespace itself.  In other words, if the XML
-   Schema or XML namespaces change, the version of this document at
-   http://www.w3.org/2001/xml.xsd will change
-   accordingly; the version at
-   http://www.w3.org/2007/08/xml.xsd will not change.
-  &lt;/xs:documentation&gt;
- &lt;/xs:annotation&gt;
-
- &lt;xs:attribute name=&quot;lang&quot;&gt;
-  &lt;xs:annotation&gt;
-   &lt;xs:documentation&gt;Attempting to install the relevant ISO 2- and 3-letter
-         codes as the enumerated possible values is probably never
-         going to be a realistic possibility.  See
-         RFC 3066 at http://www.ietf.org/rfc/rfc3066.txt and the IANA registry
-         at http://www.iana.org/assignments/lang-tag-apps.htm for
-         further information.
-
-         The union allows for the 'un-declaration' of xml:lang with
-         the empty string.&lt;/xs:documentation&gt;
-  &lt;/xs:annotation&gt;
-  &lt;xs:simpleType&gt;
-   &lt;xs:union memberTypes=&quot;xs:language&quot;&gt;
-    &lt;xs:simpleType&gt;
-     &lt;xs:restriction base=&quot;xs:string&quot;&gt;
-      &lt;xs:enumeration value=&quot;&quot;/&gt;
-     &lt;/xs:restriction&gt;
-    &lt;/xs:simpleType&gt;
-   &lt;/xs:union&gt;
-  &lt;/xs:simpleType&gt;
- &lt;/xs:attribute&gt;
-
- &lt;xs:attribute name=&quot;space&quot;&gt;
-  &lt;xs:simpleType&gt;
-   &lt;xs:restriction base=&quot;xs:NCName&quot;&gt;
-    &lt;xs:enumeration value=&quot;default&quot;/&gt;
-    &lt;xs:enumeration value=&quot;preserve&quot;/&gt;
-   &lt;/xs:restriction&gt;
-  &lt;/xs:simpleType&gt;
- &lt;/xs:attribute&gt;
-
- &lt;xs:attribute name=&quot;base&quot; type=&quot;xs:anyURI&quot;&gt;
-  &lt;xs:annotation&gt;
-   &lt;xs:documentation&gt;See http://www.w3.org/TR/xmlbase/ for
-                     information about this attribute.&lt;/xs:documentation&gt;
-  &lt;/xs:annotation&gt;
- &lt;/xs:attribute&gt;
-
- &lt;xs:attribute name=&quot;id&quot; type=&quot;xs:ID&quot;&gt;
-  &lt;xs:annotation&gt;
-   &lt;xs:documentation&gt;See http://www.w3.org/TR/xml-id/ for
-                     information about this attribute.&lt;/xs:documentation&gt;
-  &lt;/xs:annotation&gt;
- &lt;/xs:attribute&gt;
-
- &lt;xs:attributeGroup name=&quot;specialAttrs&quot;&gt;
-  &lt;xs:attribute ref=&quot;xml:base&quot;/&gt;
-  &lt;xs:attribute ref=&quot;xml:lang&quot;/&gt;
-  &lt;xs:attribute ref=&quot;xml:space&quot;/&gt;
-  &lt;xs:attribute ref=&quot;xml:id&quot;/&gt;
- &lt;/xs:attributeGroup&gt;
-
-&lt;/xs:schema&gt;</l7:Resource>
-                            <l7:Properties>
-<l7:Property key="targetNamespace">
-    <l7:StringValue>http://www.w3.org/XML/1998/namespace</l7:StringValue>
-</l7:Property>
-                            </l7:Properties>
-                        </l7:ResourceDocument>
-                    </l7:Resource>
-                </l7:Item>
-                <l7:Item>
-                    <l7:Name>http://www.w3.org/2001/datatypes.dtd</l7:Name>
-                    <l7:Id>0000000000000000fffffffffffffffa</l7:Id>
-                    <l7:Type>RESOURCE_ENTRY</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.884Z</l7:TimeStamp>
-                    <l7:Resource>
-                        <l7:ResourceDocument id="0000000000000000fffffffffffffffa" version="0">
-                            <l7:Resource sourceUrl="http://www.w3.org/2001/datatypes.dtd" type="dtd">&lt;!--
-        DTD for XML Schemas: Part 2: Datatypes
-        $Id: datatypes.dtd,v 1.23 2001/03/16 17:36:30 ht Exp $
-        Note this DTD is NOT normative, or even definitive. - - the
-        prose copy in the datatypes REC is the definitive version
-        (which shouldn't differ from this one except for this comment
-        and entity expansions, but just in case)
-  --&gt;
-
-&lt;!--
-        This DTD cannot be used on its own, it is intended
-        only for incorporation in XMLSchema.dtd, q.v.
-  --&gt;
-
-&lt;!-- Define all the element names, with optional prefix --&gt;
-&lt;!ENTITY % simpleType &quot;%p;simpleType&quot;&gt;
-&lt;!ENTITY % restriction &quot;%p;restriction&quot;&gt;
-&lt;!ENTITY % list &quot;%p;list&quot;&gt;
-&lt;!ENTITY % union &quot;%p;union&quot;&gt;
-&lt;!ENTITY % maxExclusive &quot;%p;maxExclusive&quot;&gt;
-&lt;!ENTITY % minExclusive &quot;%p;minExclusive&quot;&gt;
-&lt;!ENTITY % maxInclusive &quot;%p;maxInclusive&quot;&gt;
-&lt;!ENTITY % minInclusive &quot;%p;minInclusive&quot;&gt;
-&lt;!ENTITY % totalDigits &quot;%p;totalDigits&quot;&gt;
-&lt;!ENTITY % fractionDigits &quot;%p;fractionDigits&quot;&gt;
-&lt;!ENTITY % length &quot;%p;length&quot;&gt;
-&lt;!ENTITY % minLength &quot;%p;minLength&quot;&gt;
-&lt;!ENTITY % maxLength &quot;%p;maxLength&quot;&gt;
-&lt;!ENTITY % enumeration &quot;%p;enumeration&quot;&gt;
-&lt;!ENTITY % whiteSpace &quot;%p;whiteSpace&quot;&gt;
-&lt;!ENTITY % pattern &quot;%p;pattern&quot;&gt;
-
-&lt;!--
-        Customisation entities for the ATTLIST of each element
-        type. Define one of these if your schema takes advantage
-        of the anyAttribute='##other' in the schema for schemas
-  --&gt;
-
-&lt;!ENTITY % simpleTypeAttrs &quot;&quot;&gt;
-&lt;!ENTITY % restrictionAttrs &quot;&quot;&gt;
-&lt;!ENTITY % listAttrs &quot;&quot;&gt;
-&lt;!ENTITY % unionAttrs &quot;&quot;&gt;
-&lt;!ENTITY % maxExclusiveAttrs &quot;&quot;&gt;
-&lt;!ENTITY % minExclusiveAttrs &quot;&quot;&gt;
-&lt;!ENTITY % maxInclusiveAttrs &quot;&quot;&gt;
-&lt;!ENTITY % minInclusiveAttrs &quot;&quot;&gt;
-&lt;!ENTITY % totalDigitsAttrs &quot;&quot;&gt;
-&lt;!ENTITY % fractionDigitsAttrs &quot;&quot;&gt;
-&lt;!ENTITY % lengthAttrs &quot;&quot;&gt;
-&lt;!ENTITY % minLengthAttrs &quot;&quot;&gt;
-&lt;!ENTITY % maxLengthAttrs &quot;&quot;&gt;
-&lt;!ENTITY % enumerationAttrs &quot;&quot;&gt;
-&lt;!ENTITY % whiteSpaceAttrs &quot;&quot;&gt;
-&lt;!ENTITY % patternAttrs &quot;&quot;&gt;
-
-&lt;!-- Define some entities for informative use as attribute
-        types --&gt;
-&lt;!ENTITY % URIref &quot;CDATA&quot;&gt;
-&lt;!ENTITY % XPathExpr &quot;CDATA&quot;&gt;
-&lt;!ENTITY % QName &quot;NMTOKEN&quot;&gt;
-&lt;!ENTITY % QNames &quot;NMTOKENS&quot;&gt;
-&lt;!ENTITY % NCName &quot;NMTOKEN&quot;&gt;
-&lt;!ENTITY % nonNegativeInteger &quot;NMTOKEN&quot;&gt;
-&lt;!ENTITY % boolean &quot;(true|false)&quot;&gt;
-&lt;!ENTITY % simpleDerivationSet &quot;CDATA&quot;&gt;
-&lt;!--
-        #all or space-separated list drawn from derivationChoice
-  --&gt;
-
-&lt;!--
-        Note that the use of 'facet' below is less restrictive
-        than is really intended:  There should in fact be no
-        more than one of each of minInclusive, minExclusive,
-        maxInclusive, maxExclusive, totalDigits, fractionDigits,
-        length, maxLength, minLength within datatype,
-        and the min- and max- variants of Inclusive and Exclusive
-        are mutually exclusive. On the other hand,  pattern and
-        enumeration may repeat.
-  --&gt;
-&lt;!ENTITY % minBound &quot;(%minInclusive; | %minExclusive;)&quot;&gt;
-&lt;!ENTITY % maxBound &quot;(%maxInclusive; | %maxExclusive;)&quot;&gt;
-&lt;!ENTITY % bounds &quot;%minBound; | %maxBound;&quot;&gt;
-&lt;!ENTITY % numeric &quot;%totalDigits; | %fractionDigits;&quot;&gt;
-&lt;!ENTITY % ordered &quot;%bounds; | %numeric;&quot;&gt;
-&lt;!ENTITY % unordered
-   &quot;%pattern; | %enumeration; | %whiteSpace; | %length; |
-   %maxLength; | %minLength;&quot;&gt;
-&lt;!ENTITY % facet &quot;%ordered; | %unordered;&quot;&gt;
-&lt;!ENTITY % facetAttr 
-        &quot;value CDATA #REQUIRED
-        id ID #IMPLIED&quot;&gt;
-&lt;!ENTITY % fixedAttr &quot;fixed %boolean; #IMPLIED&quot;&gt;
-&lt;!ENTITY % facetModel &quot;(%annotation;)?&quot;&gt;
-&lt;!ELEMENT %simpleType;
-        ((%annotation;)?, (%restriction; | %list; | %union;))&gt;
-&lt;!ATTLIST %simpleType;
-    name      %NCName; #IMPLIED
-    final     %simpleDerivationSet; #IMPLIED
-    id        ID       #IMPLIED
-    %simpleTypeAttrs;&gt;
-&lt;!-- name is required at top level --&gt;
-&lt;!ELEMENT %restriction; ((%annotation;)?,
-                         (%restriction1; |
-                          ((%simpleType;)?,(%facet;)*)),
-                         (%attrDecls;))&gt;
-&lt;!ATTLIST %restriction;
-    base      %QName;                  #IMPLIED
-    id        ID       #IMPLIED
-    %restrictionAttrs;&gt;
-&lt;!--
-        base and simpleType child are mutually exclusive,
-        one is required.
-
-        restriction is shared between simpleType and
-        simpleContent and complexContent (in XMLSchema.xsd).
-        restriction1 is for the latter cases, when this
-        is restricting a complex type, as is attrDecls.
-  --&gt;
-&lt;!ELEMENT %list; ((%annotation;)?,(%simpleType;)?)&gt;
-&lt;!ATTLIST %list;
-    itemType      %QName;             #IMPLIED
-    id        ID       #IMPLIED
-    %listAttrs;&gt;
-&lt;!--
-        itemType and simpleType child are mutually exclusive,
-        one is required
-  --&gt;
-&lt;!ELEMENT %union; ((%annotation;)?,(%simpleType;)*)&gt;
-&lt;!ATTLIST %union;
-    id            ID       #IMPLIED
-    memberTypes   %QNames;            #IMPLIED
-    %unionAttrs;&gt;
-&lt;!--
-        At least one item in memberTypes or one simpleType
-        child is required
-  --&gt;
-
-&lt;!ELEMENT %maxExclusive; %facetModel;&gt;
-&lt;!ATTLIST %maxExclusive;
-        %facetAttr;
-        %fixedAttr;
-        %maxExclusiveAttrs;&gt;
-&lt;!ELEMENT %minExclusive; %facetModel;&gt;
-&lt;!ATTLIST %minExclusive;
-        %facetAttr;
-        %fixedAttr;
-        %minExclusiveAttrs;&gt;
-
-&lt;!ELEMENT %maxInclusive; %facetModel;&gt;
-&lt;!ATTLIST %maxInclusive;
-        %facetAttr;
-        %fixedAttr;
-        %maxInclusiveAttrs;&gt;
-&lt;!ELEMENT %minInclusive; %facetModel;&gt;
-&lt;!ATTLIST %minInclusive;
-        %facetAttr;
-        %fixedAttr;
-        %minInclusiveAttrs;&gt;
-
-&lt;!ELEMENT %totalDigits; %facetModel;&gt;
-&lt;!ATTLIST %totalDigits;
-        %facetAttr;
-        %fixedAttr;
-        %totalDigitsAttrs;&gt;
-&lt;!ELEMENT %fractionDigits; %facetModel;&gt;
-&lt;!ATTLIST %fractionDigits;
-        %facetAttr;
-        %fixedAttr;
-        %fractionDigitsAttrs;&gt;
-
-&lt;!ELEMENT %length; %facetModel;&gt;
-&lt;!ATTLIST %length;
-        %facetAttr;
-        %fixedAttr;
-        %lengthAttrs;&gt;
-&lt;!ELEMENT %minLength; %facetModel;&gt;
-&lt;!ATTLIST %minLength;
-        %facetAttr;
-        %fixedAttr;
-        %minLengthAttrs;&gt;
-&lt;!ELEMENT %maxLength; %facetModel;&gt;
-&lt;!ATTLIST %maxLength;
-        %facetAttr;
-        %fixedAttr;
-        %maxLengthAttrs;&gt;
-
-&lt;!-- This one can be repeated --&gt;
-&lt;!ELEMENT %enumeration; %facetModel;&gt;
-&lt;!ATTLIST %enumeration;
-        %facetAttr;
-        %enumerationAttrs;&gt;
-
-&lt;!ELEMENT %whiteSpace; %facetModel;&gt;
-&lt;!ATTLIST %whiteSpace;
-        %facetAttr;
-        %fixedAttr;
-        %whiteSpaceAttrs;&gt;
-
-&lt;!-- This one can be repeated --&gt;
-&lt;!ELEMENT %pattern; %facetModel;&gt;
-&lt;!ATTLIST %pattern;
-        %facetAttr;
-        %patternAttrs;&gt;
-</l7:Resource>
-                            <l7:Properties>
-<l7:Property key="publicIdentifier">
-    <l7:StringValue>datatypes</l7:StringValue>
-</l7:Property>
-                            </l7:Properties>
-                        </l7:ResourceDocument>
-                    </l7:Resource>
-                </l7:Item>
-                <l7:Item>
                     <l7:Name>sspc</l7:Name>
                     <l7:Id>0000000000000000fffffffffffffcd5</l7:Id>
                     <l7:Type>LOG_SINK</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.885Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.190Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:LogSink id="0000000000000000fffffffffffffcd5" version="0">
                             <l7:Name>sspc</l7:Name>
@@ -2244,7 +2020,7 @@
                     <l7:Name>AuditConfig</l7:Name>
                     <l7:Id>00000000000000040000000000000001</l7:Id>
                     <l7:Type>AUDIT_CONFIG</l7:Type>
-                    <l7:TimeStamp>2019-06-04T23:10:55.885Z</l7:TimeStamp>
+                    <l7:TimeStamp>2019-06-05T01:20:39.195Z</l7:TimeStamp>
                     <l7:Resource>
                         <l7:AuditConfiguration>
                             <l7:AlwaysSaveInternal>true</l7:AlwaysSaveInternal>
@@ -2260,19 +2036,16 @@
                         </l7:Property>
                     </l7:Properties>
                 </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="9009fdbcdd84e4c4db94a42f06cf7103" srcUri="https://localhost:8443/restman/1.0/folders/9009fdbcdd84e4c4db94a42f06cf7103" type="FOLDER"/>
-                <l7:Mapping action="NewOrExisting" srcId="9009fdbcdd84e4c4db94a42f06cf7189" srcUri="https://localhost:8443/restman/1.0/clusterProperties/9009fdbcdd84e4c4db94a42f06cf7189" type="CLUSTER_PROPERTY">
+                <l7:Mapping action="NewOrExisting" srcId="09a2b6a82093b5f19bbf7e8fded45b0a" srcUri="https://localhost:8443/restman/1.0/folders/09a2b6a82093b5f19bbf7e8fded45b0a" type="FOLDER"/>
+                <l7:Mapping action="NewOrExisting" srcId="52f0beac35c386c8b7f56f889c5c9252" srcUri="https://localhost:8443/restman/1.0/clusterProperties/52f0beac35c386c8b7f56f889c5c9252" type="CLUSTER_PROPERTY">
                     <l7:Properties>
                         <l7:Property key="MapBy">
                             <l7:StringValue>name</l7:StringValue>
                         </l7:Property>
                     </l7:Properties>
                 </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="9009fdbcdd84e4c4db94a42f06cf7143" srcUri="https://localhost:8443/restman/1.0/services/9009fdbcdd84e4c4db94a42f06cf7143" type="SERVICE"/>
-                <l7:Mapping action="NewOrExisting" srcId="2d0075282b74acd9a6e7658c71cc4c73" srcUri="https://localhost:8443/restman/1.0/services/2d0075282b74acd9a6e7658c71cc4c73" type="SERVICE"/>
-                <l7:Mapping action="NewOrExisting" srcId="2d0075282b74acd9a6e7658c71cc4c74" srcUri="https://localhost:8443/restman/1.0/services/2d0075282b74acd9a6e7658c71cc4c74" type="SERVICE"/>
-                <l7:Mapping action="NewOrExisting" srcId="2d0075282b74acd9a6e7658c71cc4c75" srcUri="https://localhost:8443/restman/1.0/services/2d0075282b74acd9a6e7658c71cc4c75" type="SERVICE"/>
-                <l7:Mapping action="NewOrExisting" srcId="2d0075282b74acd9a6e7658c71cc4c76" srcUri="https://localhost:8443/restman/1.0/services/2d0075282b74acd9a6e7658c71cc4c76" type="SERVICE"/>
+                <l7:Mapping action="NewOrExisting" srcId="09a2b6a82093b5f19bbf7e8fded45b0b" srcUri="https://localhost:8443/restman/1.0/services/09a2b6a82093b5f19bbf7e8fded45b0b" type="SERVICE"/>
+                <l7:Mapping action="NewOrExisting" srcId="bef2189d1a9fb386bee69f1628b1a0ed" srcUri="https://localhost:8443/restman/1.0/services/bef2189d1a9fb386bee69f1628b1a0ed" type="SERVICE"/>
                 <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffff5519f" srcUri="https://localhost:8443/restman/1.0/clusterProperties/0000000000000000fffffffffff5519f" type="CLUSTER_PROPERTY">
                     <l7:Properties>
                         <l7:Property key="MapBy">
@@ -2288,8 +2061,7 @@
                     </l7:Properties>
                 </l7:Mapping>
                 <l7:Mapping action="NewOrExisting" srcId="742a7604-699c-368a-a19a-0ddd73085575" srcUri="https://localhost:8443/restman/1.0/interfaceTags/742a7604-699c-368a-a19a-0ddd73085575" type="INTERFACE_TAG"/>
-                <l7:Mapping action="NewOrExisting" srcId="00000000000000000000000000000002:SSL" srcUri="https://localhost:8443/restman/1.0/privateKeys/00000000000000000000000000000002:SSL" type="SSG_KEY_ENTRY"/>
-                <l7:Mapping action="NewOrExisting" srcId="749e28a90eb71b42c6c40e1c636afa2c" srcUri="https://localhost:8443/restman/1.0/listenPorts/749e28a90eb71b42c6c40e1c636afa2c" type="SSG_CONNECTOR">
+                <l7:Mapping action="NewOrExisting" srcId="52f0beac35c386c8b7f56f889c5c9253" srcUri="https://localhost:8443/restman/1.0/listenPorts/52f0beac35c386c8b7f56f889c5c9253" type="SSG_CONNECTOR">
                     <l7:Properties>
                         <l7:Property key="FailOnNew">
                             <l7:BooleanValue>true</l7:BooleanValue>
@@ -2299,7 +2071,8 @@
                         </l7:Property>
                     </l7:Properties>
                 </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="749e28a90eb71b42c6c40e1c636afa2b" srcUri="https://localhost:8443/restman/1.0/listenPorts/749e28a90eb71b42c6c40e1c636afa2b" type="SSG_CONNECTOR">
+                <l7:Mapping action="NewOrExisting" srcId="00000000000000000000000000000002:SSL" srcUri="https://localhost:8443/restman/1.0/privateKeys/00000000000000000000000000000002:SSL" type="SSG_KEY_ENTRY"/>
+                <l7:Mapping action="NewOrExisting" srcId="52f0beac35c386c8b7f56f889c5c9254" srcUri="https://localhost:8443/restman/1.0/listenPorts/52f0beac35c386c8b7f56f889c5c9254" type="SSG_CONNECTOR">
                     <l7:Properties>
                         <l7:Property key="FailOnNew">
                             <l7:BooleanValue>true</l7:BooleanValue>
@@ -2344,31 +2117,28 @@
                         </l7:Property>
                     </l7:Properties>
                 </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="9009fdbcdd84e4c4db94a42f06cf711d" srcUri="https://localhost:8443/restman/1.0/roles/9009fdbcdd84e4c4db94a42f06cf711d" type="RBAC_ROLE">
-                    <l7:Properties>
-                        <l7:Property key="FailOnNew">
-                            <l7:BooleanValue>true</l7:BooleanValue>
-                        </l7:Property>
-                        <l7:Property key="MapBy">
-                            <l7:StringValue>mapByRoleEntity</l7:StringValue>
-                        </l7:Property>
-                    </l7:Properties>
-                </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffda8" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffffda8" type="RBAC_ROLE">
+                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffc18" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffffc18" type="RBAC_ROLE">
                     <l7:Properties>
                         <l7:Property key="FailOnNew">
                             <l7:BooleanValue>true</l7:BooleanValue>
                         </l7:Property>
                     </l7:Properties>
                 </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffe0c" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffffe0c" type="RBAC_ROLE">
+                <l7:Mapping action="NewOrExisting" srcId="0000000000000000ffffffffffffff38" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000ffffffffffffff38" type="RBAC_ROLE">
                     <l7:Properties>
                         <l7:Property key="FailOnNew">
                             <l7:BooleanValue>true</l7:BooleanValue>
                         </l7:Property>
                     </l7:Properties>
                 </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffea2" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffffea2" type="RBAC_ROLE">
+                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffcae" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffffcae" type="RBAC_ROLE">
+                    <l7:Properties>
+                        <l7:Property key="FailOnNew">
+                            <l7:BooleanValue>true</l7:BooleanValue>
+                        </l7:Property>
+                    </l7:Properties>
+                </l7:Mapping>
+                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffd44" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffffd44" type="RBAC_ROLE">
                     <l7:Properties>
                         <l7:Property key="FailOnNew">
                             <l7:BooleanValue>true</l7:BooleanValue>
@@ -2386,16 +2156,6 @@
                     <l7:Properties>
                         <l7:Property key="FailOnNew">
                             <l7:BooleanValue>true</l7:BooleanValue>
-                        </l7:Property>
-                    </l7:Properties>
-                </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="9009fdbcdd84e4c4db94a42f06cf6ff4" srcUri="https://localhost:8443/restman/1.0/roles/9009fdbcdd84e4c4db94a42f06cf6ff4" type="RBAC_ROLE">
-                    <l7:Properties>
-                        <l7:Property key="FailOnNew">
-                            <l7:BooleanValue>true</l7:BooleanValue>
-                        </l7:Property>
-                        <l7:Property key="MapBy">
-                            <l7:StringValue>mapByRoleEntity</l7:StringValue>
                         </l7:Property>
                     </l7:Properties>
                 </l7:Mapping>
@@ -2420,28 +2180,45 @@
                         </l7:Property>
                     </l7:Properties>
                 </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffff92a" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffff92a" type="RBAC_ROLE">
+                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffda8" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffffda8" type="RBAC_ROLE">
                     <l7:Properties>
                         <l7:Property key="FailOnNew">
                             <l7:BooleanValue>true</l7:BooleanValue>
                         </l7:Property>
                     </l7:Properties>
                 </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffff9c0" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffff9c0" type="RBAC_ROLE">
+                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffe0c" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffffe0c" type="RBAC_ROLE">
                     <l7:Properties>
                         <l7:Property key="FailOnNew">
                             <l7:BooleanValue>true</l7:BooleanValue>
                         </l7:Property>
                     </l7:Properties>
                 </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffff98e" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffff98e" type="RBAC_ROLE">
+                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffea2" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffffea2" type="RBAC_ROLE">
                     <l7:Properties>
                         <l7:Property key="FailOnNew">
                             <l7:BooleanValue>true</l7:BooleanValue>
                         </l7:Property>
                     </l7:Properties>
                 </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffd44" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffffd44" type="RBAC_ROLE">
+                <l7:Mapping action="NewOrExisting" srcId="bef2189d1a9fb386bee69f1628b1a060" srcUri="https://localhost:8443/restman/1.0/roles/bef2189d1a9fb386bee69f1628b1a060" type="RBAC_ROLE">
+                    <l7:Properties>
+                        <l7:Property key="FailOnNew">
+                            <l7:BooleanValue>true</l7:BooleanValue>
+                        </l7:Property>
+                        <l7:Property key="MapBy">
+                            <l7:StringValue>mapByRoleEntity</l7:StringValue>
+                        </l7:Property>
+                    </l7:Properties>
+                </l7:Mapping>
+                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffbb4" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffffbb4" type="RBAC_ROLE">
+                    <l7:Properties>
+                        <l7:Property key="FailOnNew">
+                            <l7:BooleanValue>true</l7:BooleanValue>
+                        </l7:Property>
+                    </l7:Properties>
+                </l7:Mapping>
+                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffed4" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffffed4" type="RBAC_ROLE">
                     <l7:Properties>
                         <l7:Property key="FailOnNew">
                             <l7:BooleanValue>true</l7:BooleanValue>
@@ -2462,26 +2239,6 @@
                         </l7:Property>
                     </l7:Properties>
                 </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="9009fdbcdd84e4c4db94a42f06cf702f" srcUri="https://localhost:8443/restman/1.0/roles/9009fdbcdd84e4c4db94a42f06cf702f" type="RBAC_ROLE">
-                    <l7:Properties>
-                        <l7:Property key="FailOnNew">
-                            <l7:BooleanValue>true</l7:BooleanValue>
-                        </l7:Property>
-                        <l7:Property key="MapBy">
-                            <l7:StringValue>mapByRoleEntity</l7:StringValue>
-                        </l7:Property>
-                    </l7:Properties>
-                </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="9009fdbcdd84e4c4db94a42f06cf70a5" srcUri="https://localhost:8443/restman/1.0/roles/9009fdbcdd84e4c4db94a42f06cf70a5" type="RBAC_ROLE">
-                    <l7:Properties>
-                        <l7:Property key="FailOnNew">
-                            <l7:BooleanValue>true</l7:BooleanValue>
-                        </l7:Property>
-                        <l7:Property key="MapBy">
-                            <l7:StringValue>mapByRoleEntity</l7:StringValue>
-                        </l7:Property>
-                    </l7:Properties>
-                </l7:Mapping>
                 <l7:Mapping action="NewOrExisting" srcId="0000000000000000ffffffffffffff06" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000ffffffffffffff06" type="RBAC_ROLE">
                     <l7:Properties>
                         <l7:Property key="FailOnNew">
@@ -2489,7 +2246,7 @@
                         </l7:Property>
                     </l7:Properties>
                 </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="9009fdbcdd84e4c4db94a42f06cf714a" srcUri="https://localhost:8443/restman/1.0/roles/9009fdbcdd84e4c4db94a42f06cf714a" type="RBAC_ROLE">
+                <l7:Mapping action="NewOrExisting" srcId="bef2189d1a9fb386bee69f1628b1a0f4" srcUri="https://localhost:8443/restman/1.0/roles/bef2189d1a9fb386bee69f1628b1a0f4" type="RBAC_ROLE">
                     <l7:Properties>
                         <l7:Property key="FailOnNew">
                             <l7:BooleanValue>true</l7:BooleanValue>
@@ -2499,14 +2256,7 @@
                         </l7:Property>
                     </l7:Properties>
                 </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffb1e" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffffb1e" type="RBAC_ROLE">
-                    <l7:Properties>
-                        <l7:Property key="FailOnNew">
-                            <l7:BooleanValue>true</l7:BooleanValue>
-                        </l7:Property>
-                    </l7:Properties>
-                </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="9009fdbcdd84e4c4db94a42f06cf706a" srcUri="https://localhost:8443/restman/1.0/roles/9009fdbcdd84e4c4db94a42f06cf706a" type="RBAC_ROLE">
+                <l7:Mapping action="NewOrExisting" srcId="bef2189d1a9fb386bee69f1628b1a09e" srcUri="https://localhost:8443/restman/1.0/roles/bef2189d1a9fb386bee69f1628b1a09e" type="RBAC_ROLE">
                     <l7:Properties>
                         <l7:Property key="FailOnNew">
                             <l7:BooleanValue>true</l7:BooleanValue>
@@ -2516,21 +2266,28 @@
                         </l7:Property>
                     </l7:Properties>
                 </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffe3e" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffffe3e" type="RBAC_ROLE">
+                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffff9c0" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffff9c0" type="RBAC_ROLE">
                     <l7:Properties>
                         <l7:Property key="FailOnNew">
                             <l7:BooleanValue>true</l7:BooleanValue>
                         </l7:Property>
                     </l7:Properties>
                 </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffbb4" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffffbb4" type="RBAC_ROLE">
+                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffff98e" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffff98e" type="RBAC_ROLE">
                     <l7:Properties>
                         <l7:Property key="FailOnNew">
                             <l7:BooleanValue>true</l7:BooleanValue>
                         </l7:Property>
                     </l7:Properties>
                 </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffed4" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffffed4" type="RBAC_ROLE">
+                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffff92a" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffff92a" type="RBAC_ROLE">
+                    <l7:Properties>
+                        <l7:Property key="FailOnNew">
+                            <l7:BooleanValue>true</l7:BooleanValue>
+                        </l7:Property>
+                    </l7:Properties>
+                </l7:Mapping>
+                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffd12" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffffd12" type="RBAC_ROLE">
                     <l7:Properties>
                         <l7:Property key="FailOnNew">
                             <l7:BooleanValue>true</l7:BooleanValue>
@@ -2548,16 +2305,6 @@
                     <l7:Properties>
                         <l7:Property key="FailOnNew">
                             <l7:BooleanValue>true</l7:BooleanValue>
-                        </l7:Property>
-                    </l7:Properties>
-                </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="9009fdbcdd84e4c4db94a42f06cf7105" srcUri="https://localhost:8443/restman/1.0/roles/9009fdbcdd84e4c4db94a42f06cf7105" type="RBAC_ROLE">
-                    <l7:Properties>
-                        <l7:Property key="FailOnNew">
-                            <l7:BooleanValue>true</l7:BooleanValue>
-                        </l7:Property>
-                        <l7:Property key="MapBy">
-                            <l7:StringValue>mapByRoleEntity</l7:StringValue>
                         </l7:Property>
                     </l7:Properties>
                 </l7:Mapping>
@@ -2579,6 +2326,16 @@
                         </l7:Property>
                     </l7:Properties>
                 </l7:Mapping>
+                <l7:Mapping action="NewOrExisting" srcId="bef2189d1a9fb386bee69f1628b1a077" srcUri="https://localhost:8443/restman/1.0/roles/bef2189d1a9fb386bee69f1628b1a077" type="RBAC_ROLE">
+                    <l7:Properties>
+                        <l7:Property key="FailOnNew">
+                            <l7:BooleanValue>true</l7:BooleanValue>
+                        </l7:Property>
+                        <l7:Property key="MapBy">
+                            <l7:StringValue>mapByRoleEntity</l7:StringValue>
+                        </l7:Property>
+                    </l7:Properties>
+                </l7:Mapping>
                 <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffb50" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffffb50" type="RBAC_ROLE">
                     <l7:Properties>
                         <l7:Property key="FailOnNew">
@@ -2586,40 +2343,26 @@
                         </l7:Property>
                     </l7:Properties>
                 </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffc18" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffffc18" type="RBAC_ROLE">
+                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffb1e" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffffb1e" type="RBAC_ROLE">
                     <l7:Properties>
                         <l7:Property key="FailOnNew">
                             <l7:BooleanValue>true</l7:BooleanValue>
                         </l7:Property>
                     </l7:Properties>
                 </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="0000000000000000ffffffffffffff38" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000ffffffffffffff38" type="RBAC_ROLE">
+                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffe3e" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffffe3e" type="RBAC_ROLE">
                     <l7:Properties>
                         <l7:Property key="FailOnNew">
                             <l7:BooleanValue>true</l7:BooleanValue>
                         </l7:Property>
                     </l7:Properties>
                 </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffcae" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffffcae" type="RBAC_ROLE">
-                    <l7:Properties>
-                        <l7:Property key="FailOnNew">
-                            <l7:BooleanValue>true</l7:BooleanValue>
-                        </l7:Property>
-                    </l7:Properties>
-                </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffd12" srcUri="https://localhost:8443/restman/1.0/roles/0000000000000000fffffffffffffd12" type="RBAC_ROLE">
-                    <l7:Properties>
-                        <l7:Property key="FailOnNew">
-                            <l7:BooleanValue>true</l7:BooleanValue>
-                        </l7:Property>
-                    </l7:Properties>
-                </l7:Mapping>
-                <l7:Mapping action="NewOrExisting" srcId="9009fdbcdd84e4c4db94a42f06cf70f7" srcUri="https://localhost:8443/restman/1.0/firewallRules/9009fdbcdd84e4c4db94a42f06cf70f7" type="FIREWALL_RULE"/>
-                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffff9" srcUri="https://localhost:8443/restman/1.0/resources/0000000000000000fffffffffffffff9" type="RESOURCE_ENTRY"/>
-                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffffd" srcUri="https://localhost:8443/restman/1.0/resources/0000000000000000fffffffffffffffd" type="RESOURCE_ENTRY"/>
-                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffffc" srcUri="https://localhost:8443/restman/1.0/resources/0000000000000000fffffffffffffffc" type="RESOURCE_ENTRY"/>
-                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffffb" srcUri="https://localhost:8443/restman/1.0/resources/0000000000000000fffffffffffffffb" type="RESOURCE_ENTRY"/>
+                <l7:Mapping action="NewOrExisting" srcId="bef2189d1a9fb386bee69f1628b1a0e2" srcUri="https://localhost:8443/restman/1.0/firewallRules/bef2189d1a9fb386bee69f1628b1a0e2" type="FIREWALL_RULE"/>
                 <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffffa" srcUri="https://localhost:8443/restman/1.0/resources/0000000000000000fffffffffffffffa" type="RESOURCE_ENTRY"/>
+                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffffb" srcUri="https://localhost:8443/restman/1.0/resources/0000000000000000fffffffffffffffb" type="RESOURCE_ENTRY"/>
+                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffffc" srcUri="https://localhost:8443/restman/1.0/resources/0000000000000000fffffffffffffffc" type="RESOURCE_ENTRY"/>
+                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffffd" srcUri="https://localhost:8443/restman/1.0/resources/0000000000000000fffffffffffffffd" type="RESOURCE_ENTRY"/>
+                <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffff9" srcUri="https://localhost:8443/restman/1.0/resources/0000000000000000fffffffffffffff9" type="RESOURCE_ENTRY"/>
                 <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffffffcd5" srcUri="https://localhost:8443/restman/1.0/logSinks/0000000000000000fffffffffffffcd5" type="LOG_SINK"/>
                 <l7:Mapping action="NewOrExisting" srcId="00000000000000040000000000000001" srcUri="https://localhost:8443/restman/1.0/auditConfiguration/default" type="AUDIT_CONFIG">
                     <l7:Properties>
@@ -2638,78 +2381,48 @@
                         <l7:Dependencies>
                             <l7:Dependency>
 <l7:Name>demo</l7:Name>
-<l7:Id>9009fdbcdd84e4c4db94a42f06cf7103</l7:Id>
+<l7:Id>09a2b6a82093b5f19bbf7e8fded45b0a</l7:Id>
 <l7:Type>FOLDER</l7:Type>
-                            </l7:Dependency>
-                            <l7:Dependency>
-<l7:Name>node</l7:Name>
-<l7:Id>2d0075282b74acd9a6e7658c71cc4c73</l7:Id>
-<l7:Type>SERVICE</l7:Type>
-                            </l7:Dependency>
-                            <l7:Dependency>
-<l7:Name>222</l7:Name>
-<l7:Id>2d0075282b74acd9a6e7658c71cc4c74</l7:Id>
-<l7:Type>SERVICE</l7:Type>
-                            </l7:Dependency>
-                            <l7:Dependency>
-<l7:Name>echo</l7:Name>
-<l7:Id>2d0075282b74acd9a6e7658c71cc4c75</l7:Id>
-<l7:Type>SERVICE</l7:Type>
-                            </l7:Dependency>
-                            <l7:Dependency>
-<l7:Name>quota</l7:Name>
-<l7:Id>2d0075282b74acd9a6e7658c71cc4c76</l7:Id>
-<l7:Type>SERVICE</l7:Type>
                             </l7:Dependency>
                         </l7:Dependencies>
                     </l7:Dependency>
                     <l7:Dependency>
                         <l7:Name>demo</l7:Name>
-                        <l7:Id>9009fdbcdd84e4c4db94a42f06cf7103</l7:Id>
+                        <l7:Id>09a2b6a82093b5f19bbf7e8fded45b0a</l7:Id>
                         <l7:Type>FOLDER</l7:Type>
                         <l7:Dependencies>
                             <l7:Dependency>
 <l7:Name>demo</l7:Name>
-<l7:Id>9009fdbcdd84e4c4db94a42f06cf7143</l7:Id>
+<l7:Id>09a2b6a82093b5f19bbf7e8fded45b0b</l7:Id>
+<l7:Type>SERVICE</l7:Type>
+                            </l7:Dependency>
+                            <l7:Dependency>
+<l7:Name>quota</l7:Name>
+<l7:Id>bef2189d1a9fb386bee69f1628b1a0ed</l7:Id>
 <l7:Type>SERVICE</l7:Type>
                             </l7:Dependency>
                         </l7:Dependencies>
                     </l7:Dependency>
                     <l7:Dependency>
                         <l7:Name>envPropColor</l7:Name>
-                        <l7:Id>9009fdbcdd84e4c4db94a42f06cf7189</l7:Id>
+                        <l7:Id>52f0beac35c386c8b7f56f889c5c9252</l7:Id>
                         <l7:Type>CLUSTER_PROPERTY</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
                         <l7:Name>demo</l7:Name>
-                        <l7:Id>9009fdbcdd84e4c4db94a42f06cf7143</l7:Id>
+                        <l7:Id>09a2b6a82093b5f19bbf7e8fded45b0b</l7:Id>
                         <l7:Type>SERVICE</l7:Type>
                         <l7:Dependencies>
                             <l7:Dependency>
 <l7:Name>envPropColor</l7:Name>
-<l7:Id>9009fdbcdd84e4c4db94a42f06cf7189</l7:Id>
+<l7:Id>52f0beac35c386c8b7f56f889c5c9252</l7:Id>
 <l7:Type>CLUSTER_PROPERTY</l7:Type>
                             </l7:Dependency>
                         </l7:Dependencies>
                     </l7:Dependency>
                     <l7:Dependency>
-                        <l7:Name>node</l7:Name>
-                        <l7:Id>2d0075282b74acd9a6e7658c71cc4c73</l7:Id>
-                        <l7:Type>SERVICE</l7:Type>
-                    </l7:Dependency>
-                    <l7:Dependency>
-                        <l7:Name>222</l7:Name>
-                        <l7:Id>2d0075282b74acd9a6e7658c71cc4c74</l7:Id>
-                        <l7:Type>SERVICE</l7:Type>
-                    </l7:Dependency>
-                    <l7:Dependency>
-                        <l7:Name>echo</l7:Name>
-                        <l7:Id>2d0075282b74acd9a6e7658c71cc4c75</l7:Id>
-                        <l7:Type>SERVICE</l7:Type>
-                    </l7:Dependency>
-                    <l7:Dependency>
                         <l7:Name>quota</l7:Name>
-                        <l7:Id>2d0075282b74acd9a6e7658c71cc4c76</l7:Id>
+                        <l7:Id>bef2189d1a9fb386bee69f1628b1a0ed</l7:Id>
                         <l7:Type>SERVICE</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
@@ -2728,13 +2441,18 @@
                         <l7:Type>INTERFACE_TAG</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
+                        <l7:Name>Default HTTP (8080)</l7:Name>
+                        <l7:Id>52f0beac35c386c8b7f56f889c5c9253</l7:Id>
+                        <l7:Type>SSG_CONNECTOR</l7:Type>
+                    </l7:Dependency>
+                    <l7:Dependency>
                         <l7:Name>SSL</l7:Name>
                         <l7:Id>00000000000000000000000000000002:SSL</l7:Id>
                         <l7:Type>SSG_KEY_ENTRY</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
                         <l7:Name>Default HTTPS (8443)</l7:Name>
-                        <l7:Id>749e28a90eb71b42c6c40e1c636afa2c</l7:Id>
+                        <l7:Id>52f0beac35c386c8b7f56f889c5c9254</l7:Id>
                         <l7:Type>SSG_CONNECTOR</l7:Type>
                         <l7:Dependencies>
                             <l7:Dependency>
@@ -2743,11 +2461,6 @@
 <l7:Type>SSG_KEY_ENTRY</l7:Type>
                             </l7:Dependency>
                         </l7:Dependencies>
-                    </l7:Dependency>
-                    <l7:Dependency>
-                        <l7:Name>Default HTTP (8080)</l7:Name>
-                        <l7:Id>749e28a90eb71b42c6c40e1c636afa2b</l7:Id>
-                        <l7:Type>SSG_CONNECTOR</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
                         <l7:Name>admin</l7:Name>
@@ -2775,30 +2488,23 @@
                         <l7:Type>RBAC_ROLE</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
-                        <l7:Name>Manage demo Folder (#9009fdbcdd84e4c4db94a42f06cf7103)</l7:Name>
-                        <l7:Id>9009fdbcdd84e4c4db94a42f06cf711d</l7:Id>
-                        <l7:Type>RBAC_ROLE</l7:Type>
-                        <l7:Dependencies>
-                            <l7:Dependency>
-<l7:Name>demo</l7:Name>
-<l7:Id>9009fdbcdd84e4c4db94a42f06cf7103</l7:Id>
-<l7:Type>FOLDER</l7:Type>
-                            </l7:Dependency>
-                        </l7:Dependencies>
-                    </l7:Dependency>
-                    <l7:Dependency>
-                        <l7:Name>Manage Certificates (truststore)</l7:Name>
-                        <l7:Id>0000000000000000fffffffffffffda8</l7:Id>
+                        <l7:Name>Manage UDDI Registries</l7:Name>
+                        <l7:Id>0000000000000000fffffffffffffc18</l7:Id>
                         <l7:Type>RBAC_ROLE</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
-                        <l7:Name>View Service Metrics</l7:Name>
-                        <l7:Id>0000000000000000fffffffffffffe0c</l7:Id>
+                        <l7:Name>Manage Internal Users and Groups</l7:Name>
+                        <l7:Id>0000000000000000ffffffffffffff38</l7:Id>
                         <l7:Type>RBAC_ROLE</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
-                        <l7:Name>Publish Webservices</l7:Name>
-                        <l7:Id>0000000000000000fffffffffffffea2</l7:Id>
+                        <l7:Name>Gateway Maintenance</l7:Name>
+                        <l7:Id>0000000000000000fffffffffffffcae</l7:Id>
+                        <l7:Type>RBAC_ROLE</l7:Type>
+                    </l7:Dependency>
+                    <l7:Dependency>
+                        <l7:Name>Manage Cluster Properties</l7:Name>
+                        <l7:Id>0000000000000000fffffffffffffd44</l7:Id>
                         <l7:Type>RBAC_ROLE</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
@@ -2810,18 +2516,6 @@
                         <l7:Name>Manage Encapsulated Assertions</l7:Name>
                         <l7:Id>0000000000000000fffffffffffffaba</l7:Id>
                         <l7:Type>RBAC_ROLE</l7:Type>
-                    </l7:Dependency>
-                    <l7:Dependency>
-                        <l7:Name>Manage node Service (#2d0075282b74acd9a6e7658c71cc4c73)</l7:Name>
-                        <l7:Id>9009fdbcdd84e4c4db94a42f06cf6ff4</l7:Id>
-                        <l7:Type>RBAC_ROLE</l7:Type>
-                        <l7:Dependencies>
-                            <l7:Dependency>
-<l7:Name>node</l7:Name>
-<l7:Id>2d0075282b74acd9a6e7658c71cc4c73</l7:Id>
-<l7:Type>SERVICE</l7:Type>
-                            </l7:Dependency>
-                        </l7:Dependencies>
                     </l7:Dependency>
                     <l7:Dependency>
                         <l7:Name>Manage Cluster Status</l7:Name>
@@ -2839,23 +2533,40 @@
                         <l7:Type>RBAC_ROLE</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
-                        <l7:Name>Manage Scheduled Task</l7:Name>
-                        <l7:Id>0000000000000000fffffffffffff92a</l7:Id>
+                        <l7:Name>Manage Certificates (truststore)</l7:Name>
+                        <l7:Id>0000000000000000fffffffffffffda8</l7:Id>
                         <l7:Type>RBAC_ROLE</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
-                        <l7:Name>Manage Cassandra Connection</l7:Name>
-                        <l7:Id>0000000000000000fffffffffffff9c0</l7:Id>
+                        <l7:Name>View Service Metrics</l7:Name>
+                        <l7:Id>0000000000000000fffffffffffffe0c</l7:Id>
                         <l7:Type>RBAC_ROLE</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
-                        <l7:Name>Manage Modules Installable via Policy Manager</l7:Name>
-                        <l7:Id>0000000000000000fffffffffffff98e</l7:Id>
+                        <l7:Name>Publish Webservices</l7:Name>
+                        <l7:Id>0000000000000000fffffffffffffea2</l7:Id>
                         <l7:Type>RBAC_ROLE</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
-                        <l7:Name>Manage Cluster Properties</l7:Name>
-                        <l7:Id>0000000000000000fffffffffffffd44</l7:Id>
+                        <l7:Name>View demo Folder (#09a2b6a82093b5f19bbf7e8fded45b0a)</l7:Name>
+                        <l7:Id>bef2189d1a9fb386bee69f1628b1a060</l7:Id>
+                        <l7:Type>RBAC_ROLE</l7:Type>
+                        <l7:Dependencies>
+                            <l7:Dependency>
+<l7:Name>demo</l7:Name>
+<l7:Id>09a2b6a82093b5f19bbf7e8fded45b0a</l7:Id>
+<l7:Type>FOLDER</l7:Type>
+                            </l7:Dependency>
+                        </l7:Dependencies>
+                    </l7:Dependency>
+                    <l7:Dependency>
+                        <l7:Name>Manage Private Keys</l7:Name>
+                        <l7:Id>0000000000000000fffffffffffffbb4</l7:Id>
+                        <l7:Type>RBAC_ROLE</l7:Type>
+                    </l7:Dependency>
+                    <l7:Dependency>
+                        <l7:Name>Search Users and Groups</l7:Name>
+                        <l7:Id>0000000000000000fffffffffffffed4</l7:Id>
                         <l7:Type>RBAC_ROLE</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
@@ -2869,76 +2580,52 @@
                         <l7:Type>RBAC_ROLE</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
-                        <l7:Name>Manage 222 Service (#2d0075282b74acd9a6e7658c71cc4c74)</l7:Name>
-                        <l7:Id>9009fdbcdd84e4c4db94a42f06cf702f</l7:Id>
-                        <l7:Type>RBAC_ROLE</l7:Type>
-                        <l7:Dependencies>
-                            <l7:Dependency>
-<l7:Name>222</l7:Name>
-<l7:Id>2d0075282b74acd9a6e7658c71cc4c74</l7:Id>
-<l7:Type>SERVICE</l7:Type>
-                            </l7:Dependency>
-                        </l7:Dependencies>
-                    </l7:Dependency>
-                    <l7:Dependency>
-                        <l7:Name>Manage quota Service (#2d0075282b74acd9a6e7658c71cc4c76)</l7:Name>
-                        <l7:Id>9009fdbcdd84e4c4db94a42f06cf70a5</l7:Id>
-                        <l7:Type>RBAC_ROLE</l7:Type>
-                        <l7:Dependencies>
-                            <l7:Dependency>
-<l7:Name>quota</l7:Name>
-<l7:Id>2d0075282b74acd9a6e7658c71cc4c76</l7:Id>
-<l7:Type>SERVICE</l7:Type>
-                            </l7:Dependency>
-                        </l7:Dependencies>
-                    </l7:Dependency>
-                    <l7:Dependency>
                         <l7:Name>Publish External Identity Providers</l7:Name>
                         <l7:Id>0000000000000000ffffffffffffff06</l7:Id>
                         <l7:Type>RBAC_ROLE</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
-                        <l7:Name>Manage demo Service (#9009fdbcdd84e4c4db94a42f06cf7143)</l7:Name>
-                        <l7:Id>9009fdbcdd84e4c4db94a42f06cf714a</l7:Id>
+                        <l7:Name>Manage quota Service (#bef2189d1a9fb386bee69f1628b1a0ed)</l7:Name>
+                        <l7:Id>bef2189d1a9fb386bee69f1628b1a0f4</l7:Id>
+                        <l7:Type>RBAC_ROLE</l7:Type>
+                        <l7:Dependencies>
+                            <l7:Dependency>
+<l7:Name>quota</l7:Name>
+<l7:Id>bef2189d1a9fb386bee69f1628b1a0ed</l7:Id>
+<l7:Type>SERVICE</l7:Type>
+                            </l7:Dependency>
+                        </l7:Dependencies>
+                    </l7:Dependency>
+                    <l7:Dependency>
+                        <l7:Name>Manage demo Service (#09a2b6a82093b5f19bbf7e8fded45b0b)</l7:Name>
+                        <l7:Id>bef2189d1a9fb386bee69f1628b1a09e</l7:Id>
                         <l7:Type>RBAC_ROLE</l7:Type>
                         <l7:Dependencies>
                             <l7:Dependency>
 <l7:Name>demo</l7:Name>
-<l7:Id>9009fdbcdd84e4c4db94a42f06cf7143</l7:Id>
+<l7:Id>09a2b6a82093b5f19bbf7e8fded45b0b</l7:Id>
 <l7:Type>SERVICE</l7:Type>
                             </l7:Dependency>
                         </l7:Dependencies>
                     </l7:Dependency>
                     <l7:Dependency>
-                        <l7:Name>Manage Administrative Accounts Configuration</l7:Name>
-                        <l7:Id>0000000000000000fffffffffffffb1e</l7:Id>
+                        <l7:Name>Manage Cassandra Connection</l7:Name>
+                        <l7:Id>0000000000000000fffffffffffff9c0</l7:Id>
                         <l7:Type>RBAC_ROLE</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
-                        <l7:Name>Manage echo Service (#2d0075282b74acd9a6e7658c71cc4c75)</l7:Name>
-                        <l7:Id>9009fdbcdd84e4c4db94a42f06cf706a</l7:Id>
-                        <l7:Type>RBAC_ROLE</l7:Type>
-                        <l7:Dependencies>
-                            <l7:Dependency>
-<l7:Name>echo</l7:Name>
-<l7:Id>2d0075282b74acd9a6e7658c71cc4c75</l7:Id>
-<l7:Type>SERVICE</l7:Type>
-                            </l7:Dependency>
-                        </l7:Dependencies>
-                    </l7:Dependency>
-                    <l7:Dependency>
-                        <l7:Name>View Audit Records</l7:Name>
-                        <l7:Id>0000000000000000fffffffffffffe3e</l7:Id>
+                        <l7:Name>Manage Modules Installable via Policy Manager</l7:Name>
+                        <l7:Id>0000000000000000fffffffffffff98e</l7:Id>
                         <l7:Type>RBAC_ROLE</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
-                        <l7:Name>Manage Private Keys</l7:Name>
-                        <l7:Id>0000000000000000fffffffffffffbb4</l7:Id>
+                        <l7:Name>Manage Scheduled Task</l7:Name>
+                        <l7:Id>0000000000000000fffffffffffff92a</l7:Id>
                         <l7:Type>RBAC_ROLE</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
-                        <l7:Name>Search Users and Groups</l7:Name>
-                        <l7:Id>0000000000000000fffffffffffffed4</l7:Id>
+                        <l7:Name>Manage Listen Ports</l7:Name>
+                        <l7:Id>0000000000000000fffffffffffffd12</l7:Id>
                         <l7:Type>RBAC_ROLE</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
@@ -2950,18 +2637,6 @@
                         <l7:Name>Manage Message Destinations</l7:Name>
                         <l7:Id>0000000000000000fffffffffffffd76</l7:Id>
                         <l7:Type>RBAC_ROLE</l7:Type>
-                    </l7:Dependency>
-                    <l7:Dependency>
-                        <l7:Name>View demo Folder (#9009fdbcdd84e4c4db94a42f06cf7103)</l7:Name>
-                        <l7:Id>9009fdbcdd84e4c4db94a42f06cf7105</l7:Id>
-                        <l7:Type>RBAC_ROLE</l7:Type>
-                        <l7:Dependencies>
-                            <l7:Dependency>
-<l7:Name>demo</l7:Name>
-<l7:Id>9009fdbcdd84e4c4db94a42f06cf7103</l7:Id>
-<l7:Type>FOLDER</l7:Type>
-                            </l7:Dependency>
-                        </l7:Dependencies>
                     </l7:Dependency>
                     <l7:Dependency>
                         <l7:Name>Manage Webservices</l7:Name>
@@ -2986,48 +2661,40 @@
                         </l7:Dependencies>
                     </l7:Dependency>
                     <l7:Dependency>
+                        <l7:Name>Manage demo Folder (#09a2b6a82093b5f19bbf7e8fded45b0a)</l7:Name>
+                        <l7:Id>bef2189d1a9fb386bee69f1628b1a077</l7:Id>
+                        <l7:Type>RBAC_ROLE</l7:Type>
+                        <l7:Dependencies>
+                            <l7:Dependency>
+<l7:Name>demo</l7:Name>
+<l7:Id>09a2b6a82093b5f19bbf7e8fded45b0a</l7:Id>
+<l7:Type>FOLDER</l7:Type>
+                            </l7:Dependency>
+                        </l7:Dependencies>
+                    </l7:Dependency>
+                    <l7:Dependency>
                         <l7:Name>Invoke Audit Viewer Policy</l7:Name>
                         <l7:Id>0000000000000000fffffffffffffb50</l7:Id>
                         <l7:Type>RBAC_ROLE</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
-                        <l7:Name>Manage UDDI Registries</l7:Name>
-                        <l7:Id>0000000000000000fffffffffffffc18</l7:Id>
+                        <l7:Name>Manage Administrative Accounts Configuration</l7:Name>
+                        <l7:Id>0000000000000000fffffffffffffb1e</l7:Id>
                         <l7:Type>RBAC_ROLE</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
-                        <l7:Name>Manage Internal Users and Groups</l7:Name>
-                        <l7:Id>0000000000000000ffffffffffffff38</l7:Id>
-                        <l7:Type>RBAC_ROLE</l7:Type>
-                    </l7:Dependency>
-                    <l7:Dependency>
-                        <l7:Name>Gateway Maintenance</l7:Name>
-                        <l7:Id>0000000000000000fffffffffffffcae</l7:Id>
-                        <l7:Type>RBAC_ROLE</l7:Type>
-                    </l7:Dependency>
-                    <l7:Dependency>
-                        <l7:Name>Manage Listen Ports</l7:Name>
-                        <l7:Id>0000000000000000fffffffffffffd12</l7:Id>
+                        <l7:Name>View Audit Records</l7:Name>
+                        <l7:Id>0000000000000000fffffffffffffe3e</l7:Id>
                         <l7:Type>RBAC_ROLE</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
                         <l7:Name>gateway-hazelcast</l7:Name>
-                        <l7:Id>9009fdbcdd84e4c4db94a42f06cf70f7</l7:Id>
+                        <l7:Id>bef2189d1a9fb386bee69f1628b1a0e2</l7:Id>
                         <l7:Type>FIREWALL_RULE</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
-                        <l7:Name>http://www.w3.org/2001/XMLSchema.dtd</l7:Name>
-                        <l7:Id>0000000000000000fffffffffffffff9</l7:Id>
-                        <l7:Type>RESOURCE_ENTRY</l7:Type>
-                    </l7:Dependency>
-                    <l7:Dependency>
-                        <l7:Name>http://schemas.xmlsoap.org/soap/envelope/</l7:Name>
-                        <l7:Id>0000000000000000fffffffffffffffd</l7:Id>
-                        <l7:Type>RESOURCE_ENTRY</l7:Type>
-                    </l7:Dependency>
-                    <l7:Dependency>
-                        <l7:Name>http://www.w3.org/2003/05/soap-envelope/</l7:Name>
-                        <l7:Id>0000000000000000fffffffffffffffc</l7:Id>
+                        <l7:Name>http://www.w3.org/2001/datatypes.dtd</l7:Name>
+                        <l7:Id>0000000000000000fffffffffffffffa</l7:Id>
                         <l7:Type>RESOURCE_ENTRY</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
@@ -3036,8 +2703,18 @@
                         <l7:Type>RESOURCE_ENTRY</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>
-                        <l7:Name>http://www.w3.org/2001/datatypes.dtd</l7:Name>
-                        <l7:Id>0000000000000000fffffffffffffffa</l7:Id>
+                        <l7:Name>http://www.w3.org/2003/05/soap-envelope/</l7:Name>
+                        <l7:Id>0000000000000000fffffffffffffffc</l7:Id>
+                        <l7:Type>RESOURCE_ENTRY</l7:Type>
+                    </l7:Dependency>
+                    <l7:Dependency>
+                        <l7:Name>http://schemas.xmlsoap.org/soap/envelope/</l7:Name>
+                        <l7:Id>0000000000000000fffffffffffffffd</l7:Id>
+                        <l7:Type>RESOURCE_ENTRY</l7:Type>
+                    </l7:Dependency>
+                    <l7:Dependency>
+                        <l7:Name>http://www.w3.org/2001/XMLSchema.dtd</l7:Name>
+                        <l7:Id>0000000000000000fffffffffffffff9</l7:Id>
                         <l7:Type>RESOURCE_ENTRY</l7:Type>
                     </l7:Dependency>
                     <l7:Dependency>

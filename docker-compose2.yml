@@ -6,7 +6,7 @@ version: '3.4'
 services:
   gateway:
     hostname: localhost
-    image: docker.stable1.apimgcp.com/repository/docker-hosted/gateway:v6
+    image: gateway:base
     ports:
       - "8080:8080"
       - "8443:8443"

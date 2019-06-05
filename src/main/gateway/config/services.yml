@@ -1,3 +1,12 @@
+demo/quota:
+  url: "/quota"
+  policy: "demo/quota"
+  httpMethods:
+  - "DELETE"
+  - "POST"
+  - "GET"
+  - "PUT"
+  properties: {}
 demo/demo:
   url: "/demo"
   policy: "demo/demo"

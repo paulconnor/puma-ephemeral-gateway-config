@@ -12,21 +12,63 @@
         </l7:Item>
         <l7:Item>
             <l7:Name>demo</l7:Name>
-            <l7:Id>09a2b6a82093b5f19bbf7e8fded45b0a</l7:Id>
+            <l7:Id>09a2b6a82093b5f19bbf7e8fded45b0f</l7:Id>
             <l7:Type>FOLDER</l7:Type>
             <l7:Resource>
-                <l7:Folder folderId="0000000000000000ffffffffffffec76" id="09a2b6a82093b5f19bbf7e8fded45b0a">
+                <l7:Folder folderId="0000000000000000ffffffffffffec76" id="09a2b6a82093b5f19bbf7e8fded45b0f">
                     <l7:Name>demo</l7:Name>
                 </l7:Folder>
             </l7:Resource>
         </l7:Item>
         <l7:Item>
-            <l7:Name>demo/demo</l7:Name>
-            <l7:Id>09a2b6a82093b5f19bbf7e8fded45b0b</l7:Id>
+            <l7:Name>demo/quota</l7:Name>
+            <l7:Id>09a2b6a82093b5f19bbf7e8fded45b10</l7:Id>
             <l7:Type>SERVICE</l7:Type>
             <l7:Resource>
-                <l7:Service id="09a2b6a82093b5f19bbf7e8fded45b0b">
-                    <l7:ServiceDetail folderId="09a2b6a82093b5f19bbf7e8fded45b0a" id="09a2b6a82093b5f19bbf7e8fded45b0b">
+                <l7:Service id="09a2b6a82093b5f19bbf7e8fded45b10">
+                    <l7:ServiceDetail folderId="09a2b6a82093b5f19bbf7e8fded45b0f" id="09a2b6a82093b5f19bbf7e8fded45b10">
+                        <l7:Name>quota</l7:Name>
+                        <l7:Enabled>true</l7:Enabled>
+                        <l7:ServiceMappings>
+                            <l7:HttpMapping>
+                                <l7:UrlPattern>/quota</l7:UrlPattern>
+                                <l7:Verbs>
+                                    <l7:Verb>DELETE</l7:Verb>
+                                    <l7:Verb>POST</l7:Verb>
+                                    <l7:Verb>GET</l7:Verb>
+                                    <l7:Verb>PUT</l7:Verb>
+                                </l7:Verbs>
+                            </l7:HttpMapping>
+                        </l7:ServiceMappings>
+                        <l7:Properties>
+                            <l7:Property key="wssProcessingEnabled">
+                                <l7:BooleanValue>false</l7:BooleanValue>
+                            </l7:Property>
+                        </l7:Properties>
+                    </l7:ServiceDetail>
+                    <l7:Resources>
+                        <l7:ResourceSet tag="policy">
+                            <l7:Resource type="policy">&lt;wsp:Policy xmlns:wsp="http://schemas.xmlsoap.org/ws/2002/12/policy" xmlns:L7p="http://www.layer7tech.com/ws/policy"&gt;&#13;
+    &lt;wsp:All wsp:Usage="Required"&gt;&#13;
+        &lt;L7p:HardcodedResponse&gt;&#13;
+            &lt;L7p:Base64ResponseBody stringValue="U3VjY2Vzcw=="/&gt;&#13;
+            &lt;L7p:ResponseContentType stringValue="text/plain; charset=UTF-8"/&gt;&#13;
+        &lt;/L7p:HardcodedResponse&gt;&#13;
+    &lt;/wsp:All&gt;&#13;
+&lt;/wsp:Policy&gt;&#13;
+</l7:Resource>
+                        </l7:ResourceSet>
+                    </l7:Resources>
+                </l7:Service>
+            </l7:Resource>
+        </l7:Item>
+        <l7:Item>
+            <l7:Name>demo/demo</l7:Name>
+            <l7:Id>09a2b6a82093b5f19bbf7e8fded45b11</l7:Id>
+            <l7:Type>SERVICE</l7:Type>
+            <l7:Resource>
+                <l7:Service id="09a2b6a82093b5f19bbf7e8fded45b11">
+                    <l7:ServiceDetail folderId="09a2b6a82093b5f19bbf7e8fded45b0f" id="09a2b6a82093b5f19bbf7e8fded45b11">
                         <l7:Name>demo</l7:Name>
                         <l7:Enabled>true</l7:Enabled>
                         <l7:ServiceMappings>
@@ -68,7 +110,7 @@
     </l7:References>
     <l7:Mappings>
         <l7:Mapping action="NewOrExisting" srcId="0000000000000000ffffffffffffec76" type="FOLDER"/>
-        <l7:Mapping action="NewOrExisting" srcId="09a2b6a82093b5f19bbf7e8fded45b0a" type="FOLDER">
+        <l7:Mapping action="NewOrExisting" srcId="09a2b6a82093b5f19bbf7e8fded45b0f" type="FOLDER">
             <l7:Properties>
                 <l7:Property key="MapBy">
                     <l7:StringValue>name</l7:StringValue>
@@ -78,7 +120,17 @@
                 </l7:Property>
             </l7:Properties>
         </l7:Mapping>
-        <l7:Mapping action="NewOrUpdate" srcId="09a2b6a82093b5f19bbf7e8fded45b0b" type="SERVICE">
+        <l7:Mapping action="NewOrUpdate" srcId="09a2b6a82093b5f19bbf7e8fded45b10" type="SERVICE">
+            <l7:Properties>
+                <l7:Property key="MapBy">
+                    <l7:StringValue>path</l7:StringValue>
+                </l7:Property>
+                <l7:Property key="MapTo">
+                    <l7:StringValue>demo/quota</l7:StringValue>
+                </l7:Property>
+            </l7:Properties>
+        </l7:Mapping>
+        <l7:Mapping action="NewOrUpdate" srcId="09a2b6a82093b5f19bbf7e8fded45b11" type="SERVICE">
             <l7:Properties>
                 <l7:Property key="MapBy">
                     <l7:StringValue>path</l7:StringValue>
@@ -88,7 +140,7 @@
                 </l7:Property>
             </l7:Properties>
         </l7:Mapping>
-        <l7:Mapping action="NewOrExisting" srcId="09a2b6a82093b5f19bbf7e8fded45b0c" type="CLUSTER_PROPERTY">
+        <l7:Mapping action="NewOrExisting" srcId="09a2b6a82093b5f19bbf7e8fded45b12" type="CLUSTER_PROPERTY">
             <l7:Properties>
                 <l7:Property key="MapBy">
                     <l7:StringValue>name</l7:StringValue>
