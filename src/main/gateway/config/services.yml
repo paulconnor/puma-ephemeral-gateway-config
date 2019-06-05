@@ -16,4 +16,4 @@ demo/demo:
   - "GET"
   - "PUT"
   properties:
-    servicePropColor: "red"
+    servicePropColor: "green"

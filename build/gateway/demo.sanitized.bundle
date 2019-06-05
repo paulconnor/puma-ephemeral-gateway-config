@@ -36,7 +36,7 @@
                     <l7:Resource>
                         <l7:ClusterProperty id="52f0beac35c386c8b7f56f889c5c9252">
                             <l7:Name>envPropColor</l7:Name>
-                            <l7:Value>blue</l7:Value>
+                            <l7:Value>purple</l7:Value>
                         </l7:ClusterProperty>
                     </l7:Resource>
                 </l7:Item>
@@ -67,7 +67,7 @@
     </l7:Property>
     
     <l7:Property key="property.servicePropColor">
-        <l7:StringValue>red</l7:StringValue>
+        <l7:StringValue>green</l7:StringValue>
     </l7:Property>
     <l7:Property key="soap">
         <l7:BooleanValue>false</l7:BooleanValue>
@@ -86,7 +86,7 @@
 &lt;wsp:Policy xmlns:L7p="http://www.layer7tech.com/ws/policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2002/12/policy"&gt;
     &lt;wsp:All wsp:Usage="Required"&gt;
         &lt;L7p:HardcodedResponse&gt;
-            &lt;L7p:Base64ResponseBody stringValue="PGh0bWw+Cgk8aGVhZD4KCQk8dGl0bGU+IERlbW8gb24gT1ZBIDwvdGl0bGU+CgkJPHN0eWxlPgoJCQkuYmxpbmstb25lIHsgY29sb3I6ICR7Z2F0ZXdheS5lbnZQcm9wQ29sb3J9IH0KCQkJLmJsaW5rLXR3byB7IGNvbG9yOiAke3NlcnZpY2UucHJvcGVydHkuc2VydmljZVByb3BDb2xvcn0gfQoJCTwvc3R5bGU+Cgk8L2hlYWQ+Cgk8Ym9keT4KCQk8aDE+IERlbW8gb24gT1ZBIDwvaDE+CgkJPGgxIGNsYXNzPSJibGluay1vbmUiPgoJCQk8Ymxpbms+TXkgY29sb3IgY2FuIGJlIGNoYW5nZWQgYnkgZW52aXJvbm1lbnQgcHJvcGVydHkgb25seS48L2JsaW5rPgoJCTwvaDE+CgkJPHA+CgkJCTxoMSBjbGFzcz0iYmxpbmstdHdvIj4KCQkJCTxibGluaz5NeSBjb2xvciBjYW4gYmUgY2hhbmdlZCBieSBzZXJ2aWNlIHByb3BlcnR5IG9ubHkuPC9ibGluaz4KCQkJPC9oMT4KCQk8L3A+Cgk8L2JvZHk+CjwvaHRtbD4="/&gt;
+            &lt;L7p:Base64ResponseBody stringValue="PGh0bWw+Cgk8aGVhZD4KCQk8dGl0bGU+IERlbW8gb24gSzhTIDwvdGl0bGU+CgkJPHN0eWxlPgoJCQkuYmxpbmstb25lIHsgY29sb3I6ICR7Z2F0ZXdheS5lbnZQcm9wQ29sb3J9IH0KCQkJLmJsaW5rLXR3byB7IGNvbG9yOiAke3NlcnZpY2UucHJvcGVydHkuc2VydmljZVByb3BDb2xvcn0gfQoJCTwvc3R5bGU+Cgk8L2hlYWQ+Cgk8Ym9keT4KCQk8aDE+IERlbW8gb24gT1ZBIDwvaDE+CgkJPGgxIGNsYXNzPSJibGluay1vbmUiPgoJCQk8Ymxpbms+TXkgY29sb3IgY2FuIGJlIGNoYW5nZWQgYnkgZW52aXJvbm1lbnQgcHJvcGVydHkgb25seS48L2JsaW5rPgoJCTwvaDE+CgkJPHA+CgkJCTxoMSBjbGFzcz0iYmxpbmstdHdvIj4KCQkJCTxibGluaz5NeSBjb2xvciBjYW4gYmUgY2hhbmdlZCBieSBzZXJ2aWNlIHByb3BlcnR5IG9ubHkuPC9ibGluaz4KCQkJPC9oMT4KCQk8L3A+Cgk8L2JvZHk+CjwvaHRtbD4="/&gt;
             &lt;L7p:ResponseContentType stringValue="text/html; charset=UTF-8"/&gt;
         &lt;/L7p:HardcodedResponse&gt;
     &lt;/wsp:All&gt;
@@ -231,7 +231,7 @@
     <l7:StringValue>RSA</l7:StringValue>
 </l7:Property>
 <l7:Property key="keyData">
-    <l7:StringValue bundleKey="$L7C2$1bead,Ty76gSjgO+T9mKod8ymp0LEufaJVQ5tz6hCuNu6E6P8=$/vl7Ko3ilfPyHjWXGXHlYIIaXITwAWbCt97o91+vFZNUYwpe1MYXAm8N5gwrDok8hqcgqousvOH6+XvDZ77cRXRF/rjXF+N03qrw7vHm3VFGhxgz+jnVZlcU3ZoRbl8b" algorithm="RSA">$L7C2$1,5TY9gL3Yns8usRqabZE24u3IIvJeLEKW7WddqqVgQZY=$A0afosijTACdjFDTKAL0vcFv0F9oX9T06dPNo5x+iE1Pt3Z0txaH1rePiA3n+Xiwb0GP5xQhhSZdtukofja9ond0bRupyIWdXu6ufpXN/OO7JDgWi9++idudaes1vyJFN7MKrrzg8FbUcayx2BL4PUFboWQrVcZuWlOE4YnbfUKNVAwpqF4zlFYH+kQRHKgrChp5ke5E8e1jNA412cbUH5psIsbH81sPOa3PPPEGRK7/jpRQqriS7kS1Bu8DnDz2uzSEjpeZYTBAeUvP1oBPC5fi9qjQcTVxLo7jvMgE44TYPmLf1ZZ2DECB2nhs5s5ER1eAQkBofXcROc8s4fJJw2t1XiSSRirKA8OCig2KLIC0SHtMQmPedwmQ24jl0lnlcpWZYi5BJz4X39lFEj7mTM4/6KvNH2sO4NxSL1JQ0yizqUTjyIaO0X6bNBVC5Xh36asc5iIzcPcgXm6cMwB6ylruDDpUf724XkBcuQwoi5xkRqgZPc7YMrFekzODMEC+Kxh7+4faCyt2ITUkbvDsw9fPC+jq0dW9O44I4+XX0OvgLdHcI2x7SA5LijStyye3bZUjfVFcTh6q65wwgBvO8FGHuK2q7Ni1EReX2nxMMOCgdojhkfdzFA4G+3LLoiXms5Kl5h9wg7woZFYYLL2Lq6yf4LXl1Ky9NFSdR7uaVVs9IrezpPtAFx0gsN0DcYQgoqZoG6Lw1BWjtGaXqg99QrhUwCd0/SihW6QxSwg4gCe1H6VtXUbOXPsMyV8z3L21JBDx7iM1yXXxW55Gx9KgJDBvFQlaZ3NR5WGD8wh1pstY8pL+AU3g+W8C67qfpXO8TCVRrESJhO0U3aX/0wI1GRGYSvgR23BS4TyiMlsS5VP3LEghRoy/RcZkZDMeJuybK+HrxUy9R+hbkLVcrlzJi1lT8kR+wj1hYa1B/cGCWRjpDpYJHBaF4b4wkm0BuZxuPFLOuJkDCpKuX8/Dti75OlwDhgBOENuY2hJTJzIvQJB6ROgXbH1DH8Cr9rrVDa6xArI5+3nJfXBHZwSzdsv3AFUF/jBiTEXlciFaZXbjDLmnz9AizMadvc+RCJSxkaegSjT7nHQbD8E1aXd94klJU5S+9gIuxjp752CEzq2nmXPIxFZbAQomvoqmkuwi68uiQg3rZLopQW+BFPKVLfy1bHQqy+uSjS073OqwPd2jKhGSJCK8rQ+AzRUc3ceazAqVFnqlq4nrOfz11eIygnBDD/dHOJLPgaoALgYi4KXQdYJ/qM5CVEgrBILBQVJq2Hz9cmBJo9Dtae2idpUDs6NQO7fI+ZiUN7JkZzV247jeb15mnCH0zi1OkK3tvHeZUdWRLACb1Je7Vs7wkgzw4iSfEU505ZIJsJww+0G0tEvoVcuZqxaAZmiotqurPpRD8PLedmO5p8XWWOaokdfT1VLQPIQ2KLdeo0wHZouikIGRgDLLIzTmVADoJHbdt8+MygeEZaSqh+8I/50IhMjd92D00xQI9W2yXUfvHWPkv2hakqXOoURd9xJ8V8Ump3iHfCUPljbasRotyp7iOrtbrLx7+pNs0jOn9S6dehUZHa0gmncWoxpu4AgAv0ZJ6/G8rNxAraCr4MrA/CSteLpCUQjZFPl/drFqIrpCs25JFLE17rZ1AjJFbQBu3RqsF8C4O+KKk7iZX0ZpWUMSrSS0/My7RuAW6MMP2ZnnDrq2AHeV2IA=</l7:StringValue>
+    <l7:StringValue bundleKey="$L7C2$1bead,yGhZJAmSMRoCpQQDYXP8JtRjdVugXJaj2GGNsl5oFzY=$NHw6BedrtuydIK+ti3V+WKJtCNLkPBoqIW0pVsZ7BtLwy1C5DNLvvSjOYf0ckokh1DhGwIuznxsiyUz6joAHQ3axs5XLST99zZjUFZfREQ2W8XNYgnb1bIMbuXsjkCJn" algorithm="RSA">$L7C2$1,3CknHV1I/mcJ6blW+BnBBQ8ljifucTXo78vMtPkVDu8=$6URatH7Iru4GF7H7xol+5pjz7FEKPSx4AxtEqwAwdquRTRU9jpd8f7/nThS4o5SvVuARI5hfX+OhXFElycm0pYVZg8uH3pn6HachhudEIA0b3J7dEEWIn9JaDo0bsanyNqkEn9L+tgoZPKmMFMLDcc3ah4zhJhHcbf2nMQyG3PZkUpuEdZjyC3CXWoNNHrfXcTOZkbxjKMKnHKr85DiFInVu8Sd+8g0YPaDNmEOGn3C6d0w2QAgMD0/Bd1Ul7sNMbvpIhsMflIRyPMCvNkCap4/TJMmJz5nUzywkSCy2ULvwXaW2IhfmoX3SjvDq7SKbFMKoKCYsb14waKI8vtBLeRe6qrCDS4Vm2IHgvnn6dB4ZIuTpofYObPg6lSALCrC1GwBWWU/Y16qawGg9p5G2UQShaK9A0/7IHPwYEtRBt5gfQxm1F7t+U6McHNCVBUa5BssHctkNnANTHX4pAgxaDQ+rtrb/gl+sFtYSMGJjP+05Sus0FVmi9g6MbkSiWVzcVLAmvX2MSR46YH3UK+ZlGcsAKJeAxvvC8nYJXo+zR/D+2kiKGXMX8HQuifx7Sh+XL0qjoGxPyxBghJeCN0HlfZCgOdWT/ta29W8VbgSUJYbkkKimPY+3HG2+2nGuKfZthLIIQbRdSi3ntRMwDlty6z2j5hxOCGjKkJpIZ7T0dhG9y8UBen0Lovl8kAH69XKiRkKRPQQ6B38z0T0cjKnnteSckootsB4a3bFeF/Hr35L9UgRy35+pVHiEaSKp1sDHmLM1mDuUOqP7tj7tNBJFfoAH/oO4LOUYJlbcw/hulRNVmdS5hE9J8cII5TIMxbuiD8qz85/5F7n1hh/f4qaf0Lk7IEFaVYRnkl1m0up8uo9GYWTCbtMlTxpjQ9pQ8tfKAkG344Y1qJQor24Pr1jIEy3mq88yELgM+MCFe2Qmv7h1WQ6P8rTUXTmODSDxNq0HCsyaCFD68CAWFlsn89jw9JD3OYv9/0AKK9GBl7agjjxlO614KtRBHyEHqnkkDqAFABU/Ro7SF3aOyieifbXBjtgKlfMSWs8A0rN4vEZRcWAUGCBnDu5Ry+OI6s5R1daam3Kk1rbQ1Emf0uEhzVoAw3n5uxTYk95BZcTAwZC2t/ivCpPPs7s/kU6OwA/9vStXKO2qzQVKPidBGWQlfRLcl64YQVTdj4WtAlEhyTkwNFLHWoAAUPfOKfNWEi8ifUW/CU4PVJBcfxJcOBaYV2S7+qyJ5mXTfzToKmyD5g6ta8l5XMQq3dMBkw7OkknmKVHCgI4UjedKpz/WU+nwCsWPc5aId4J1te53CK8zxN3unQpaKbNaPH+UEITabGbITMZpHwtwJO3XyHqvI/mInPbMo76sAjhI/vpGXpR2AxmN15JluKV9gPDKgUhgHybS7dIH/Dt3b+ed4ZoP1GD4ws4GnqPV2IcgFi3VXUPXKRqGgaBcnUF/5DYzKQpkklBG21r/T7fwwT0esF7/raNvPgMfiGKD5Jmldana9Slsd+Uyjmc2Vn0aBjf4N7gO0lMAwNRbrWiKpYMoA4FGiwnlyD6nR1/YX1aG2e6AYKxZMZllqMB0BMCS63aeyGiv+T/FykXnRyHkpDjl8HlHRzdM+7a0yUgQcmQRryVIiBQ76b6TnmJixZecPN4+1LUe/QAPe9SgF9XIoDWjgG1cpUpPc2LNDH+Zx/4ufT2c85fUTbN8XtA=</l7:StringValue>
 </l7:Property>
                             </l7:Properties>
                         </l7:PrivateKey>
@@ -316,7 +316,7 @@
                     <l7:Resource>
                         <l7:User providerId="0000000000000000fffffffffffffffe" id="00000000000000000000000000000003">
                             <l7:Login>admin</l7:Login>
-                            <l7:Password bundleKey="$L7C2$1bead,Ty76gSjgO+T9mKod8ymp0LEufaJVQ5tz6hCuNu6E6P8=$/vl7Ko3ilfPyHjWXGXHlYIIaXITwAWbCt97o91+vFZNUYwpe1MYXAm8N5gwrDok8hqcgqousvOH6+XvDZ77cRXRF/rjXF+N03qrw7vHm3VFGhxgz+jnVZlcU3ZoRbl8b" format="bundleKey:sha512crypt">$L7C2$1,cG6laHRZ6lgdH7uK+S7/i4sRID6UjEwoZZsfsuM6WQw=$DFwsJfXe5Ggw+GQyZ+ESy0gkcF3h2IYn7P8vTt72gZTTA8r+4F6qPr4tKjdK4foXJ1zawPtUmCpna8bMrjuV6K1m4peLqFu/4syJ5ESBY3NUdkVAU7oCih/ha5rcrj0dvQwWurYafymx85CjJAzdPRhfFIXNEtTqgOHTTS/Bjb8qT2EPYOeblHSvjlmioDecWMYhZGnP3PShzbbQrz0hXg==</l7:Password>
+                            <l7:Password bundleKey="$L7C2$1bead,yGhZJAmSMRoCpQQDYXP8JtRjdVugXJaj2GGNsl5oFzY=$NHw6BedrtuydIK+ti3V+WKJtCNLkPBoqIW0pVsZ7BtLwy1C5DNLvvSjOYf0ckokh1DhGwIuznxsiyUz6joAHQ3axs5XLST99zZjUFZfREQ2W8XNYgnb1bIMbuXsjkCJn" format="bundleKey:sha512crypt">$L7C2$1,nUf4nvPmwBCOTGmSkgWMunoEqnpmrntCSsSZhPqw22Y=$iyRw3Wk8f/XAU2mb6cgIyql/EoWsJGhEI/kd/hYAuvlwZPvh83WOiXm8CTlXGomqVnYlx6+cPdRHwlRUPxyWsxzd3mC1J9cY9izyscY/13GkDGJTJJU+FRMol2k+27rnj/e1hlU/cYejduEkb/twL6Uiv7q+bszrOhWgp0HRhmrqTvWgvt6wc0UfapdY1HgVotDDLfyL0Ig57/MRYUtd+Q==</l7:Password>
                             <l7:Properties>
 <l7:Property key="accountExpiration">
     <l7:LongValue>-1</l7:LongValue>

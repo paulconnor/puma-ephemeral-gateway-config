@@ -3,7 +3,7 @@
         <L7p:HardcodedResponse>
             <L7p:ResponseBody><![CDATA[<html>
 	<head>
-		<title> Demo on OVA </title>
+		<title> Demo on K8S </title>
 		<style>
 			.blink-one { color: ${gateway.envPropColor} }
 			.blink-two { color: ${service.property.servicePropColor} }
