@@ -6,7 +6,7 @@ returns HTML based on values set in src/main/gateway/config/env.properties & src
 
 # Demo
 
-![Scope](https://github.com/paulconnor/puma-ephemeral-gateway-config/scope.png)
+![Scope](https://github.com/paulconnor/puma-ephemeral-gateway-config/blob/master/scope.png)
 
 1. Add the following to your local hosts file
   34.96.65.179 nexus.sandbox2.apimgcp.com docker.sandbox2.apimgcp.com
@@ -20,8 +20,8 @@ returns HTML based on values set in src/main/gateway/config/env.properties & src
 3. Modify Jenkins to use your Git Repo
 - Login to http://jenkins.sandbox2.apimgcp.com/login
 - Configure the test-job pipeline with your git repo (two places in general settings)
-![Jenkins->test-job->Congigure->general #1](https://github.com/paulconnor/puma-ephemeral-gateway-config/jenkins1.png)
-![Jenkins->test-job->Congigure->general #2](https://github.com/paulconnor/puma-ephemeral-gateway-config/jenkins2.png)
+![Jenkins->test-job->Congigure->general #1](https://github.com/paulconnor/puma-ephemeral-gateway-config/blob/master/jenkins1.png)
+![Jenkins->test-job->Congigure->general #2](https://github.com/paulconnor/puma-ephemeral-gateway-config/blob/master/jenkins2.png)
 
 4. Show existing service
 - http://gateway.sandbox2.apimgcp.com/demo
@@ -36,8 +36,8 @@ This can be done via Policy Manager and exporting to Git using the Gradle plug-i
 7. Supporting services / applications 
 It can take a few minutes for the gateway to restart. Look at the following while you are waiting
 - Logs: http://kibana.sandbox2.apimgcp.com/
-- Metrics: http://grafana.sandbox2.apimgcp.com/
-- Docker Repo: http://nexus.sandbox2.apimgcp.com/
+- Metrics: https://grafana.sandbox2.apimgcp.com/
+- Docker Repo: https://nexus.sandbox2.apimgcp.com/
 
 8. Show updated service 
 - http://gateway.sandbox2.apimgcp.com/demo
