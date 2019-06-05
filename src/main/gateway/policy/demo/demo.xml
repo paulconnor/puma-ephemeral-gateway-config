@@ -10,7 +10,7 @@
 		</style>
 	</head>
 	<body>
-		<h1> Demo on OVA </h1>
+		<h1> Demo on K8S </h1>
 		<h1 class="blink-one">
 			<blink>My color can be changed by environment property only.</blink>
 		</h1>
