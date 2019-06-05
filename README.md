@@ -6,6 +6,7 @@ returns HTML based on values set in src/main/gateway/config/env.properties & src
 
 # Demo
 
+SCOPE
 ![Scope](https://github.com/paulconnor/puma-ephemeral-gateway-config/blob/master/scope.png)
 
 1. Add the following to your local hosts file
@@ -21,6 +22,9 @@ returns HTML based on values set in src/main/gateway/config/env.properties & src
 - Login to http://jenkins.sandbox2.apimgcp.com/login
 - Configure the test-job pipeline with your git repo (two places in general settings)
 ![Jenkins->test-job->Congigure->general #1](https://github.com/paulconnor/puma-ephemeral-gateway-config/blob/master/jenkins1.png)
+...
+...
+...
 ![Jenkins->test-job->Congigure->general #2](https://github.com/paulconnor/puma-ephemeral-gateway-config/blob/master/jenkins2.png)
 
 4. Show existing service
