@@ -36,12 +36,19 @@ This can be done via Policy Manager and exporting to Git using the Gradle plug-i
   - Service: change the value of servicePropColor in src/main/gateway/config/services.yml to a different color
 
 6. Run the test-job in jenkins to pull down the changes from Git, build a new docker container, publish to Nexus Docker repo and relaunch from there into gcloud/kubernetes
+- Use "build with parameters" and accept default values for the parameters
 
 7. Supporting services / applications 
 It can take a few minutes for the gateway to restart. Look at the following while you are waiting
-- Logs: http://kibana.sandbox2.apimgcp.com/
-- Metrics: https://grafana.sandbox2.apimgcp.com/
+- Logs: http://kibana.sandbox2.apimgcp.com/ (click on Discover)
+![Kibana](https://github.com/paulconnor/puma-ephemeral-gateway-config/blob/master/kibana.png)
+
+- Metrics: https://grafana.sandbox2.apimgcp.com/ (click on the following dashboard - Home/Gateway-service-metrics)
+![grafana](https://github.com/paulconnor/puma-ephemeral-gateway-config/blob/master/grafana.png)
+
 - Docker Repo: https://nexus.sandbox2.apimgcp.com/
+![Nexus](https://github.com/paulconnor/puma-ephemeral-gateway-config/blob/master/nexus.png)
+
 
 8. Show updated service 
 - http://gateway.sandbox2.apimgcp.com/demo
